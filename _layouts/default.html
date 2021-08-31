@@ -5,12 +5,12 @@
   </head>
   <body>
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
-    {% include collection-banner.html %}
-    {% include collection-nav.html %}
+    {% unless page.layout contains "map"%}{% include collection-banner.html %}
+    {% include collection-nav.html %}{% endunless %}
     <main id="maincontent" role="main">
       {{ content }}
     </main>
-    {% include footer.html %}
+    {% unless page.layout contains "map"%}{% include footer.html %}{% endunless %}
     {% include foot.html %}
     {% include scroll-to-top.html %}
   </body>
