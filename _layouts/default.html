@@ -5,7 +5,7 @@
   </head>
   <body>
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
-    {% unless page.layout contains "map"%}{% include collection-banner.html %}
+    {% unless page.layout contains "home-map" or page.layout contains "panorama" %}{% include collection-banner.html %}
     {% include collection-nav.html %}{% endunless %}
     <main id="maincontent" role="main">
       {{ content }}
