@@ -10,7 +10,7 @@
 <div id="panorama2" class="panorama"></div>
 
 <!-- https://pannellum.org/documentation/reference/ -->
-<script src="https://cdn.pannellum.org/2.4/pannellum.js"></script>
+<script src="{{ 'pannellum.js' | prepend: '/assets/lib/pannellum/' | relative_url }}"></script>
 <script>
 pannellum.viewer('panorama', {
     "type": "equirectangular",
@@ -47,40 +47,3 @@ pannellum.viewer('panorama', {
     ]
 });
 </script>
-
-<script>
-    pannellum.viewer('panorama2', {
-        "type": "equirectangular",
-        "panorama": "/objects/R0010034.JPG",
-        "autoLoad": true,
-            /*
-         * Uncomment the next line to print the coordinates of mouse clicks
-         * to the browser's developer console, which makes it much easier
-         * to figure out where to place hot spots. Always remove it when
-         * finished, though.
-         */
-        "hotSpotDebug": true,
-        "hotSpots": [
-            {
-                "pitch": -6.969179551313406,
-                "yaw": -36.16601368825578,
-                "type": "info",
-                "text": "Andy Baca",
-                "URL": "/items/demo_177.html"
-            },
-            {
-                "pitch": -79.81617854338405,
-                "yaw": 3.647878629701121,
-                "type": "info",
-                "text": "Osborne Fire Finder",
-                "URL": "https://en.wikipedia.org/wiki/Osborne_Fire_Finder"
-            },
-            {
-                "pitch": -0.9,
-                "yaw": 144.4,
-                "type": "info",
-                "text": "North Charles Street"
-            }
-        ]
-    });
-    </script>
