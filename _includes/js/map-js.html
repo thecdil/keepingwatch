@@ -103,10 +103,10 @@
         layer.bindPopup(popupTemplate);
     }
     function objectMarkers(feature,latlng) {
-        if (feature.properties.title.includes("Roughneck")) {
-            var marker = L.circle(latlng, {color: "blue", radius: 32186.9 });
+        if (feature.properties.color.includes("gray")) {
+            var marker = L.circle(latlng, {color: "gray", radius: 3218.69 });
         } else {
-            var marker = L.circle(latlng, {color: "gray", radius: 3218.69});
+            var marker = L.circle(latlng, {color: feature.properties.color, radius: 32186.9});
         }       
         return marker;
     }
