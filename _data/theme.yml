@@ -42,7 +42,7 @@ latitude: 45.827485 #to determine center of map
 longitude: -115.5402  #to determine center of map
 zoom-level: 7 # zoom level for map 
 map-base: Blank # set default base map, choose from: Esri_WorldStreetMap, Esri_NatGeoWorldMap, Esri_WorldImagery
-map-search: true # not suggested with large collections
+map-search: false # not suggested with large collections
 map-search-fuzziness: 0.35 # fuzzy search range from 1 = anything to 0 = exact match only
 map-cluster: false # suggested for large collection or with many items in same location
 map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
@@ -84,8 +84,8 @@ bootswatch: # leave blank or comment out for plain bootstrap
 base-font-size: 1.2em
 text-color: "#191919"
 link-color: "#17a2b8"
-base-font-family: # comment out for bootstrap defaults. e.g. Roboto
-font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+base-font-family: Raleway # comment out for bootstrap defaults. e.g. Roboto
+font-cdn: <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@500&display=swap" rel="stylesheet"> # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 # THEME ICONS [optional!]
 # default icons can be overridden or new icons can be added using "icons" object

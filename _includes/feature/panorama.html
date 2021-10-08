@@ -1,0 +1,19 @@
+
+
+<div id="panorama-{{include.panoid}}" class="panorama" style="height:{{include.height}}"></div>
+
+<!-- https://pannellum.org/documentation/reference/ -->
+<script>
+pannellum.viewer('panorama-{{include.panoid}}', {
+    "type": "equirectangular",
+    "panorama": "{{ include.pano_object}}",
+    "autoLoad": false
+        /*
+     * Uncomment the next line to print the coordinates of mouse clicks
+     * to the browser's developer console, which makes it much easier
+     * to figure out where to place hot spots. Always remove it when
+     * finished, though.
+     */
+    
+});
+</script>
