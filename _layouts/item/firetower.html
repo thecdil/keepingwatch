@@ -38,7 +38,8 @@ panorama: true
             {% for c in children %}
             {% if c.format contains 'video' %}
             <div class="my-3 mx-auto text-center">
-            {% include feature/video.html objectid=c.object_location %}
+            {% include feature/video.html objectid=c.object_location caption=c.title %}
+
             </div>
             {% endif %}{% endfor %}
         </div>
