@@ -19,11 +19,13 @@ panorama: true
         <div class="col-md-4">
             <h2 class="mt-2 mb-4 ml-5">{{page.title}}</h2>
             
-            <p>Nullam eget felis eget nunc lobortis. Ultrices tincidunt arcu non sodales neque sodales ut. Eget aliquet nibh praesent tristique. In aliquam sem fringilla ut. Varius sit amet mattis vulputate enim nulla aliquet porttitor lacus. Velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus. Iaculis at erat pellentesque adipiscing. Nisi scelerisque eu ultrices vitae. Sodales ut etiam sit amet. Cursus in hac habitasse platea dictumst quisque sagittis. Sagittis eu volutpat odio facilisis mauris. Scelerisque viverra mauris in aliquam sem fringilla. Blandit massa enim nec dui nunc. Consectetur a erat nam at lectus urna duis. Non sodales neque sodales ut.</p>
+            <p>{{page.description}}</p>
             
             <p class="text-center">
             {% include feature/button.html text="Videos" link="#videos" color="outline-info btn-lg m-2" %}
             {% include feature/button.html text="Panoramas" link="#panoramas" color="outline-info btn-lg m-2" %}
+            {% include feature/button.html text="Images" link="#images" color="outline-info btn-lg m-2" %}
+
             </p>
 
         </div>
@@ -36,7 +38,7 @@ panorama: true
            
             {%- assign children = site.data[site.metadata] |  where_exp: 'item','item.parentid == page.objectid' %}
             {% for c in children %}
-            {% if c.format contains 'video' %}
+            {% if c.display_template contains 'video' %}
             <div class="my-3 mx-auto text-center">
             {% include feature/video.html objectid=c.object_location caption=c.title %}
 
@@ -47,9 +49,21 @@ panorama: true
 
             {%- assign children = site.data[site.metadata] |  where_exp: 'item','item.parentid == page.objectid' %}
             {% for c in children %}
-            {% if c.type contains 'panorama' %}
+            {% if c.display_template contains 'panorama' %}
             <div class="my-3 p-3 mx-auto text-center">
             {% include feature/panorama.html pano_object=c.object_location panoid=c.objectid height="400px"%}
+            </div>
+            {% endif %}{% endfor %}
+
+                     
+        </div>
+        <div class="col-md-6 p-4" id="images">
+
+            {%- assign children = site.data[site.metadata] |  where_exp: 'item','item.parentid == page.objectid' %}
+            {% for c in children %}
+            {% if c.display_template contains 'image' %}
+            <div class="my-3 p-3 mx-auto text-center">
+            {% include feature/image.html objectid=c.objectid%}
             </div>
             {% endif %}{% endfor %}
 
