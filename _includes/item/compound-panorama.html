@@ -1,28 +1,19 @@
-<style>
-    .panorama {
-        width: 100%;
-        height: 800px;
-    }
-</style>
-
-<div id="panorama" class="panorama"></div>
+<div id="panorama-{{panoid}}" class="panorama" style="height:200px"></div>
 
 <!-- https://pannellum.org/documentation/reference/ -->
 <script src="{{ 'pannellum.js' | prepend: '/assets/lib/pannellum/' | relative_url }}"></script>
+
 <script>
-pannellum.viewer('panorama', {
+pannellum.viewer('panorama-{{panoid}}', {
     "type": "equirectangular",
-    "panorama": "{{ page.object_location | default: '/objects/R0010032.JPG'}}",
-    "autoLoad": false,
+    "panorama": "{{ child.object_location}}",
+    "autoLoad": false
         /*
      * Uncomment the next line to print the coordinates of mouse clicks
      * to the browser's developer console, which makes it much easier
      * to figure out where to place hot spots. Always remove it when
      * finished, though.
      */
-    "hotSpotDebug": false,
-    "hotSpots": [
-       
-    ]
+    
 });
 </script>

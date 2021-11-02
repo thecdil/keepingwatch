@@ -20,7 +20,7 @@ gallery: true
                     {% include item/item-thumb.html %}
                     {% endif %}
                     {% for child in children %}
-                    {% if child.format contains 'image' %}
+                    {% if child.display_template == 'image' %}
                     {% include item/compound-image-gallery.html %}
                     {% elsif child.display_template == 'video' %}
                         {% if child.object_location contains 'vimeo' or page.object_location contains 'youtu' %}
