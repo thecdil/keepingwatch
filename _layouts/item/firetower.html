@@ -34,7 +34,7 @@ panorama: true
 <div class="container-fluid">
  
     <div class="row">
-        <div class="col-md-6 p-4" id="videos">
+        <div class="col-md-6 offset-md-3 p-4" id="videos">
            
             {%- assign children = site.data[site.metadata] |  where_exp: 'item','item.parentid == page.objectid' %}
             {% for c in children %}
@@ -45,7 +45,7 @@ panorama: true
             </div>
             {% endif %}{% endfor %}
         </div>
-        <div class="col-md-6 p-4" id="panoramas">
+        <div class="col-md-6 offset-md-3 p-4" id="panoramas">
 
             {%- assign children = site.data[site.metadata] |  where_exp: 'item','item.parentid == page.objectid' %}
             {% for c in children %}
@@ -57,7 +57,7 @@ panorama: true
 
                      
         </div>
-        <div class="col-md-6 p-4" id="images">
+        <div class="col-md-6 offset-md-3 p-4" id="images">
 
             {%- assign children = site.data[site.metadata] |  where_exp: 'item','item.parentid == page.objectid' %}
             {% for c in children %}

@@ -1,4 +1,5 @@
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' | where_exp: 'item','item.latitude != nil and item.longitude != nil' -%}
+{% assign doubles = site.data[site.metadata] | where_exp: 'item', 'item.display_template == "firetower"' }
 {%- assign fields = site.data.config-map -%}
 <!-- load leaflet dependencies -->
 <script src="{{ '/assets/lib/leaflet/leaflet.js' | relative_url }}"></script>
@@ -18,7 +19,7 @@
         {% if item.image_thumb %}"img": {{ item.image_thumb | relative_url | jsonify }},{% endif %}
         {% if item.display_template %}"template": {{ item.display_template | escape | jsonify }}, {%- endif -%}
         {% if item.format %}"format": {{ item.format | escape | jsonify }}, {%- endif -%}
-        "title": {{ item.title | escape | jsonify }}, 
+        "title": {{ item.title | escape | jsonify }}, "display_template": {{item.display_template | default: "none" | jsonify }},
         "id": {{ item.objectid | jsonify }} 
     } }{% unless forloop.last %}, {% endunless %}{% endunless %}{% endfor %}
     ]};
@@ -35,7 +36,7 @@
     }
 
     /* add map layer options */
-    var Blank = L.tileLayer('', {
+    var Blank_Map = L.tileLayer('', {
         attribution: 'In what direction from the center of the tower is the Fire?'
     });
 
@@ -51,7 +52,7 @@
     });
     /* add base map switcher */
     var baseMaps = {
-        "Blank": Blank,
+        "Blank": Blank_Map,
         "Esri World StreetMap": Esri_WorldStreetMap,
         "Esri National Geo": Esri_NatGeoWorldMap,
         "Esri Imagery": Esri_WorldImagery
@@ -106,12 +107,16 @@
         popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
         layer.bindPopup(popupTemplate);
     }
+
+
     function objectMarkers(feature,latlng) {
-        if (feature.properties.color.includes("gray")) {
-            var marker = L.circle(latlng, {color: "gray", radius: 3218.69 });
+        var myIcon = L.divIcon({className: 'my-div-icon'});
+        if (feature.properties.display_template.includes("firetower")) {
+            var marker = L.circle(latlng, {color: "Aquamarine", radius: 32186.9});
+            
         } else {
-            var marker = L.circle(latlng, {color: feature.properties.color, radius: 32186.9});
-        }       
+            var marker = L.circle(latlng, {color: "gray", radius: 3218.69 });
+        }     
         return marker;
     }
 
@@ -122,6 +127,50 @@
     }){% if site.data.theme.map-cluster != true %}.addTo(map);{% else %};
     map.addLayer(markers);{% endif %}
     
+    data = [
+{% for item in doubles %}{"title": {{item.title | jsonify}}, "objectid": {{item.objectid | jsonify}}, "lat": {{item.latitude}}, "lon": {{item.longitude}} }{% unless forloop.last%}, {% endunless %}{% endfor%}
+];
+
+data.forEach(function(row){
+  var pos = new L.LatLng(row.lat,row.lon);
+  var icontext = row.title;
+  var iobject = row.objectid;
+
+
+   var icon = L.divIcon({
+     iconSize:null,
+     html:'<div class="map-label d-none"><div class="map-label-content"><a href="items/' + iobject + '.html"><img src="/objects/firetower.png" style=height:16px;">'+icontext+'</a></div><div class="map-label-arrow"></div></div>'
+   });
+
+  L.marker(pos,{icon: icon}).addTo(map);
+
+});
+
+map.on('zoomend', function() {
+var zoomlevel = map.getZoom();
+    if (zoomlevel  < 9){
+        $(".map-label").each(function() {
+    $(this).addClass("d-none");
+    $(this).removeClass("d-block");
+    Blank_Map.addTo(map);
+
+
+});
+    }
+    if (zoomlevel >= 9){
+        $(".map-label").each(function() {
+    $(this).addClass("d-block");
+    $(this).removeClass("d-none");
+    Esri_NatGeoWorldMap.addTo(map);
+
+
+});
+
+    }
+console.log("Current Zoom Level =" + zoomlevel)
+});
+
+
     {% if site.data.theme.map-cluster == true and site.data.theme.map-search == true %}
     /* uncluster when search is clicked */
     document.querySelector('a.button').addEventListener("click", function() {
