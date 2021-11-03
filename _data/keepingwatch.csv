@@ -80,7 +80,7 @@ horse-mountain,,,Horse Mountain,,,,,,45.12195,-116.66987,,,record,compound_objec
 horton-peak,,,Horton Peak,,,,,,43.96574,-114.74847,,,record,compound_object,eng,,,,/objects/,,
 hughes-ridge,,,Hughes Ridge,,,,,,48.86707,-116.98653,,,record,compound_object,eng,,,,/objects/,,
 indian-hill,,,Indian Hill,,,,,,46.00029,-115.24476,,,record,compound_object,eng,,,,/objects/,,
-indian-mica,,,Indian (Mica),,,,,,44.59947,-116.24928,,,record,compound_object,eng,,,,/objects/,,
+indian-mica-,,,Indian (Mica),,,,,,44.59947,-116.24928,,,record,compound_object,eng,,,,/objects/,,
 iron-mountain,,,Iron Mountain,,,,,,43.53827,-115.04492,,,record,compound_object,eng,,,,/objects/,,
 jackley,,,Jackley,,,,,,45.24855,-116.52175,,,record,compound_object,eng,,,,/objects/,,
 jackson-peak,,,Jackson Peak,,,,,,44.077925,-115.41386,,,record,compound_object,eng,,,,/objects/,,
@@ -127,9 +127,9 @@ roughneck-peak,,roughneck-theta1.jpg,Roughneck Peak,Keeping Watch,2021-08-23,Nul
 roughneck-peak001,roughneck-peak,andy_intro.mp4,Andy Baca Introduction,Keeping Watch,2021-08-23,Andy discusses his career as a lookout,,Roughneck Peak Lookout; Andy Baca,44.48270554,-115.155742,,,Image;MovingImage,video/mp4,eng,,,video,https://cdil.lib.uidaho.edu/keeping-watch/objects/roughneck-peak/andy_intro.mp4,,
 roughneck-peak002,roughneck-peak,andy_2.mp4,"Andy Baca ""I'd rather be buried up here than anywhere else""",Keeping Watch,2021-08-23,Andy recounts memorable encounters and reflects on the precarity of lookout life,,Roughneck Peak Lookout; Andy Baca,44.48270554,-115.155742,,,Image;MovingImage,video/mp4,eng,,,video,https://cdil.lib.uidaho.edu/keeping-watch/objects/roughneck-peak/andy_2.mp4,,
 roughneck-peak003,roughneck-peak,andy_3.mp4,Andy Baca on the Lookout's Place in the Landscape,Keeping Watch,2021-08-23,Andy reflects on the lookout's place in the landscape,,Roughneck Peak Lookout; Andy Baca,44.48270554,-115.155742,,,Image;MovingImage,video/mp4,eng,,,video,https://cdil.lib.uidaho.edu/keeping-watch/objects/roughneck-peak/andy_3.mp4,,
-roughneck-peak004,roughneck-peak,roughneck-theta1.jpg,360 image Roughneck 001,Keeping Watch,2021-08-23,theta image,,Roughneck Peak Lookout; Andy Baca,44.48270554,-115.155742,,,image;panorama,image/jpeg,eng,,,panorama,/objects/roughneck-theta1.jpg,https://cdil.lib.uidaho.edu/keeping-watch/objects/small/roughneck-theta1_sm.jpg,https://cdil.lib.uidaho.edu/keeping-watch/objects/thumbs/roughneck-theta1_th.jpg
-roughneck-peak005,roughneck-peak,roughneck-theta2.jpg,360 image Roughneck 001,Keeping Watch,2021-08-23,theta image,,Roughneck Peak Lookout; Andy Baca,44.48270554,-115.155742,,,image;panorama,image/jpeg,eng,,,panorama,/objects/roughneck-theta2.jpg,https://cdil.lib.uidaho.edu/keeping-watch/objects/small/roughneck-theta2_sm.jpg,https://cdil.lib.uidaho.edu/keeping-watch/objects/thumbs/roughneck-theta2_th.jpg
-roughneck-peak006,roughneck-peak,roughneck-theta3.jpg,360 image Roughneck 001,Keeping Watch,2021-08-23,theta image,,Roughneck Peak Lookout; Andy Baca,44.48270554,-115.155742,,,image;panorama,image/jpeg,eng,,,panorama,/objects/roughneck-theta3.jpg,https://cdil.lib.uidaho.edu/keeping-watch/objects/small/roughneck-theta3_sm.jpg,https://cdil.lib.uidaho.edu/keeping-watch/objects/thumbs/roughneck-theta3_th.jpg
+roughneck-peak004,roughneck-peak,roughneck-theta1.jpg,360 image Roughneck 001,Keeping Watch,2021-08-23,theta image,,Roughneck Peak Lookout; Andy Baca,44.48270554,-115.155742,,,image;panorama,image/jpeg,eng,,,panorama,/objects/roughneck-theta1.jpg,/objects/small/roughneck-theta1_sm.jpg,/objects/thumbs/roughneck-theta1_th.jpg
+roughneck-peak005,roughneck-peak,roughneck-theta2.jpg,360 image Roughneck 001,Keeping Watch,2021-08-23,theta image,,Roughneck Peak Lookout; Andy Baca,44.48270554,-115.155742,,,image;panorama,image/jpeg,eng,,,panorama,/objects/roughneck-theta2.jpg,/objects/small/roughneck-theta2_sm.jpg,/objects/thumbs/roughneck-theta2_th.jpg
+roughneck-peak006,roughneck-peak,roughneck-theta3.jpg,360 image Roughneck 001,Keeping Watch,2021-08-23,theta image,,Roughneck Peak Lookout; Andy Baca,44.48270554,-115.155742,,,image;panorama,image/jpeg,eng,,,panorama,/objects/roughneck-theta3.jpg,/objects/small/roughneck-theta3_sm.jpg,/objects/thumbs/roughneck-theta3_th.jpg
 roughneck-peak007,roughneck-peak,scheese_on_wilderness.mp4,Don Scheese Describing Wilderness as Human Modified Space,Keeping Watch,2021-08-23,Don Scheese describes Wilderness as a human modified space,,Roughneck Peak,44.48270554,-115.155742,,,Image;MovingImage,video/mp4,eng,,,video,https://cdil.lib.uidaho.edu/keeping-watch/objects/roughneck-peak/scheese_on_wilderness.mp4,,
 rush-creek-point,,,Rush Creek Point,,,,,,45.0974833,-114.93445,,,record,compound_object,eng,,,,/objects/,,
 russell-mountain,,,Russell Mountain,,,,,,48.80896,-116.54535,,,record,compound_object,eng,,,,/objects/,,
@@ -199,3 +199,4 @@ wild-horse,,,Wild Horse,,,,,,43.9272,-114.0847,,,record,compound_object,eng,,,,/
 williams-peak,,,Williams Peak,,,,,,45.01861,-115.66289,,,record,compound_object,eng,,,,/objects/,,
 zane-point,,,Zane Point,,,,,,47.3029,-116.2817,,,record,compound_object,eng,,,,/objects/,,
 mcconnel-mountain,,,,,,,,,46.35874605,-114.9158207,,,record,compound_object,eng,,,,/objects/,,
+mcconnel-mountain001,mcconnel-mountain,circle_of_life,Circle of Life and Fire,Keeping Watch,,,,,,,,,,,,,,,,,
