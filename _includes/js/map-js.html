@@ -16,7 +16,7 @@
     { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{{ item.longitude | strip }},{{ item.latitude | strip }}] }, "properties":
     { 
         {% for f in fields %}{% if item[f.field] %}{{ f.field | escape | jsonify }}:{{ item[f.field] | strip | escape | jsonify }}, {%- endif -%}{%- endfor -%}
-        {% if item.image_thumb %}"img": {{ item.image_thumb | relative_url | jsonify }},{% endif %}
+        {% if item.image_thumb %}"img": {{ item.image_small | relative_url | jsonify }},{% endif %}
         {% if item.display_template %}"template": {{ item.display_template | escape | jsonify }}, {%- endif -%}
         {% if item.format %}"format": {{ item.format | escape | jsonify }}, {%- endif -%}
         "title": {{ item.title | escape | jsonify }}, "display_template": {{item.display_template | default: "none" | jsonify }},
@@ -93,7 +93,9 @@
         if (feature.properties.img) {
             thumbImg = '<img class="map-thumb" src="' + feature.properties.img + '" alt="item thumbnail">';
         } else {
-            thumbImg = getIcon(feature.properties.template,feature.properties.format)
+            //thumbImg = getIcon(feature.properties.template,feature.properties.format)
+            thumbImg = '<img src="/objects/firetower.png" style=height:36px;">';
+
         }
         // set up popup content
         var popupTemplate = '<h4><a class="text-dark" href="' + itemHref + '">' +
@@ -104,7 +106,7 @@
             popupTemplate += '<strong>{{ f.display_name }}:</strong> ' + feature.properties[{{ f.field | escape | jsonify }}] + '<br>'; 
         }
         {% endif %}{% endfor %}
-        popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
+        popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Firetower</a></div>';
         layer.bindPopup(popupTemplate);
     }
 
@@ -112,7 +114,7 @@
     function objectMarkers(feature,latlng) {
         var myIcon = L.divIcon({className: 'my-div-icon'});
         if (feature.properties.display_template.includes("firetower")) {
-            var marker = L.circle(latlng, {color: "Aquamarine", radius: 32186.9});
+            var marker = L.circle(latlng, {color: "#6495ED", radius: 32186.9});
             
         } else {
             var marker = L.circle(latlng, {color: "gray", radius: 3218.69 });
@@ -139,7 +141,7 @@ data.forEach(function(row){
 
    var icon = L.divIcon({
      iconSize:null,
-     html:'<div class="map-label d-none"><div class="map-label-content"><a href="items/' + iobject + '.html"><img src="/objects/firetower.png" style=height:16px;">'+icontext+'</a></div><div class="map-label-arrow"></div></div>'
+     html:'<div class="map-label d-none"><div class="map-label-content"><a class="stretched-link" href="items/' + iobject + '.html"><img src="/objects/firetower.png">'+icontext+'</a></div><div class="map-label-arrow"></div></div>'
    });
 
   L.marker(pos,{icon: icon}).addTo(map);

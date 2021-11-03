@@ -1,0 +1,10 @@
+<script src="{{ '/assets/lib/leaflet/leaflet.js' | relative_url }}"></script>
+<script>
+    var map = L.map('map').setView([{{page.latitude}}, {{page.longitude}}], 13);
+
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri'
+    }).addTo(map);
+
+L.marker([{{page.latitude}}, {{page.longitude}}]).addTo(map);;
+</script>
