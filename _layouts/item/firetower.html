@@ -7,8 +7,8 @@ custom-foot: "js/simple-map-js.html"
 ---
 <style>
     #map {
-        height: 300px;
-        width: 300px;
+        height: 320px;
+        width: 320px;
         border-radius: 50%;
         border: black 3px ridge;
         margin-left: 15%;
@@ -20,7 +20,7 @@ custom-foot: "js/simple-map-js.html"
 
     <div class="row">
 
-        <div class="col-md-7 order-md-first">
+        <div class="col-md-12 ">
             <div class="card mb-4 text-center mx-auto ">
 
                 {% include item/panorama.html %}
@@ -28,79 +28,85 @@ custom-foot: "js/simple-map-js.html"
 
             </div>
         </div>
-        <div class="col-md-4  order-first order-md-last">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="mt-3 mb-5 ml-2 display-3">{{page.title}}</h2>
-                </div>
-                <div class="col-12 my-3 mx-auto text-center">
-                    <div id="map"> </div>
-                </div>
-                <div class="col-12 my-2">
-                    <p class="col-12 my-3">{{page.description}}</p>
-
-                    <p class="ml-3">
-                        {% include feature/button.html text="Videos" link="#videos" color="outline-info btn-lg m-2" %}
-                        {% include feature/button.html text="Panoramas" link="#panoramas" color="outline-info btn-lg m-2" %}
-                        {% include feature/button.html text="Images" link="#images" color="outline-info btn-lg m-2" %}
-
-                    </p>
-                </div>
+        <div class="col-12">
+            <h2 class="mt-3 mb-5 ml-2 display-3">{{page.title}}</h2>
+        </div>
+        <div class="col-md-6">
+            
+            <div class="col-12 my-3 mx-auto text-center">
+                <div id="map"> </div>
             </div>
+        </div>
+
+        <div class="col-md-6 my-2">
+            <p class="col-12 my-3">{{page.description}}</p>
+            
+            <p class="ml-3">
+                {% include feature/button.html text="Videos" link="#videos" color="outline-info btn-lg m-2" %}
+                {% include feature/button.html text="Panoramas" link="#panoramas" color="outline-info btn-lg m-2" %}
+                {% include feature/button.html text="Images" link="#images" color="outline-info btn-lg m-2" %}
+
+            </p>
+        </div>
+        <div class="col-md-8 offset-md-2">
+            <p class="h4 display-5 font-italic my-5" style="line-height: 1.5em;">
+                {{page.narrative}}
+            </p>
         </div>
     </div>
-    <div class="container-fluid">
-        {%- assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
 
-        <div id="videos">
-            {% for c in children %}{% if c.display_template contains 'video' %}
-            <div class="row">
-                <div class="col-md-4 p-4 {% cycle 'order-first offset-md-2', 'order-last'%}">
-                    <div class="my-3 p-3 mx-auto text-center">
-                        {% include feature/video.html objectid=c.object_location caption=c.title %}'
-                    </div>
-                </div>
-                <div class="col-md-4 p-4 align-self-center justify-content-end {% cycle 'order-first offset-md-2 float-right', 'nothing'%} ">
-                    <div class="w-75 {% cycle 'float-right','nothing'%}"> {{c.description}}</div>
+    {%- assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
+
+    <div id="videos">
+        {% for c in children %}{% if c.display_template contains 'video' %}
+        <div class="row">
+            <div class="col-md-4 p-4 {% cycle 'order-first offset-md-2', 'order-last'%}">
+                <div class="my-3 p-3 mx-auto text-center">
+                    {% include feature/video.html objectid=c.object_location caption=c.title %}'
                 </div>
             </div>
-            {% endif %}{% endfor %}
-
+            <div
+                class="col-md-4 p-4 align-self-center justify-content-end {% cycle 'order-first offset-md-2 float-right', 'nothing'%} ">
+                <div class="w-75 {% cycle 'float-right','nothing'%}"> {{c.description}}</div>
+            </div>
         </div>
-        <div id="panoramas">
+        {% endif %}{% endfor %}
 
+    </div>
+    <div id="panoramas">
+
+
+        {%- assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
+        {% for c in children %}{% if c.display_template contains 'panorama' %}
+        <div class="row">
+            <div class="col-md-6 p-4 {% cycle 'order-first offset-md-2', 'order-last'%}">
+                <div class="my-3 p-3 mx-auto text-center">
+                    {% include feature/panorama.html pano_object=c.object_location panoid=c.objectid height="400px"%}
+                </div>
+            </div>
+            <div class="col-md-4 p-4 align-self-center justify-content-end {% cycle 'order-first offset-md-2',''%} ">
+                <div class="w-75 {% cycle 'float-right',''%}"> {{c.description}}</div>
+            </div>
+        </div>
+        {% endif %}{% endfor %}
+
+    </div>
+    <div class="row" id="images">
+        <div class="col-md-6 offset-md-3 p-4" id="images">
 
             {%- assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
-            {% for c in children %}{% if c.display_template contains 'panorama' %}
-            <div class="row">
-                <div class="col-md-6 p-4 {% cycle 'order-first offset-md-2', 'order-last'%}">
-                    <div class="my-3 p-3 mx-auto text-center">
-                        {% include feature/panorama.html pano_object=c.object_location panoid=c.objectid height="400px"%}
-                    </div>
-                </div>
-                <div class="col-md-4 p-4 align-self-center justify-content-end {% cycle 'order-first offset-md-2',''%} ">
-                    <div class="w-75 {% cycle 'float-right',''%}"> {{c.description}}</div>
-                </div>
+            {% for c in children %}
+            {% if c.display_template contains 'image' %}
+            <div class="my-3 p-3 mx-auto text-center">
+                {% include feature/image.html objectid=c.objectid%}
             </div>
             {% endif %}{% endfor %}
-
         </div>
-        <div class="row" id="images">
-            <div class="col-md-6 offset-md-3 p-4" id="images">
-
-                {%- assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
-                {% for c in children %}
-                {% if c.display_template contains 'image' %}
-                <div class="my-3 p-3 mx-auto text-center">
-                    {% include feature/image.html objectid=c.objectid%}
-                </div>
-                {% endif %}{% endfor %}
-            </div>
-        </div>
-        
     </div>
 
-    <!--<div class="row justify-content-end mt-4">
+</div>
+
+<!--<div class="row justify-content-end mt-4">
         <div class="col-md-5">
             {% include item/citation-box.html %}
         </div>
@@ -111,7 +117,7 @@ custom-foot: "js/simple-map-js.html"
         {% endif %}
     </div>-->
 
-    {%- if site.data.theme.browse-buttons == true -%}
-    {% include item/browse-buttons.html %}
-    {%- endif -%}
+{%- if site.data.theme.browse-buttons == true -%}
+{% include item/browse-buttons.html %}
+{%- endif -%}
 </div>
