@@ -5,6 +5,12 @@ panorama: true
 map-on: true
 custom-foot: "js/simple-map-js.html"
 ---
+{%- assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
+{% assign videos = children | where_exp: 'item','item.display_template contains "video"' %}
+{% assign panoramas = children | where_exp: 'item','item.display_template contains "panorama"' %}
+{% assign images = children | where_exp: 'item','item.display_template contains "image"' %}
+
+
 <style>
     #map {
         height: 320px;
@@ -55,52 +61,51 @@ custom-foot: "js/simple-map-js.html"
         </div>
     </div>
 
-    {%- assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
+   
 
     <div id="videos">
-        {% for c in children %}{% if c.display_template contains 'video' %}
+        {% for v in videos %}
         <div class="row">
-            <div class="col-md-4 p-4 {% cycle 'order-first offset-md-2', 'order-last'%}">
+            <div class="col-md-4 p-4 {% cycle 'group1': 'order-first offset-md-2', 'order-last'%}">
                 <div class="my-3 p-3 mx-auto text-center">
-                    {% include feature/video.html objectid=c.object_location caption=c.title %}'
+                    {% include feature/video.html objectid=v.object_location caption=c.title %}'
                 </div>
             </div>
             <div
-                class="col-md-4 p-4 align-self-center justify-content-end {% cycle 'order-first offset-md-2 float-right', 'nothing'%} ">
-                <div class="w-75 {% cycle 'float-right','nothing'%}"> {{c.description}}</div>
+                class="col-md-4 p-4 align-self-center justify-content-end {% cycle 'group1': 'order-first offset-md-2 float-right', 'nothing'%} ">
+                <div class="w-75 {% cycle 'group1': 'float-right','nothing'%}"> {{v.description}}</div>
             </div>
         </div>
-        {% endif %}{% endfor %}
+    {% endfor %}
 
     </div>
     <div id="panoramas">
 
 
-        {%- assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
-        {% for c in children %}{% if c.display_template contains 'panorama' %}
+
+        {% for p in panoramas %}
         <div class="row">
-            <div class="col-md-6 p-4 {% cycle 'order-first offset-md-2', 'order-last'%}">
+            <div class="col-md-6 p-4 {% cycle 'group2': 'order-first offset-md-2', 'order-last'%}">
                 <div class="my-3 p-3 mx-auto text-center">
-                    {% include feature/panorama.html pano_object=c.object_location panoid=c.objectid height="400px"%}
+                    {% include feature/panorama.html pano_object=c.object_location panoid=p.objectid height="400px"%}
                 </div>
             </div>
-            <div class="col-md-4 p-4 align-self-center justify-content-end {% cycle 'order-first offset-md-2',''%} ">
-                <div class="w-75 {% cycle 'float-right',''%}"> {{c.description}}</div>
+            <div class="col-md-4 p-4 align-self-center justify-content-end {% cycle 'group2': 'order-first offset-md-2',''%} ">
+                <div class="w-75 {% cycle 'group2': 'float-right',''%}"> {{p.description}}</div>
             </div>
         </div>
-        {% endif %}{% endfor %}
+       {% endfor %}
 
     </div>
     <div class="row" id="images">
         <div class="col-md-6 offset-md-3 p-4" id="images">
 
             {%- assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
-            {% for c in children %}
-            {% if c.display_template contains 'image' %}
+            {% for i in images %}
             <div class="my-3 p-3 mx-auto text-center">
-                {% include feature/image.html objectid=c.objectid%}
+                {% include feature/image.html objectid=i.objectid%}
             </div>
-            {% endif %}{% endfor %}
+            {% endfor %}
         </div>
     </div>
 
