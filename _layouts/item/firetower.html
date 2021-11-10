@@ -31,7 +31,6 @@ custom-foot: "js/simple-map-js.html"
 
                 {% include item/panorama.html %}
 
-
             </div>
         </div>
         <div class="col-12">
@@ -87,7 +86,7 @@ custom-foot: "js/simple-map-js.html"
         <div class="row">
             <div class="col-md-6 p-4 {% cycle 'group2': 'order-first offset-md-2', 'order-last'%}">
                 <div class="my-3 p-3 mx-auto text-center">
-                    {% include feature/panorama.html pano_object=c.object_location panoid=p.objectid height="400px"%}
+                    {% include feature/panorama.html pano_object=p.object_location panoid=p.objectid height="400px"%}
                 </div>
             </div>
             <div class="col-md-4 p-4 align-self-center justify-content-end {% cycle 'group2': 'order-first offset-md-2',''%} ">
