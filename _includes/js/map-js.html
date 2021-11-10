@@ -174,7 +174,7 @@ data.forEach(function(row){
 
 map.on('zoomend', function() {
 var zoomlevel = map.getZoom();
-    if (zoomlevel  < 8){
+    if (zoomlevel  < 7){
         $(".map-label").each(function() {
     $(this).addClass("d-none");
     $(this).removeClass("d-block");
@@ -184,7 +184,7 @@ var zoomlevel = map.getZoom();
 
 });
     }
-    if (zoomlevel >= 8){
+    if (zoomlevel >= 7){
         $(".map-label").each(function() {
     $(this).addClass("d-block");
     $(this).removeClass("d-none");
