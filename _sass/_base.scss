@@ -3,6 +3,27 @@
     these values are configurable using theme.yml > Theme Fonts area 
     or by editing base variables in custom.scss
 */
+@font-face {
+    font-family: NationalParkRegular;
+    src: url("/assets/lib/fonts/NationalPark/NationalPark-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NationalPark;
+    font-weight: bold;
+    src: url("/assets/lib/fonts/NationalPark/NationalPark-Heavy.otf") format("opentype");
+}
+@font-face {
+    font-family: NationalParkLight;
+    src: url("/assets/lib/fonts/NationalPark/NationalPark-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NationalPark;
+    font-weight: bold;
+    src: url("/assets/lib/fonts/NationalPark/NationalPark-Outline.otf") format("opentype");
+}
+
 body {
     @if $base-font-family != "" { font-family: $base-font-family; }
     @if $base-font-size != "" { font-size: $base-font-size; }

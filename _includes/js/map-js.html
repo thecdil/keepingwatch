@@ -188,6 +188,8 @@ var zoomlevel = map.getZoom();
         $(".map-label").each(function() {
     $(this).addClass("d-block");
     $(this).removeClass("d-none");
+    $('#main-title').removeClass("text-dark");
+    $('#main-title').addClass("text-white");
     Esri_NatGeoWorldMap.addTo(map);
 
 });

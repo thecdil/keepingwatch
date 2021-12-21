@@ -2,11 +2,19 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
- h1, h2, h3, h4, h5 {
+ h1 {
 
-    font-family: 'Abril Fatface', serif;
+    font-family: 'NationalPark', serif;
+    font-weight: bold;
 
  }
+
+ h2, h3, h4, h5 {
+
+  font-family: 'NationalParkRegular', serif;
+  font-weight: bold;
+
+}
 
 
  html, body {
