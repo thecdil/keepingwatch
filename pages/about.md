@@ -8,26 +8,16 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+## About Keeping Watch
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+Keeping Watch is a geo-spatial narrative project that embeds oral history testimonies by former and current fire lookouts on a GIS interface. These stories were collected by Jack Kredell, Chris Lamb, and Michael Decker in the Summer of 2021 across the state of Idaho. 
 
-## About CollectionBuilder CSV
+The goal of this project is twofold: to create an online archive for this vital yet disappearing component of Idaho history and to reconceptualize the space  these firetowers define via the juxtaposition of the map's inherent grid and GIS structure, and the subjective experience of those who have, are, and will experience these places.
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+The towers are open ended in how they are active technology and ruin. They are essential and symbolic. They are *already-happened* and *yet-to-be*, their futures uncertain as the landscapes they watch over. 
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+A personal note: this project is the result of a summer spent in the woods and mountains, and alongside some of the best fishing streams in the world. As important as this history is to tell, our time working on this project was undeniably fun. It was one of the best summers of my life spent hiking to towers, catching cutthroat and rainbow trout, and even running away from a wildfire. I felt as if I, like the tower itself, became part of the history--a small piece.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+## Funding and Design
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
-
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
-
-{% include feature/image.html objectid="demo_001" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+Keeping Watch was funded by a Library Seed Grant and the Center for Digtial Inquiry and Learning (CD?L). The website was designed by CD?L Co-Director Devin Becker in collaboration with the project directors and English Professor and Confluence Lab Director Jenn Ladino, as part of her CD?L Development Fellowship. 
