@@ -50,6 +50,20 @@ metadata: keepingwatch
 #     extension: 'html' 
 #     filter: 'objectid'  
 
+collections:
+  - firetowers
+
+collections:
+  firetowers:
+    output: true
+    permalink: /firetowers/:name
+
+defaults:
+  - scope:
+      type: firetowers
+    values:
+      layout: firetower
+
 ##########
 # GOOGLE SERVICES [optional!]
 #

@@ -9,7 +9,7 @@ custom-foot: "js/simple-map-js.html"
 {% assign videos = children | where_exp: 'item','item.display_template contains "video"' %}
 {% assign panoramas = children | where_exp: 'item','item.display_template contains "panorama"' %}
 {% assign images = children | where_exp: 'item','item.display_template contains "image"' %}
-
+{% assign tower = page.objectid %}
 
 <style>
     #map {
@@ -34,28 +34,28 @@ custom-foot: "js/simple-map-js.html"
             </div>
         </div>
         <div class="col-12">
-            <h2 class="mt-3 mb-5 ml-2 display-3">{{page.title}}</h2>
+            <h2 class="mt-3 mb-5 mx-5 display-3">{{page.title}}</h2>
         </div>
         <div class="col-md-6">
             
-            <div class="col-12 my-3 mx-auto text-center">
+            <div class="col-lg-8 my-3 mx-auto text-center">
                 <div id="map"> </div>
             </div>
         </div>
 
         <div class="col-md-6 my-2">
-            <p class="col-12 my-3">{{page.description}}</p>
+            <p class="col-lg-8 ms-3 my-3">{{page.description}}</p>
             
-            <p class="ml-3">
+            <p class="ms-3">
                {% if videos.size > 0 %} {% include feature/button.html text="Videos" link="#videos" color="outline-info btn-lg m-2" %}{% endif %}
                {% if panoramas.size > 0%}  {% include feature/button.html text="Panoramas" link="#panoramas" color="outline-info btn-lg m-2" %}{% endif %}
                {% if images.size > 0 %}  {% include feature/button.html text="Images" link="#images" color="outline-info btn-lg m-2" %}{% endif %}
 
             </p>
         </div>
-        <div class="col-md-8 offset-md-2">
-            <div class="h4 display-5 font-italic my-5" style="line-height: 1.5em;">
-                {{page.narrative | markdownify }}
+        <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+            <div class="h4  my-5" style="line-height: 1.5em;">
+                {% include firetowers/{{tower}}.md %}
             </div>
         </div>
     </div>

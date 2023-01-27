@@ -1,0 +1,4 @@
+
+
+
+The air was becoming cooler, the nights uncomfortably cold. It was that eco-tone between summer and fall—not quite either and both at once. The trail up to Spot is steep—about five-thousand feet of elevation gain in a little over six miles. We were greeted warmly by the Moaks at the top of the mountain and a distinct southern draw in their voices made me feel comfortable and welcomed. We sat down with them to discuss their long tenure with the Forest Service, having a vision on the mountain top, environmental ethics, and what might be lost in the transition away from the human staffed lookout. 
