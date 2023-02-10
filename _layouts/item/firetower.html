@@ -30,7 +30,7 @@ custom-foot: "js/simple-map-js.html"
             <div class="card mb-4 text-center mx-auto ">
                 {% if page.object_location contains "theta" %}
                 {% include item/panorama.html %}
-                {% else %}{% include feature/image.html objectid=page.objectid width="100" %}
+                {% else %}{% include feature/full-image.html objectid=page.objectid width="100" %}
                 {% endif %}
 
             </div>
