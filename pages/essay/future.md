@@ -1,11 +1,11 @@
 ---
-title: Essay All
-permalink: essay/
+title: The Future
+permalink: essay/future.html
 layout: about
 ---
 <!-- Output copied to clipboard! -->
 
-## Being on the Edge, or a Rethinking of the Jar
+## The Future
 
 By Michael Decker
 

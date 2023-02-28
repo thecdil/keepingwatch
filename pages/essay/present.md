@@ -1,11 +1,11 @@
 ---
-title: Essay All
-permalink: essay/
+title: Present Day
+permalink: essay/present.html
 layout: about
 ---
 <!-- Output copied to clipboard! -->
 
-## Being on the Edge, or a Rethinking of the Jar
+## Present Day
 
 By Michael Decker
 
