@@ -19,19 +19,13 @@ The increasing wealth inequality along the wildland urban interface also explain
 
 Fire’s direct correlation to human migration coupled with economic and environmental factors, our team thinks, makes the fire lookout an ideal location to study changing human perceptions of space and place, and to think about how our relationship to it shapes our material reality. There is also a rich history of forest management in the American West that can be documented, not to mention the individual stories about the people who _tried_ to leave society behind and live at the edge of human civilization on the interface of occupied and unoccupied land. 
 
- 
-
 Pam’s boss, John, slides a map across the table. It shows the topography surrounding Priest Lake and how the Selkirk Mountains make a skinny valley that crosses the Canadian border. Lightning bolts show where several strikes occurred a week ago during a June thunderstorm. These strikes are concerning because Idaho is in the early stages of its worst drought in several decades. I will be on the tower during what is projected to be the hottest recorded temperatures ever in the Northwest: one-hundred-and-thirteen degrees Fahrenheit, tomorrow. Pam and John tell me to watch for sleeper fires at these strike locations. _Sleepers_ are burns that do not immediately consume large amounts of fuel, but instead sit dormant and produce periodic smoke events before erupting into a larger fire, sometimes up to two weeks after initial ignition.
 
 I shake their hands and thank Pam for the opportunity. She is smiling and adjusts her baseball cap covering a tuft of white hair and tells me to have fun and to drink alcohol in moderation because of the altitude. The Idaho Department of Lands has given me a truck to use. Even though my Subaru has all-wheel-drive, its four-cylinder engine is underpowered for the slope up to the tower, and its clearance is questionable. I laugh and open the door of the truck as Trout jumps up on the seat. I drive away from the government building with the AC blasting. Around 9 a.m., the temperature is approaching ninety degrees Fahrenheit.
 
 I am setting out on a pilgrimage to a temple high in the mountains like in the book of Exodus where prophets tried to see God in places that were physically closer to heaven, although, if Heaven is real, it is probably not located in space or time. I think of Matsuo Bashō, the sixteenth century Japanese poet who traveled into Northern Japan after his house burned down. He sought out temples and other religious and political iconography as inspiration for writing haikus. The tower, after all, is a temple to the lookouts who staff them. In the spring, Jack and Chris had interviewed two former students of Naropa University where Allen Ginsberg and Gary Snyder, who carried on the tradition that Bashō helped make famous by writing haikus, famously taught principles of Buddhism. 
 
- 
-
 On the road to Sundance, I look at my Idaho Department of Lands shirt, the government truck, and a black highway leading me like a river to a tower high in the Selkirk Mountains. Below me already are the constructed dreams of America’s wealthy. It feels _economical _as the truck kicks up dust and I climb the poorly maintained service road; the all-terrain tires tested by sharp rocks while the undercarriage passes narrowly over deep ruts and boulders. I forget to shift into four-wheel drive and, briefly, the truck’s tires spin free on the steep slope. Trout sits up abruptly and observes the situation. _Don’t worry, Bud._
-
- 
 
 behind a red truck
 
@@ -39,22 +33,15 @@ dust passes through white sun beams
 
 above a blue lake
 
- 
-
 The burn scar is the first thing I notice when cresting the peak of Sundance Mountain and despite vegetation from over half-a-century of regeneration, its appearance is noticeably stunted compared to nearby mountain slopes. The heat is thick like syrup as I close the truck door and wave to the lookout being relieved from duty. Her two dogs run to the edge of the fifty-foot-tall tower. Trout looks at them uninterested. There is no barking. The other lookout waves back.
-
- 
 
 Inside the tower I inspect my new home which has a dish sink, propane stove, and a small refrigerator in the corner. Gas lamps hang on the wall above a small bed that I throw my sleeping bag over. I step onto the deck and see smoke obfuscating mountains to the east and north of me. With aerial surveillance taking place, I question how much my antiquated role is necessary. I crack a beer and drag my camp chair to the deck. Trout sits next to me. Distantly, I hear construction equipment hoisting beams and trestles. Is that, just maybe, the pressurized release of a nail gun?
 
-        	In the center of the tower is a podium on which sits a large steel table holding the Osborne Fire Finder. Lookouts use this device to precisely locate fires. It has a three-hundred-and-sixty-degree alidade surrounding a map with the fire tower at its center. The Osborne is used to call in the location of a smoke using degrees and minutes that are communicated to a fire dispatcher over the two-way radio system installed below the podium. 
+In the center of the tower is a podium on which sits a large steel table holding the Osborne Fire Finder. Lookouts use this device to precisely locate fires. It has a three-hundred-and-sixty-degree alidade surrounding a map with the fire tower at its center. The Osborne is used to call in the location of a smoke using degrees and minutes that are communicated to a fire dispatcher over the two-way radio system installed below the podium. 
 
 The Osborne Fire Finder was primarily manufactured between the years 1920 and 1935 by Leopold and Stevens, a telescope manufacturing company, which thereafter also produced replacement parts until 1975, halting production because new fire detection methods had more-or-less made the fire finder obsolete. After a substantial increase in wildfires in the late-90s and early-00s, the federal government contracted with a new manufacturer, San Dimas and Technology Center, to resupply fire lookouts with Osbornes, and to produce replacement parts as needed.
 
-        	Why did federal and state governments and timber protection agencies (the latter usually funded by private logging companies) decide to bring back the human-staffed fire lookout? I can think of many reasons why we _should_ have them. Maybe, we could staff these towers with students from underserved school districts who historically have little access to _wild _places—I use “wild” according to the wording of the Wilderness Act of 1964 as “a place where man is but a visitor […]” Agencies could pay a rate suitable for high school or college students and give them the opportunity to live and work in beautiful scenic places, and thus increase public attachment to wilderness. As for management, shouldn’t we be physically present in_ _the places we are managing rather than making decisions from a God’s-eye-view? _What is lost_ we asked the lookout, they replied, _a sense of continuity._
-
-        	
-
+Why did federal and state governments and timber protection agencies (the latter usually funded by private logging companies) decide to bring back the human-staffed fire lookout? I can think of many reasons why we _should_ have them. Maybe, we could staff these towers with students from underserved school districts who historically have little access to _wild _places—I use “wild” according to the wording of the Wilderness Act of 1964 as “a place where man is but a visitor […]” Agencies could pay a rate suitable for high school or college students and give them the opportunity to live and work in beautiful scenic places, and thus increase public attachment to wilderness. As for management, shouldn’t we be physically present in_ _the places we are managing rather than making decisions from a God’s-eye-view? _What is lost_ we asked the lookout, they replied, _a sense of continuity._
 
 INCLUDE IMAGE --> Osborne Fire Finder at Sundance Lookout
 
@@ -75,91 +62,6 @@ There is something innate in human psychology that causes this transposition and
 INCLUDE IMAGE --> The Stadel Lion Man
 
 I put down _Blue Highways _and turn off my headlamp, get out of my sleeping bag, and walk to the window. Trout briefly lifts his head but falls back asleep. Between the inside of the cabin and the night sky, the windows and propane lamp transpose my face onto the universe. I walk to the deck and suddenly all that remains is black plasma where my face was.
-
-_________ 
-
- 
-
-Jack, Chris, and I have driven into the heart of the Frank Church Wilderness, seventy miles from McCall, Idaho along a dirt road, stopping only to fish the Salmon River which early settlers dubbed “the river of no return.” Drifting my caddis along the water, I think of the ghosts of the Tukudeka, a mysterious mountain tribe of Shoshone-Bannock Native Americans, colloquially known as the Sheepeaters. 
-
-Tomorrow we will begin the twenty-mile hike from Mosquito Ridge to the Tukudeka namesake, Sheepeater Mountain, which is home to one of the most remote fire lookouts in the world. I know that this _pristine_ wilderness is an illusion and that humans have lived here for thousands of years, and that any projection of edenic value I transpose onto it is false. This peaceful mountain culture was, after all, murdered by the American military after clashing with ranchers, and down this river and up these mountains the Tukudeka have never returned.
-
-From Mosquito Ridge, the Salmon River rushes five thousand feet below and high mountain wildflowers sway in the warm, pressurized wind. There are more species than I can count or identify, really; probably mountain heather and cinquefoil, but also many, many more. On a ridge above us, Chicken Peak must be the most unique cabin in the entire state of Idaho with its prominent roof and bright orange paint; the neon coloring helped pilots navigate over empty swaths of terrain before GPS technology. Chicken Peak is the halfway point between the Mosquito Ridge trailhead and Sheepeater Lookout. We have not been given a straight answer about its history but have gathered that it was built in the 1940s and abandoned in either the 60s or 70s due to funding cuts. 
-
-Inside, the floor is collapsing around an intact podium upon which the fire finder once sat. On this podium are the initials of lovers collected over the years. Jack carves JK + MM, and I take out my pocketknife and carve MD + KW with a heart around it. 
-
-all time that ever was 
-
-is not before or after
-
-it is all beside
-
-"Oh, shit, smoke," says Jack. I turn around and stare out of the smashed windows, my gaze directed in a very particular way, and see a plume of smoke rising from behind a ridge. We agree to keep an eye on it and not hike any further. The fire appears to be coming from across the Salmon River, but we would, foolishly, be going closer to it if we continued our current route. Jack says he has a friend named Andy who is an expert with InciWeb, which is a website with information about active wildfires. We send a message using my Garmin InReach. _This is Jack. We are on Chicken Peak in view of a wildfire east of Dixie. No danger to us currently. Could you get us some info on it? _
-
-Hours pass as we watch this plume grow into a cloud and banter back and forth about our options. For a moment, the sun bursts through the smoke and beams a kaleidoscopic refraction. “Look,” says Chris, and suddenly, I am compelled back inside the deteriorating tower. I step across the floorboards, careful, so as not to trip. The panes where the windows once were making a frame around the smoke and holds the plume in place as if it were a Baroque oil painting of the crucifixion. 
-
-Standing at the fire finder, my hands rest on the podium and prepare to maneuver the alidade. I close one eye and look through the crosshairs to sight in _my_ smoke.  After all these years, there is still a pull; my gaze directed in a very particular way and for a specific purpose. 
-
-Inside of the tower, I am less afraid of the fire, but as I take my hands off the podium, my nervousness returns. “What do you think?” I ask the boys. “I guess even if there’s a five percent possibility that it’s dangerous, which is probably what we’re looking at, we should turn around,” Jack replies. I can tell that he is annoyed by me and Chris who are much more afraid of the fire spreading past the river than he is. Chis continually affirms that he is also nervous and that it would be unwise to continue hiking in the direction of the fire. Andy hasn’t responded yet, but I know Garmin satellite messages can have a delay and we could be waiting for several hours for information. 
-
-I step from the tower and swat a fly on my neck. The heat, like the smoke, has become ubiquitous and smothering. I sit down and massage my blisters. I have worn the wrong shoes for my feet which are very wide and now have the coloring of a Tancho Koi Fish. 
-
-In the spring, I interviewed a writer named Don Scheese who had lived and worked in the Frank Church as a fire lookout in the 1980s. He was stationed on Ruffneck Lookout close to the town of Stanley, Idaho. After eighteen seasons as a fire lookout, Scheese wrote a book about his experiences called _Mountains of Memory. _In his memoir, he defines _landscape _as a “modified space” which is the result of changes made to the land by humans. To Scheese, it was the people who lived in landscapes “especially the various inhabitants of the Frank Church over Millennia,'' who created them through their needs and desire. And it was them, Scheese says, “who interest me the most.”
-
-I notice something hidden in the dirt. It is a small button from a pair of Levis jeans. I pick it up and examine it. The metal is degraded enough that it could be twenty, even thirty, years old. Perhaps it was dropped while someone struggled with their trousers in the 1980s, and at the same time, Don Scheese sat on Ruffneck Peak looking out over the same landscape that I am now watching over. I clasp the button tightly and slide it into my pocket. 
-
-My Garmin rings and announces Andy’s response that comes through in limited character segments: 
-
-_Planned Actions: “Today, Aviation and ground resources are continuing structure protection work and improving the roads and fuel breaks near the community.” _
-
-_Projected Incident Activity: “The fire has continued to burn actively and spread in all directions, and fire managers are anticipating that it will continue today under current conditions.” _
-
-_Also, an hour ago they posted an Area Closure for the Dixie Jumbo Area. _
-
-_Looks like there might be another fire a little west of Dixie near Buffalo Hump. _
-
-_From InciWeb: “The Dixie Jumbo Fire is located 40 miles southeast of Grangeville, Idaho and 15 miles south of Elk City, Idaho. It is_
-
-_Located on the Nez Perce-Clearwater National Forest Red River Ranger District. It was detected on the afternoon of July 5, 2021.” _
-
-Our decision is made; the fire is uncontained and spreading in all directions, and even though there is a river and a ridgeline between it and our destination, we would be foolish not to turn around. Sheepeater remains a mystery. Packing my bag, I take out my binoculars, and stare at the lookout: it is a _Stranger_, on a ridge that is obscured by smoke, just out of reach. 
-
-_________ 
-
-Beginning in the Frank Church Wilderness, Jack, Chris, and I have spent the last two weeks traveling across Idaho taking photos of fire lookouts and interviewing those who work on still active sites. We are beat up and tired, our skin is leathery, and our lips are cracking from the drastic shifts in elevation. We, along with my partner Kourtnie, who has driven down to the Lochsa country of central Idaho to meet us, are hiking to Diablo Peak where Bill Moore spends two weeks a year as a lookout. Like Pam, Bill runs a volunteer program for lookouts that provides an additional level of fire reduction and helps keep the tradition of lookouts alive.
-
-Bill Moore is the son of the late Lochsa district ranger and activist Bud Moore, who implemented a _multiple-use_ policy in the Selway-Bitterroot Wilderness. Multiple-use policy aims to manage competing needs and values to achieve ecosystem health alongside human society’s economic demands. Bud was one of the first lookouts in this part of the country, having spent several seasons on McConnell Mountain which is just over the ridge from Diablo. 
-
-The story goes that Bud began his tenure with the Forest Service as a lookout and smoke chaser. He was stationed at McConnell Mountain in 1922 where he stayed for several years and immediately found a flaw in the Forest Service’s outfit: during lightning storms, he was confined to a cabin below the tree line which had been outfitted to withstand strikes. Out of rocks, Bud constructed a small tower higher up that had a cupola design, where he would watch for strikes during summer storms. From this vantage point, he made notations about strike locations and improved his overall accuracy and effectiveness as a fire lookout. When the district ranger came to check on Bud, he was impressed with his design and ordered a fire lookout be built in place of the rock pile. 
-
-Bud left the Selway-Bitterroot to fight in World War II but returned and became district ranger in the early-1950s. During this time, McConnell was an active lookout that helped to reinforce the Forest Service’s infamous 10 a.m. policy. All fires, the Forest Service proclaimed, were to be exterminated by 10 a.m. the following morning. However, with the signing of The Wilderness Act of 1964, the Selway-Bitterroot was officially designated protected Wilderness, which meant that a new set of fire policies were put in place, from total fire suppression to wildfire as prescribed burn.
-
-In a sense, Bud always recognized that he may have done more harm than good by enforcing certain policies. This includes spraying DDT to kill pine beetles and wood worms, and systematically starving soils of nitrogenous material and amassing huge fuel loads that still feed anthropogenic forest fires to this day. Regardless, what I respect most about Bud is that he often admitted these shortcomings and proposed different modeling for management that imagined more ideal environmental futures; these futures that prioritize not just human wellbeing, but the wellbeing of the Lochsa and Selway Rivers, and the rivers that they flow into and become, as well as the wellbeing of the grizzly bear which was almost eradicated from the Lochsa Ranger District due to dam construction and overhunting, and of the wellbeing of myriad existences that are essential to life’s nuance, not just for the obvious aesthetic, philosophical, and recreational benefits but in order to create biodiversity which benefits all living things.
-
-In the end, lightning escaped from the sky and ignites a wildfire five miles from Bud’s old rock pile and three days later the now-decommissioned McConnell Mountain fire lookout burned down. Bill once wrote that Bud, who passed away in 2010, would not be sad because “the story is a lesson about the circle of life and death in the Wilderness world.” 
-
-
-INCLUDE IMAGE --> Michael Decker and Bill Moore on Diablo Peak 
-Photo by Chris Lamb
-
-“Bill!” I call out as the shape of Diablo’s lookout tower materializes through the ubiquitous wildfire smoke. I see a fluorescent work shirt make its way over a ridge and a pale hand wave howdy. Bill is a septuagenarian who moves slowly but confidently; it is the result of a life spent hiking and living in a big open country. He smiles an honest, crooked smile that, to me, is the stuff of life and makes me feel at home. He invites us up to the cabin and brews a pot of coffee that effortlessly creates hospitality, and which prompts conversation in the way only a pot of coffee shared among friends can.  
-
-The tower is full of books and gear that lookouts have left over the years. The design of most towers is the same: a propane stove, small refrigerator, wooden framed bed, and shelving around the ceiling for holding canned goods and books. A map of the tower’s seen area is attached to a wooden board that folds down from the ceiling above the bed, and that can be used in conjunction with the fire finder. Most of the tower’s belongings are somewhat antiquated; however, there are the signs of modern times as well: a Garmin InReach on which I glanced a message asking Bill if he had been evacuated yet (as there are several fires burning near the tower), his iPhone that he uses to snap a portrait of our team, and a newer REI backpack near the bed. 
-
-“Could you really quickly give us a three-sixty view here?” Chris begins the interview. Bill chuckles and points his finger to the east. “I’m not sure how to put it. We’re sitting on the ridge between the Selway drainage and the Lochsa drainage. So you got Big Fog lakes up here in the fog or the smoke. You can just see the tail end of it. It’s about a mile long and has a sand bar at one end. Wonderful fishing. You come up over this ridgetop here, that’s Genette Mountain. You go down into Little Moose Crick and that’s Dead Elk Point right there. There’s a little low one called Footstool.  Go down this way and that’s Goat Lakes. Behind them is Wahoo Point and Battle Creek Ridge. That is all in what used to be the Nez Perce National Forest. It’s now the Clearwater-Nez. Then you go around this corner where the smoke is really heavy and that's Elbow Bend. Between Elbow Bend and that corner is a huge old-growth cedar grove that was written up in the National Geographic in 1935. That ridge that’s coming down like that is Maple Ridge. There’s a little mountain range called the Graves Range, and right out there is Graves Peak.”
-
-As Bill describes the landscape, he oscillates his body from left to right, creating an arc of the horizon along an azimuth that traces a three-hundred-and-sixty-degree trajectory, his tinted glasses all but revealing the squinting of one eye to identify the landmarks through an internalized parallax view. The other striking thing is that we cannot see any of these places that Bill talks about; the smoke is too thick for that. From the tower, the landscape appears as a white purgatory upon which nothing can be discerned; it is a _strange_ canvas which defamiliarizes the familiar. However, Bill is sure to point out that this smoke indicates that something natural is occurring on the landscape, and that the high-visibility days of his and Bud’s early time as fire lookouts was the result of “Smokey the Bear'' or a euphemism for the Forest Service's 10 a.m. policy. 
-
-We sit around for hours talking about Bill’s stories, and he goes into extensive detail about his father’s work in the district. He has interesting ways of pronouncing words; Diablo, for instance, is pronounced “die-ablo.” I also notice though that there is a childlike essence to Bill. Though time has aged him, I have no problem imagining him young, and when he talks about Bud, he always refers to him as “Pops.” Bill celebrates his dad, but there is a pain in his voice that reminds me of the “circle” he uses to describe the old McConnell lookout. I can tell that he misses his pops. Storytellers like Bill, and the rest of us, really, see the world through an aggregation of experience. Places do not, to the human, exist in isolation of memory, and perhaps with the exception of the Nez Perce who were born from this land, Bill and Bud are as infused with the landscape as anyone. 
-
-In his 1996 book _The Lochsa Story: Land Ethics in the Bitterroot Mountains, _Bud tells the story of himself as a young trapper on his first solo trip into the Bitterroots. Near a small lake in the valley of the Brushy Fork, Bud comes face-to-face with a large grizzly bear, a species that was already on its way out in the area. Frozen with fear each stares into the face of the Other and the human and bear come to an understanding as Bud says, that “[t]he forest belonged to the bear, but the meadow was mine; so I camped at its edge beneath thick-limbed spruces that would shield my blanket from the frost.” This confrontation becomes central to the land ethics that Bud presents in his book, and how he frames multiple-use theory as a viable management path forward; the idea that he and the Grizzly can come to an agreement to live out their separate existences becomes, like American democracy, a doubtful and challenging idealization that is still worthy of pursuit. 
-
-Some say that the fire lookout gives those who can stay on them a_ long view_, not just in-terms of a twenty-five-mile radius around the tower, but a view that looks deep into the past and future; and like the tower’s view, Bud believed that the remnants of his encounter with the bear–“[his] boot prints mingled with the grizzly tracks on the trail”—say something about where it is we have come from, and where it is we are going, like the light of a distant star glimpsed from a lookout during the night, at once happening and already having happened. 
-
-We thank Bill for his hospitality and for sharing stories about his time on Diablo Peak and of his father. Our camera and recording gear packed, we headed down the trail. I was euphoric on the hike down, thinking about my last month traveling to different cabins and towers, and the feeling of having my own lookout and fire finder. I remember the ruins of Chicken Peak, and the uncanniness of the podium upon which once sat a fire finder identical to the one I used on Sundance. Most of all, I think about the intersection of all these things, and the culmination of a land ethic that is rooted in a deep sense of space and place and accounts for large stretches of time. Bud seems to have taken on the project accounting for the past, present, and future of a place that never fully reveals itself to him. 
-
-Driving away from Diablo’s trailhead, I look at the small roadside creeks that are dry from drought. Bud wrote extensively about the impact of roads on watersheds. I am traveling along a troubled history as an orange diamond and a gate appear. We inch the car past and get out. “AREA CLOSED DUE TO WILDFIRE. NO ACCESS.” Below the sign are current conditions of the nearby Lolo fires that according to this map have grown. Back in the car, I turn around and watch the sign fade to white as the tower feels more like a dream I have just woken from. 
-
 _________ 
 
 I open my eyes up on Sundance to a white sun, drink coffee from my percolator, and feed Trout his kibble. There is not much to do today, which is a perk of the job. Trout manages to run around the deck a few times without falling to his death, and I scan for signs of fire. Inside, I open a can of corned beef hash and sip my coffee, journal, and try to make sense of my surroundings. A copy of William Cronon’s edited collection _Uncommon Ground _unfolds in my hands. 
