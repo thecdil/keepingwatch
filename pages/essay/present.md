@@ -62,6 +62,7 @@ There is something innate in human psychology that causes this transposition and
 INCLUDE IMAGE --> The Stadel Lion Man
 
 I put down _Blue Highways _and turn off my headlamp, get out of my sleeping bag, and walk to the window. Trout briefly lifts his head but falls back asleep. Between the inside of the cabin and the night sky, the windows and propane lamp transpose my face onto the universe. I walk to the deck and suddenly all that remains is black plasma where my face was.
+
 _________ 
 
 I open my eyes up on Sundance to a white sun, drink coffee from my percolator, and feed Trout his kibble. There is not much to do today, which is a perk of the job. Trout manages to run around the deck a few times without falling to his death, and I scan for signs of fire. Inside, I open a can of corned beef hash and sip my coffee, journal, and try to make sense of my surroundings. A copy of William Cronon’s edited collection _Uncommon Ground _unfolds in my hands. 
