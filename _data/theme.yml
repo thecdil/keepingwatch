@@ -92,10 +92,10 @@ font-cdn: <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&fam
 # the template uses Bootstrap Icons, https://icons.getbootstrap.com/
 # find the names on the BI icons page, e.g. file-image
 #
-# icons: 
-#   icon-image: image
-#   icon-audio: file-play
-#   icon-video: film
-#   icon-pdf: file-richtext
-#   icon-default: file-earmark # fall back icon
+icons: 
+  icon-image: image
+  icon-audio: file-play
+  icon-video: film
+  icon-pdf: file-richtext
+  icon-default: firetower # fall back icon
 
