@@ -43,7 +43,8 @@ The Osborne Fire Finder was primarily manufactured between the years 1920 and 19
 
 Why did federal and state governments and timber protection agencies (the latter usually funded by private logging companies) decide to bring back the human-staffed fire lookout? I can think of many reasons why we _should_ have them. Maybe, we could staff these towers with students from underserved school districts who historically have little access to _wild_ places. I use “wild” according to the wording of the Wilderness Act of 1964 as “a place where man is but a visitor […]” Agencies could pay a rate suitable for high school or college students and give them the opportunity to live and work in beautiful scenic places, and thus increase public attachment to wilderness. As for management, shouldn’t we be physically present in the places we are managing rather than making decisions from a God’s-eye-view? _What is lost_ we asked the lookout, they replied, _a sense of continuity_.
 
-INCLUDE IMAGE --> Osborne Fire Finder at Sundance Lookout
+![Alt text](https://github.com/thecdil/keepingwatch/blob/main/objects/essay_pic_1.png) 
+Osborne Fire Finder at Sundance Lookout
 
 To my East is a checkerboard of logging sites on state forest land, to my north is the batholith of the Selkirk Crest, and to my west are the towns of Coolin and Nordman. I close my eyes for a moment and open them. Briefly, there is no Idaho Department of Lands, no Forest Service, no Bureau of Land Management, no Idaho Forest Group, no Jack Kredell, no Chris Lamb, no Michael Decker.     
 
