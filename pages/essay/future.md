@@ -21,7 +21,7 @@ In a sense, Bud always recognized that he may have done more harm than good by e
 
 In the end, lightning escaped from the sky and ignites a wildfire five miles from Bud’s old rock pile and three days later the now-decommissioned McConnell Mountain fire lookout burned down. Bill once wrote that Bud, who passed away in 2010, would not be sad because “the story is a lesson about the circle of life and death in the Wilderness world.” 
 
-<img src="https://github.com/thecdil/keepingwatch/blob/main/objects/essay_pic_1.png" 
+![Alt text](https://github.com/thecdil/keepingwatch/blob/main/objects/essay_pic_1.png)"
 Michael Decker and Bill Moore on Diablo Peak 
 Photo by Chris Lamb
 
