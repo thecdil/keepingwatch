@@ -59,7 +59,8 @@ Heat-Moon looks out of Ghost Dancing and sees himself reflected in the pellucidi
 
 There is something innate in human psychology that causes this transposition and is likely due to mutations in our brains that occurred around the cognitive revolution. The earliest human art ever discovered is a forty-thousand-year-old ivory statue of a lion with the body of a human, which is an example of early homo-sapiens ability to manipulate the material world and to render it, creatively, in ways that do not exist, at least in a literal sense. We imagine new realities; realities like the one I am helping perpetuate in which wildland fire is controlled for human purposes, and that is symbolized by a bear who stands erect and wears clothes like a human. 
 
-INCLUDE IMAGE --> The Stadel Lion Man
+![Alt text](https://github.com/thecdil/keepingwatch/blob/main/objects/essay_pic_2.png)
+Stadel Lion Man Circa 38,000 BCE
 
 I put down _Blue Highways_ and turn off my headlamp, get out of my sleeping bag, and walk to the window. Trout briefly lifts his head but falls back asleep. Between the inside of the cabin and the night sky, the windows and propane lamp transpose my face onto the universe. I walk to the deck and suddenly all that remains is black plasma where my face was.
 
