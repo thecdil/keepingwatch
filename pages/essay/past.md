@@ -27,6 +27,8 @@ it is all beside
 
 "Oh, shit, smoke," says Jack. I turn around and stare out of the smashed windows, my gaze directed in a very particular way, and see a plume of smoke rising from behind a ridge. We agree to keep an eye on it and not hike any further. The fire appears to be coming from across the Salmon River, but we would, foolishly, be going closer to it if we continued our current route. Jack says he has a friend named Andy who is an expert with InciWeb, which is a website with information about active wildfires. We send a message using my Garmin InReach. _This is Jack. We are on Chicken Peak in view of a wildfire east of Dixie. No danger to us currently. Could you get us some info on it?_
 
+{% include feature/video.html objectid="chicken-peak002" width="50" %}
+
 Hours pass as we watch this plume grow into a cloud and banter back and forth about our options. For a moment, the sun bursts through the smoke and beams a kaleidoscopic refraction. “Look,” says Chris, and suddenly, I am compelled back inside the deteriorating tower. I step across the floorboards, careful, so as not to trip. The panes where the windows once were making a frame around the smoke and holds the plume in place as if it were a Baroque oil painting of the crucifixion. 
 
 Standing at the fire finder, my hands rest on the podium and prepare to maneuver the alidade. I close one eye and look through the crosshairs to sight in _my_ smoke.  After all these years, there is still a pull; my gaze directed in a very particular way and for a specific purpose. 
