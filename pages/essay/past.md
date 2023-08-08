@@ -42,6 +42,8 @@ I step from the tower and swat a fly on my neck. The heat, like the smoke, has b
 
 In the spring, I interviewed a writer named Don Scheese who had lived and worked in the Frank Church as a fire lookout in the 1980s. He was stationed on Ruffneck Lookout close to the town of Stanley, Idaho. After eighteen seasons as a fire lookout, Scheese wrote a book about his experiences called _Mountains of Memory_. In his memoir, he defines landscape as a “modified space” which is the result of changes made to the land by humans. To Scheese, it was the people who lived in landscapes “especially the various inhabitants of the Frank Church over Millennia,'' who created them through their needs and desire. And it was them, Scheese says, “who interest me the most.”
 
+{% include feature/video.html objectid="roughneck-peak0007" width="50" start="1:58" %}
+
 I notice something hidden in the dirt. It is a small button from a pair of Levis jeans. I pick it up and examine it. The metal is degraded enough that it could be twenty, even thirty, years old. Perhaps it was dropped while someone struggled with their trousers in the 1980s, and at the same time, Don Scheese sat on Ruffneck Peak looking out over the same landscape that I am now watching over. I clasp the button tightly and slide it into my pocket. 
 
 My Garmin rings and announces Andy’s response that comes through in limited character segments: 
