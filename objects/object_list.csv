@@ -7,6 +7,9 @@ object_location,image_small,image_thumb
 /objects/cold_mountain.jpg,/objects/small/cold_mountain_sm.jpg,/objects/thumbs/cold_mountain_th.jpg
 /objects/cold_mountain_theta.JPG,/objects/small/cold_mountain_theta_sm.jpg,/objects/thumbs/cold_mountain_theta_th.jpg
 /objects/diablo_theta.JPG,/objects/small/diablo_theta_sm.jpg,/objects/thumbs/diablo_theta_th.jpg
+/objects/essay_pic_1.png,/objects/small/essay_pic_1_sm.jpg,/objects/thumbs/essay_pic_1_th.jpg
+/objects/essay_pic_2.png,/objects/small/essay_pic_2_sm.jpg,/objects/thumbs/essay_pic_2_th.jpg
+/objects/essay_pic_3.png,/objects/small/essay_pic_3_sm.jpg,/objects/thumbs/essay_pic_3_th.jpg
 /objects/firetower.png,/objects/small/firetower_sm.jpg,/objects/thumbs/firetower_th.jpg
 /objects/hells_half_theta.JPG,/objects/small/hells_half_theta_sm.jpg,/objects/thumbs/hells_half_theta_th.jpg
 /objects/holm_shot_cold_mountain.jpg,/objects/small/holm_shot_cold_mountain_sm.jpg,/objects/thumbs/holm_shot_cold_mountain_th.jpg
@@ -22,6 +25,7 @@ object_location,image_small,image_thumb
 /objects/roughneck-theta1.jpg,/objects/small/roughneck-theta1_sm.jpg,/objects/thumbs/roughneck-theta1_th.jpg
 /objects/roughneck-theta2.jpg,/objects/small/roughneck-theta2_sm.jpg,/objects/thumbs/roughneck-theta2_th.jpg
 /objects/roughneck-theta3.jpg,/objects/small/roughneck-theta3_sm.jpg,/objects/thumbs/roughneck-theta3_th.jpg
+/objects/sheep_hill.JPG,/objects/small/sheep_hill_sm.jpg,/objects/thumbs/sheep_hill_th.jpg
 /objects/sheepeater_construction.jpg,/objects/small/sheepeater_construction_sm.jpg,/objects/thumbs/sheepeater_construction_th.jpg
 /objects/sheepeater_lookout_circa_1912.JPG,/objects/small/sheepeater_lookout_circa_1912_sm.jpg,/objects/thumbs/sheepeater_lookout_circa_1912_th.jpg
 /objects/spot_theta.jpg,/objects/small/spot_theta_sm.jpg,/objects/thumbs/spot_theta_th.jpg
