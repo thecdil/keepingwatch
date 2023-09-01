@@ -3,8 +3,6 @@ title: The Future
 permalink: essay/future.html
 layout: about
 ---
-<!-- Output copied to clipboard! -->
-
 ## The Future
 
 By Michael Decker
@@ -21,9 +19,8 @@ In a sense, Bud always recognized that he may have done more harm than good by e
 
 In the end, lightning escaped from the sky and ignites a wildfire five miles from Bud’s old rock pile and three days later the now-decommissioned McConnell Mountain fire lookout burned down. Bill once wrote that Bud, who passed away in 2010, would not be sad because “the story is a lesson about the circle of life and death in the Wilderness world.” 
 
-{% include feature/image.html objectid="https://github.com/thecdil/keepingwatch/blob/4b2a05e9b9225f4d8efccb81778c89f306402c98/objects/essay_pic_3.png" width="50" %}
-Michael Decker and Bill Moore on Diablo Peak 
-Photo by Chris Lamb
+{% include feature/image.html objectid="diablo-mountain008" width="50" caption="Michael Decker and Bill Moore on Diablo Peak<br>Photo by Chris Lamb"%}
+
 
 “Bill!” I call out as the shape of Diablo’s lookout tower materializes through the ubiquitous wildfire smoke. I see a fluorescent work shirt make its way over a ridge and a pale hand wave howdy. Bill is a septuagenarian who moves slowly but confidently; it is the result of a life spent hiking and living in a big open country. He smiles an honest, crooked smile that, to me, is the stuff of life and makes me feel at home. He invites us up to the cabin and brews a pot of coffee that effortlessly creates hospitality, and which prompts conversation in the way only a pot of coffee shared among friends can.  
 

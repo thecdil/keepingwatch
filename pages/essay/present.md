@@ -3,8 +3,6 @@ title: Present Day
 permalink: essay/present.html
 layout: about
 ---
-<!-- Output copied to clipboard! -->
-
 ## Present Day
 
 By Michael Decker
@@ -27,11 +25,13 @@ I am setting out on a pilgrimage to a temple high in the mountains like in the b
 
 On the road to Sundance, I look at my Idaho Department of Lands shirt, the government truck, and a black highway leading me like a river to a tower high in the Selkirk Mountains. Below me already are the constructed dreams of America’s wealthy. It feels _economical_ as the truck kicks up dust and I climb the poorly maintained service road; the all-terrain tires tested by sharp rocks while the undercarriage passes narrowly over deep ruts and boulders. I forget to shift into four-wheel drive and, briefly, the truck’s tires spin free on the steep slope. Trout sits up abruptly and observes the situation. _Don’t worry, Bud._
 
+<p class="pl-4">
 behind a red truck
-
+<br>
 dust passes through white sun beams
-
+<br>
 above a blue lake
+</p>
 
 The burn scar is the first thing I notice when cresting the peak of Sundance Mountain and despite vegetation from over half-a-century of regeneration, its appearance is noticeably stunted compared to nearby mountain slopes. The heat is thick like syrup as I close the truck door and wave to the lookout being relieved from duty. Her two dogs run to the edge of the fifty-foot-tall tower. Trout looks at them uninterested. There is no barking. The other lookout waves back.
 
@@ -42,7 +42,9 @@ In the center of the tower is a podium on which sits a large steel table holding
 The Osborne Fire Finder was primarily manufactured between the years 1920 and 1935 by Leopold and Stevens, a telescope manufacturing company, which thereafter also produced replacement parts until 1975, halting production because new fire detection methods had more-or-less made the fire finder obsolete. After a substantial increase in wildfires in the late-90s and early-00s, the federal government contracted with a new manufacturer, San Dimas and Technology Center, to resupply fire lookouts with Osbornes, and to produce replacement parts as needed.
 
 {% include feature/image.html objectid="sundance-mountain002" width="50" %} 
-<br>Osborne Fire Finder at Sundance Lookout
+
+{% include feature/image.html objectid="sundance-mountain004" %}
+
 
 Why did federal and state governments and timber protection agencies (the latter usually funded by private logging companies) decide to bring back the human-staffed fire lookout? I can think of many reasons why we _should_ have them. Maybe, we could staff these towers with students from underserved school districts who historically have little access to _wild_ places. I use “wild” according to the wording of the Wilderness Act of 1964 as “a place where man is but a visitor […]” Agencies could pay a rate suitable for high school or college students and give them the opportunity to live and work in beautiful scenic places, and thus increase public attachment to wilderness. As for management, shouldn’t we be physically present in the places we are managing rather than making decisions from a God’s-eye-view? _What is lost_ we asked the lookout, they replied, _a sense of continuity_.
 
@@ -62,8 +64,7 @@ Heat-Moon looks out of Ghost Dancing and sees himself reflected in the pellucidi
 
 There is something innate in human psychology that causes this transposition and is likely due to mutations in our brains that occurred around the cognitive revolution. The earliest human art ever discovered is a forty-thousand-year-old ivory statue of a lion with the body of a human, which is an example of early homo-sapiens ability to manipulate the material world and to render it, creatively, in ways that do not exist, at least in a literal sense. We imagine new realities; realities like the one I am helping perpetuate in which wildland fire is controlled for human purposes, and that is symbolized by a bear who stands erect and wears clothes like a human. 
 
-![Alt text](https://github.com/thecdil/keepingwatch/blob/main/objects/essay_pic_2.png)
-<br>Stadel Lion Man Circa 38,000 BCE
+{% include feature/image.html objectid="sundance-mountain005" %}
 
 I put down _Blue Highways_ and turn off my headlamp, get out of my sleeping bag, and walk to the window. Trout briefly lifts his head but falls back asleep. Between the inside of the cabin and the night sky, the windows and propane lamp transpose my face onto the universe. I walk to the deck and suddenly all that remains is black plasma where my face was.
 
