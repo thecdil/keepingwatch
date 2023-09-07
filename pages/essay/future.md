@@ -38,7 +38,7 @@ In his 1996 book _The Lochsa Story: Land Ethics in the Bitterroot Mountains_, Bu
 
 Some say that the fire lookout gives those who can stay on them a _long view_, not just in-terms of a twenty-five-mile radius around the tower, but a view that looks deep into the past and future; and like the tower’s view, Bud believed that the remnants of his encounter with the bear–“[his] boot prints mingled with the grizzly tracks on the trail”—say something about where it is we have come from, and where it is we are going, like the light of a distant star glimpsed from a lookout during the night, at once happening and already having happened. 
 
-{% include feature/video.html objectid="cold-mountain-lookout005" width="50" start="" %}
+{% include feature/video.html objectid="cold-mountain-lookout005" width="50" start="00:05" %}
 
 We thank Bill for his hospitality and for sharing stories about his time on Diablo Peak and of his father. Our camera and recording gear packed, we headed down the trail. I was euphoric on the hike down, thinking about my last month traveling to different cabins and towers, and the feeling of having my own lookout and fire finder. I remember the ruins of Chicken Peak, and the uncanniness of the podium upon which once sat a fire finder identical to the one I used on Sundance. Most of all, I think about the intersection of all these things, and the culmination of a land ethic that is rooted in a deep sense of space and place and accounts for large stretches of time. Bud seems to have taken on the project accounting for the past, present, and future of a place that never fully reveals itself to him. 
 
