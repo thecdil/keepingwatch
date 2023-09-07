@@ -43,8 +43,6 @@ In the center of the tower is a podium on which sits a large steel table holding
 
 The Osborne Fire Finder was primarily manufactured between the years 1920 and 1935 by Leopold and Stevens, a telescope manufacturing company, which thereafter also produced replacement parts until 1975, halting production because new fire detection methods had more-or-less made the fire finder obsolete. After a substantial increase in wildfires in the late-90s and early-00s, the federal government contracted with a new manufacturer, San Dimas and Technology Center, to resupply fire lookouts with Osbornes, and to produce replacement parts as needed.
 
-{% include feature/image.html objectid="sundance-mountain002" width="50" %} 
-
 Why did federal and state governments and timber protection agencies (the latter usually funded by private logging companies) decide to bring back the human-staffed fire lookout? I can think of many reasons why we _should_ have them. Maybe, we could staff these towers with students from underserved school districts who historically have little access to _wild_ places. I use “wild” according to the wording of the Wilderness Act of 1964 as “a place where man is but a visitor […]” Agencies could pay a rate suitable for high school or college students and give them the opportunity to live and work in beautiful scenic places, and thus increase public attachment to wilderness. As for management, shouldn’t we be physically present in the places we are managing rather than making decisions from a God’s-eye-view? _What is lost_ we asked the lookout, they replied, _a sense of continuity_.
 
 {% include feature/video.html objectid="roughneck-peak003" width="50" start="00:03:12" %}
@@ -54,6 +52,8 @@ To my East is a checkerboard of logging sites on state forest land, to my north 
 Through the window, a breeze sneaks in. It’s about 15 degrees cooler on the tower than in the valley. The bear grass makes the air smell sweet, and the last patches of snow are melting at a perceptible rate. There is a pine snag on a nearby ridge to my southeast standing in an otherwise healthy forest, and below it the highwater mark of evening inches closer. I fixate on the steadiness of this pull between night and day. The sun’s geometry positions the tree at the fulcrum of light and dark. I glance at my phone: 7:38 p.m.
 
 The sun dips behind the mountains. The evening neon radiates through bars of smoke rising above the Selkirks and a stratum of cosmic ozone and geology slowly dims into the night sky. Venus appears to my West. The universe flickers on. The Milky Way swirls like a parking lot oil stain as I lie in bed reading William Least Heat-Moon’s _Blue Highways._
+
+{% include feature/image.html objectid="sundance-mountain002" width="50" %} 
 
 _Blue Highways’_ premise is that a young Heat-Moon has lost his English lectureship and his marriage is dissolving. Devastated, he sets out like Matsuo Bashō on a pilgrimage, and designs a circular journey—like the Uroboros—that travels from New England and through the southwestern United States, into the Pacific Northwest, and veers east again. The only discernible destination is where he began. The trip is taken in a green Astrovan that he names Ghost Dancing after the Native American ritual which foretold the return of departed spirits and the end of colonial expansion.
 
