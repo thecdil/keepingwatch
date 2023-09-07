@@ -39,12 +39,11 @@ Inside the tower I inspect my new home which has a dish sink, propane stove, and
 
 In the center of the tower is a podium on which sits a large steel table holding the Osborne Fire Finder. Lookouts use this device to precisely locate fires. It has a three-hundred-and-sixty-degree alidade surrounding a map with the fire tower at its center. The Osborne is used to call in the location of a smoke using degrees and minutes that are communicated to a fire dispatcher over the two-way radio system installed below the podium. 
 
+{% include feature/image.html objectid="sundance-mountain004" width="50" %}
+
 The Osborne Fire Finder was primarily manufactured between the years 1920 and 1935 by Leopold and Stevens, a telescope manufacturing company, which thereafter also produced replacement parts until 1975, halting production because new fire detection methods had more-or-less made the fire finder obsolete. After a substantial increase in wildfires in the late-90s and early-00s, the federal government contracted with a new manufacturer, San Dimas and Technology Center, to resupply fire lookouts with Osbornes, and to produce replacement parts as needed.
 
 {% include feature/image.html objectid="sundance-mountain002" width="50" %} 
-
-{% include feature/image.html objectid="sundance-mountain004" %}
-
 
 Why did federal and state governments and timber protection agencies (the latter usually funded by private logging companies) decide to bring back the human-staffed fire lookout? I can think of many reasons why we _should_ have them. Maybe, we could staff these towers with students from underserved school districts who historically have little access to _wild_ places. I use “wild” according to the wording of the Wilderness Act of 1964 as “a place where man is but a visitor […]” Agencies could pay a rate suitable for high school or college students and give them the opportunity to live and work in beautiful scenic places, and thus increase public attachment to wilderness. As for management, shouldn’t we be physically present in the places we are managing rather than making decisions from a God’s-eye-view? _What is lost_ we asked the lookout, they replied, _a sense of continuity_.
 
