@@ -9,6 +9,7 @@ custom-foot: "js/simple-map-js.html"
 {% assign videos = children | where_exp: 'item','item.display_template contains "video"' %}
 {% assign panoramas = children | where_exp: 'item','item.display_template contains "panorama"' %}
 {% assign images = children | where_exp: 'item','item.display_template contains "image"' %}
+{% assign pdfs = children | where_exp: 'item','item.display_template contains "pdf"' %}
 {% assign tower = page.objectid %}
 
 <style>
@@ -51,7 +52,10 @@ custom-foot: "js/simple-map-js.html"
             <p class="ms-3">
                {% if videos.size > 0 %} {% include feature/button.html text="Videos" link="#videos" color="outline-info btn-lg m-2" %}{% endif %}
                {% if panoramas.size > 0%}  {% include feature/button.html text="Panoramas" link="#panoramas" color="outline-info btn-lg m-2" %}{% endif %}
-               {% if images.size > 0 %}  {% include feature/button.html text="Images" link="#images" color="outline-info btn-lg m-2" %}{% endif %}
+               {% if images.size > 0 %}  {% include feature/button.html text="Images" link="#images" color="outline-info btn-lg m-2" %}
+               {% endif %}
+               {% if pdfs.size > 0 %}  {% include feature/button.html text="PDFs" link="#pdfs" color="outline-info btn-lg m-2" %}
+               {% endif %}
 
             </p>
         </div>
@@ -101,10 +105,19 @@ custom-foot: "js/simple-map-js.html"
     <div class="row" id="images">
         <div class="col-md-6 offset-md-3 p-4" id="images">
 
-            {%- assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
             {% for i in images %}
             <div class="my-3 p-3 mx-auto text-center">
                 {% include feature/image.html objectid=i.objectid%}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="row" id="pdfs">
+        <div class="col-md-6 offset-md-3 p-4" id="images">
+
+            {% for p in pdfs %}
+            <div class="my-3 p-3 mx-auto text-center">
+                {% include feature/pdf.html objectid=p.objectid%}
             </div>
             {% endfor %}
         </div>
