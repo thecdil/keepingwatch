@@ -2,6 +2,7 @@ display_name,stub,dropdown_parent
 Home,/,
 Browse,/browse.html,
 About,/about.html,
+Subjects,/subjects.html,
 Essays,,
 Past,/essay/past.html,Essays
 Present,/essay/present.html,Essays

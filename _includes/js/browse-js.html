@@ -1,4 +1,4 @@
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.display_template == "firetower"' -%}
+{%- assign items = site.data[site.metadata] -%}
 {%- assign fields = site.data.config-browse -%}
 <script>
 
