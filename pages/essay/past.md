@@ -37,7 +37,7 @@ it is all beside
 
 Hours pass as we watch this plume grow into a cloud and banter back and forth about our options. For a moment, the sun bursts through the smoke and beams a kaleidoscopic refraction. “Look,” says Chris, and suddenly, I am compelled back inside the deteriorating tower. I step across the floorboards, careful, so as not to trip. The panes where the windows once were making a frame around the smoke and holds the plume in place as if it were a Baroque oil painting of the crucifixion. 
 
-Standing at the fire finder, my hands rest on the podium and prepare to maneuver the alidade. I close one eye and look through the crosshairs to sight in _my_ smoke.  After all these years, there is still a pull; my gaze directed in a very particular way and for a specific purpose. 
+Standing at the fire finder, my hands rest on the podium and prepare to maneuver the alidade. I close one eye and look through the crosshairs to sight in _my_ smoke.  After all these years, there is still a pull; my gaze is directed in a very particular way and for a specific purpose. 
 
 Inside of the tower, I am less afraid of the fire, but as I take my hands off the podium, my nervousness returns. “What do you think?” I ask the boys. “I guess even if there’s a five percent possibility that it’s dangerous, which is probably what we’re looking at, we should turn around,” Jack replies. I can tell that he is annoyed by me and Chris who are much more afraid of the fire spreading past the river than he is. Chis continually affirms that he is also nervous and that it would be unwise to continue hiking in the direction of the fire. Andy hasn’t responded yet, but I know Garmin satellite messages can have a delay and we could be waiting for several hours for information. 
 
