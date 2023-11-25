@@ -27,15 +27,7 @@ I shake their hands and thank Pam for the opportunity. She is smiling and adjust
 
 Driving, I think of Matsuo Bashō, the sixteenth century Japanese poet who traveled into Northern Japan after his house burned down. He sought out temples and other religious and political iconography as inspiration for writing haikus. The tower, after all, is a temple to the lookouts who staff them. In the spring, Jack and Chris had interviewed [two former students of Naropa University](https://keeping.onrender.com/items/pilot-peak001.html) where Allen Ginsberg and Gary Snyder, who carried on the tradition that Bashō helped make famous by writing haikus, famously taught principles of Buddhism. 
 
-On the road to Sundance, I look at my Idaho Department of Lands shirt, the government truck, and a black highway leading me like a river to a tower high in the Selkirk Mountains. Below me already are the constructed dreams of America’s wealthy. It feels _economical_ as the truck kicks up dust and I climb the poorly maintained service road; the all-terrain tires tested by sharp rocks while the undercarriage passes narrowly over deep ruts and boulders. I forget to shift into four-wheel drive and, briefly, the truck’s tires spin free on the steep slope. Trout sits up abruptly and observes the situation. _Don’t worry, Bud._
-
-<p class="pl-4">
-behind a red truck
-<br>
-dust passes through white sun beams
-<br>
-above a blue lake
-</p>
+On the road to Sundance, I look at my Idaho Department of Lands shirt, the government truck, and a black highway leading me like a river to a tower high in the Selkirk Mountains. Below me already are the constructed dreams of America’s wealthy. The truck kicks up dust, and I climb the poorly maintained service road; the all-terrain tires tested by sharp rocks while the undercarriage passes narrowly over deep ruts and boulders. I forget to shift into four-wheel drive and, briefly, the truck’s tires spin free on the steep slope. Trout sits up abruptly and observes the situation. _Don’t worry, Bud._
 
 The burn scar is the first thing I notice when cresting the peak of Sundance Mountain and despite vegetation from over half-a-century of regeneration, its appearance is noticeably stunted compared to nearby mountain slopes. The heat is thick like syrup as I close the truck door and wave to the lookout being relieved from duty. Her two dogs run to the edge of the fifty-foot-tall tower. Trout looks at them uninterested. There is no barking. The other lookout waves back.
 
