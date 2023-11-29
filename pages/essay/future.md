@@ -44,11 +44,11 @@ Think of it this way - we often live with the consequences the past whether that
 
 Lookouts, however, have also served as contemplative settings for some of the most influential environmental voices in American history: Norman Maclean, Edward Abbey, Gary Snyder, and countless environementalists who never reached large levels of social or scientific influence. Lookouts became a haven for those who wanted to escape many of the issues that colonialism gave birth to. This is the paradox of lookouts. 
 
-{% include feature/video.html objectid="cold-mountain-lookout005" width="50" start="00:05" %}
+{% include feature/video.html objectid="pilot-peak001" width="50" start="00:05" %}
 
 The modern hiking trail has undergone largely the same transformation that lookouts have which is undoubtably intertwined with shifting perceptions of Wilderness. Moor also says that "to properly understand the nature of hiking, one must trace the origins of that yearning back through those early hikers..." or to say that the modern love of hiking should be seen as a result of the dissapearnce of wild lands brought on by a totally different perspective. For example, wilderness once meant a wild and hostile place. Hiking until very recently meant to "sneak" or to "creep along." To watch from a lookout, likewise, first meant to watch over valuable stands of timber (on <a href="https://keeping.onrender.com/items/no-business-lookout.html">TPA land</a> this is more or less still true) for the purposes of suppressing fire, and yet now we may consider lookouts a place to feel connected to the land when remote technology threatens this relationship.  
 
-{% include feature/video.html objectid="pilot-peak001" width="50" start="00:01:10" %}
+{% include feature/video.html objectid="cold-mountain-lookout005" width="50" start="00:01:10" %}
 
 We thank Bill for his hospitality and for sharing stories about his time on Diablo Peak and of his father. Our camera and recording gear packed, we headed down the trail. I was euphoric on the hike down, thinking about my last month traveling to different cabins and towers, and the feeling of having my own lookout and fire finder. I remember the ruins of Chicken Peak, and the uncanniness of the podium upon which once sat a fire finder identical to the one I used on Sundance. Most of all, I think about the intersection of all these things, and the culmination of a land ethic that is rooted in a deep sense of space and place and accounts for large stretches of time. Bud seems to have taken on the project accounting for the past, present, and future of a place that never fully reveals itself to him. 
 
