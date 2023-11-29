@@ -27,7 +27,7 @@ Inside, the floor is collapsing around an intact podium upon which the fire find
 
 {% include feature/video.html objectid="chicken-peak002" width="50" start="10" %}
 
-Hours pass as we watch this plume grow into a cloud and banter back and forth about our options. For a moment, the sun bursts through the smoke and beams a kaleidoscopic refraction. “Look,” says Chris, and suddenly, I am compelled back inside the deteriorating tower. I step across the floorboards, careful, so as not to trip. The panes where the windows once were making a frame around the smoke and holds the plume in place as if it were a Baroque oil painting of the crucifixion. 
+Hours pass as we watch this plume grow into a cloud and banter back and forth about our options. For a moment, the sun bursts through the smoke and beams a kaleidoscopic refraction. “Look,” says Chris, and suddenly, I am compelled back inside the deteriorating tower. I step across the floorboards, careful, so as not to trip. The panes where the windows once were making a frame around the smoke and holds the plume in place as if it were a painting. 
 
 Standing at the fire finder, my hands rest on the podium and prepare to maneuver the alidade. I close one eye and look through the crosshairs to sight in _my_ smoke.  After all these years, there is still a pull; my gaze is directed in a very particular way and for a specific purpose. 
 
