@@ -3,57 +3,31 @@ title: Cabin Architecture
 permalink: cabin-architecture.html
 layout: about
 ---
+{% assign cabins = site.data[site.metadata] | map: "cabintype" | compact | uniq %}
+
 
 # Cabin Architecture
 
 *All cabins featured in Keeping Watch fall within one of these designs. Most cabins fall into one of three categories: D-Series, L-series, R-Series, and Aerometer Steel towers. 
 
-## R-6 
+{% for cabin in site.data.cabins %}
 
-{% include feature/image.html objectid="/objects/r6.jpg" %}
+## {{cabin.title}} 
 
+{% capture cabinimage%}{{cabin.img}}{% endcapture %}
+{% include feature/image.html objectid=cabinimage %}
+
+{{cabin.description}} 
+
+{% if cabins contains cabin.title %}
+#### Firetowers featuring this architecture
+
+{% for item in site.data[site.metadata] %}{% if item.cabintype == cabin.title %}
+- [{{item.title}}]({{ item.objectid | prepend: '/items/' | append: '.html' | relative_url }}){% endif %}{% endfor %}
+
+{% endif %}
  
-This cabin is a 15x15 foot design with a flat roof that extends over the deck to provide shade. Prior to its incorporation in 1953, the L-4 was the premier live-in cabin. R-6 cabins usually replaced L-4 cabins. 
-
-## R4-D8
-
-{% include feature/image.html objectid="/objects/r4d8.jpg" %}
-
- 
-The R4-D8 was a pre-CCC design, cable suspended, 14x14, wooden bodied cabin constructed from localized timber with a pyramid shaped metal roof. Note: this is a photo of Chicken Peak Lookout in the Frank Church River of No Return Wilderness. It is the only known example of this cabin still standing.
-
-## L-4
-
-{% include feature/image.html objectid="/objects/l4.jpg" %}
-
- 
-A 14x14 cabin design, these were the original, prefabricated live-in lookout, and were built until 1952 when afterwards the R-6 cab became the standard. L-4 cabins remain the most popular lookout design among standing cabins. 
-
-## L-5
- 
-{% include feature/image.html objectid="/objects/l5.jpg" %}
-
-These were essentially just a smaller L-4 cabin. Only a handful of these were ever built in Idaho and Montana and were typically secondary structures located below lookouts that lacked living space. Note: this is a photo of Burton Peak Lookout in the Kaniksku National Forest and is the only remaining L-5 in Idaho. 
-
-
-## L-6
- 
-{% include feature/image.html objectid="/objects/l6.jpg" %}
-
-
-A smaller version of the more popular L-4 cabins, this cabin has a 7x7 design with a wooden body. This is a relatively rare cabin. Because of its small size, living quarters were included at the base for full time lookouts. 
-
-## D-6
- 
-{% include feature/image.html objectid="/objects/d6.jpg" %}
-
-This is essentially a small house. These cabins have two floors; the first is a 12x12 living space with a ¼ size observatory. Note: this is a photograph of No Business Lookout that is one of the only remaining D-6 lookouts in the Northwest. 
-
-MC-39
- 
-{% include feature/image.html objectid="/objects/mc-39.jpg" %}
-
-Originally designed to sit on top of a steel aerometer tower, this cabin is a 7x7 design with a steel body. Many MC-39 cabins sat on towers that exceeded one-hundred feet in height—the tallest being one-hundred-and-seventy-nine feet in height. 
+{% endfor %}
 
 
 
