@@ -46,9 +46,21 @@ custom-foot: "js/simple-map-js.html"
             </div>
         </div>
 
+{% capture cabinmodaltext %}{% for cabin in site.data.cabins %}{% if cabin.title == page.cabintype %}
+<img src="{{cabin.img}}" class="img-fluid" alt="Image of a {{cabin.title}} cabin!" title="Image of a {{cabin.title}} cabin"><br><br>{{cabin.description}}{% endif %}{% endfor %}{%endcapture%}       
         <div class="col-md-6 my-2">
-            <p class="col-lg-8 ms-3 my-3">{{page.description}}</p>
+            <p class="col-lg-8 ms-3 my-3">
+                <strong>Built:</strong> {{page.built }}<br>
+                <strong>Status</strong>: {{page.status }}<br>
+                <strong>Cabin:</strong> {{ page.cabintype }} {% include feature/modal.html button="cabin type info" color="info btn-light px-2 py-0" title=page.cabintype text=cabinmodaltext %}
+                <p class="col-lg-8 ms-3 my-3">
+
+                <Strong>Other Resources:</strong><br>{{ page.otherresources }}<br>
+                {% if page.photocredit%}<Strong>Photo Credit:</strong> {{ page.photocredit }}{% endif %}
+            </p>
             
+
+
             <p class="ms-3">
                {% if videos.size > 0 %} {% include feature/button.html text="Videos" link="#videos" color="outline-info btn-lg m-2" %}{% endif %}
                {% if panoramas.size > 0%}  {% include feature/button.html text="Panoramas" link="#panoramas" color="outline-info btn-lg m-2" %}{% endif %}
