@@ -1,6 +1,8 @@
 objectid,parentid,filename,title,date,description,narrative,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement,display_template,object_location,image_small,image_thumb,built,status,cabintype,otherresources,photocredit
 anderson-butte,,,Anderson Butte,,,,,,45.88754,-115.33131,,,record,compound_object,eng,,,tower,,,,,,,,
 arctic-point,,,Arctic Point,,,,,,45.47438,-115.03868,,,record,compound_object,eng,,,tower,,,,,,,,
+associated-media,,,,,,,,,,,,,,,,,,,,,,,,,,
+associated-media001,associated-media,frank_church_plaque.JPG,,2023-02-12,Plaque remembering Idaho Senator Frank Church near Big Creek.,,Frank Church River of No Return Wilderness,Frank Church River of No Return Wilderness,,,,,image;stillimage,image/jpeg,eng,,,,/objects/frank_church_plaque.JPG,,,,,,,
 arid-peak,,,Arid Peak,,,,,,47.35911,-115.76421,,,record,compound_object,eng,,,tower,,,,,,,,
 austin-ridge,,,Austin Ridge,,,,,,46.35074,-115.67104,,,record,compound_object,eng,,,tower,,,,,,,,
 balancing-rock,,,Balancing Rock,,,,,,46.71174,-115.58719,,,record,compound_object,eng,,,tower,,,,,,,,
