@@ -17,7 +17,7 @@ Tomorrow we will begin the twenty-mile hike from Mosquito Ridge to the Tukudeka 
 
 This place's common name The Frank Church, or usually just The Church, was given after one of the key architects of the Wilderness Act of 1964, Idaho Senator Frank Church. He remains one of the most prolific progressive voices ever in Idaho politics, and one of the most accomplished establishment environmentalists in American history. As the floor speaker for the passage of the Wilderness Act, his key role in its drafting and signing into law helped create this wilderness area. The Church is the largest contiguous wilderness areas in the lower-forty-eight states, comprising roughly two-and-a-half-million acres of land.
 
-----
+{% include feature/image.html objectid="associated-media001" width="50" %}
 
 From Mosquito Ridge, the Salmon River rushes five thousand feet below and high mountain wildflowers sway in the warm, pressurized wind. There are more species than I can count or identify, really; probably mountain heather and cinquefoil, but also many, many more. On a ridge above us, [Chicken Peak](https://keeping.onrender.com/items/chicken-peak.html) must be the most unique cabin in the entire state of Idaho with its prominent roof and bright orange paint; the neon coloring helped pilots navigate over empty swaths of terrain before GPS technology. Chicken Peak is the halfway point between the Mosquito Ridge trailhead and Sheepeater Lookout. We have not been given a straight answer about its history but have gathered that it was built in the 1940s and abandoned in either the 60s or 70s due to funding cuts. 
 
