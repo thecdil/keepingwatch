@@ -61,7 +61,7 @@ I put down _Blue Highways_ and turn off my headlamp, get out of my sleeping bag,
 
 _II._
 
-I open my eyes up on Sundance to a white sun, drink coffee from my percolator, and feed Trout his kibble. There is not much to do today, which is a perk of the job. Trout manages to run around the deck a few times without falling to his death, and I scan for signs of fire. Inside, I open a can of corned beef hash and sip my coffee, journal, and try to make sense of my surroundings. In addition to _Blue Highways_, I have brought with me a copy of William Cronon's edited collection _Uncommon Ground_. 
+I open my eyes up on Sundance to a white sun, drink coffee from my percolator, and feed Trout his kibble. There is not much to do today, which is a perk of the job. Trout manages to run around the deck a few times without falling to his death, and I scan for signs of fire. Inside, I open a can of corned beef hash, sip my coffee, journal. In addition to _Blue Highways_, I have brought with me a copy of William Cronon's edited collection _Uncommon Ground_. 
 
 Cronon makes the argument that all wilderness is in fact a human creation. I think ahead to my upcoming trip to the Frank Church Wilderness with Jack and Chris. There we will hike to several lookouts, all in different states of use, and collect interviews, photos, and videos for our project, Keeping Watch. In conjunction with reading Cronon, I am interested in how the landscape of the Frank Church Wilderness, though pristine in appearance, has been shaped in profound ways by humans for thousands of years; whether this be through the remnants of Native American history or the remnants of logging and mining in the area. 
 
