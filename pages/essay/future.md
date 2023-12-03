@@ -3,7 +3,7 @@ title: The Future
 permalink: essay/future.html
 layout: about
 ---
-## The Future – Diablo Mountain
+## The Future
 
 By Michael Decker
 
