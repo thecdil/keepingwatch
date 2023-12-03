@@ -7,7 +7,7 @@ layout: about
 
 By Michael Decker
 
-I.
+_I._
 In the Department of Lands office in Nordman, Idaho, Pam, who runs a volunteer fire lookout program for the Priest Lake fire district in northern Idaho, tosses me a forest green shirt with “fire” printed in large white letters on the front. I met Pam two weeks ago on [Sundance Lookout](https://keeping.onrender.com/items/sundance-mountain.html) in the Selkirk Mountains. My colleagues, Jack Kredell and Chris Lamb, and I had recently interviewed her for Keeping Watch, an archive of interviews with current and former fire lookouts. 
 
 {% include feature/video.html objectid="sundance-mountain006" width="50" start="00:00:06" %}
@@ -58,8 +58,8 @@ Heat-Moon looks out of Ghost Dancing and sees himself reflected in the pellucidi
 
 I put down _Blue Highways_ and turn off my headlamp, get out of my sleeping bag, and walk to the window. Trout briefly lifts his head but falls back asleep. Between the inside of the cabin and the night sky, the windows and propane lamp transpose my face onto the universe. I walk to the deck and suddenly all that remains is black plasma where my face was.
 
-II.
-I open my eyes up on Sundance to a white sun, drink coffee from my percolator, and feed Trout his kibble. There is not much to do today, which is a perk of the job. Trout manages to run around the deck a few times without falling to his death, and I scan for signs of fire. Inside, I open a can of corned beef hash and sip my coffee, journal, and try to make sense of my surroundings. In addition to Blue Highways, I have brought with me a copy of William Cronon's edited collection _Uncommon Ground_. 
+_II._
+I open my eyes up on Sundance to a white sun, drink coffee from my percolator, and feed Trout his kibble. There is not much to do today, which is a perk of the job. Trout manages to run around the deck a few times without falling to his death, and I scan for signs of fire. Inside, I open a can of corned beef hash and sip my coffee, journal, and try to make sense of my surroundings. In addition to _Blue Highways_, I have brought with me a copy of William Cronon's edited collection _Uncommon Ground_. 
 
 Cronon makes the argument that all wilderness is in fact a human creation. I think ahead to my upcoming trip into the Frank Church Wilderness with Jack and Chris, and how that landscape, though pristine in appearance, has been shaped in profound ways by humans for thousands of years. 
 
@@ -67,9 +67,9 @@ Around Sundance Mountain Lookout is a triad of human settlement, managed forest,
 
 There is a long history of placing structures at the edge of an interface between the known and the unknown. For instance, in _Spell of the Sensuous_, David Abrams explains the role of magic in communities. Magicians, he says, usually have homes located at the edge of villages and that this provides a spatial symbolism for their knowledge which is situated "at the edge of the community, meditating between the human community and the larger community..." Many societies have some variation of this role where an individual is placed at an outer limit to oversee a protective function for the broader community. 
 
-Fire lookouts are placed intentionally on an interface between the _human community_ and the _larger community_. Lookouts are decommissioned on this same principle, actually; lookouts found in the center of what has now been set aside as official Wilderness, and is thus not managed as rigourously for fire, are often no longer operational. Unless they have special cultural or personal significance, they are often left to decompose back into the earth. 
+Fire lookouts are placed intentionally on an interface between the _human community_ and the _larger community_. Lookouts are decommissioned on this same principle; those found in the center of what has now been set aside as official wilderness, and is thus not managed as rigourously for fire, are often no longer operational. Unless lookouts have special cultural or personal significance, they are often left to decompose back into the earth. 
 
-The other value that some of these cabins have though are their inherent wilderness aesthetic. In the Cascade Mountains of Washington, there are many lookouts built in impossible and scenic locations on top of craggy mountain tops and are now managed by the Forest Service as first-come-first-serve shelters or even rentals. In Idaho, where we have more designated Wilderness than any other state in the lower-forty-eight, abandoned cabins freckle the interiors of these large tracks of protected land. There are indicators of the shifting wilderness perspective over the last century. Lookouts were first built not as monuments to a wilderness asthetic, but because many of these places were logging and mining meccas in the early twentieth century. 
+The other value that some of these cabins have though are their inherent wilderness aesthetic. In the Cascade Mountains of Washington, there are many lookouts built in impossible and scenic locations on top of craggy mountain tops and are now managed by the Forest Service as first-come-first-serve shelters or even rentals. In Idaho, where we have more designated wilderness than any other state in the lower-forty-eight, abandoned cabins freckle the interiors of these large tracks of protected land. On private property, some landowners have even had fire lookouts relocated and now service them as AirBnB rentals. These are indicators of the shifting wilderness perspective over the last century. Lookouts were first built not as monuments to a wilderness asthetic, but because many of these places were logging and mining meccas in the early twentieth century. 
 
 {% include feature/image.html objectid="associated-media002" width="50" %} 
 
