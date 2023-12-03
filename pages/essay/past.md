@@ -5,7 +5,7 @@ layout: about
 ---
 <!-- Output copied to clipboard! -->
 
-## The Past – Chicken Peak
+## The Past
 
 By Michael Decker
 
