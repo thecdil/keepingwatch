@@ -55,10 +55,6 @@ Making his way through the American Southwest, Heat-Moon reflects on the smells 
 
 Heat-Moon looks out of Ghost Dancing and sees himself reflected in the pellucidity of the van window, transposed onto the desert. Quoting Whitman, he describes “…the thoughtful merge of myself, and the outlet….” Seeing yourself as connected to and part of the exterior world is a common first step toward an ethical worldview that accounts for the fundamentally entangled nature of the world and cosmos, but this also means that one must see a reflection of themselves in the face of the Other to care for them. I would like to imagine the landscape of non-self in a different, less familiar way.  
 
-There is something innate in human psychology that causes this transposition of self onto non-self and is likely due to mutations in our brains that occurred around the cognitive revolution. The earliest human art ever discovered is a forty-thousand-year-old ivory statue of a lion with the body of a human, which is an example of early homo-sapiens ability to manipulate the material world and to render it, creatively, in ways that do not exist, at least in a literal sense. We imagine new realities; realities like the one I am helping perpetuate in which wildland fire is controlled for human purposes and that is symbolized by a bear who stands erect and wears clothes like a human. 
-
-{% include feature/image.html objectid="sundance-mountain005" %}
-
 I put down _Blue Highways_ and turn off my headlamp, get out of my sleeping bag, and walk to the window. Trout briefly lifts his head but falls back asleep. Between the inside of the cabin and the night sky, the windows and propane lamp transpose my face onto the universe. I walk to the deck and suddenly all that remains is black plasma where my face was.
 
 _________ 
