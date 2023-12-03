@@ -28,9 +28,7 @@ The tower is full of books and gear that lookouts have left over the years. The 
 
 “Could you really quickly give us a three-sixty view here?” Chris begins the interview. Bill chuckles and points his finger to the east. 
 
-<p class="pl-4">
 “I’m not sure how to put it. We’re sitting on the ridge between the Selway drainage and the Lochsa drainage. So you got Big Fog lakes up here in the fog or the smoke. You can just see the tail end of it. It’s about a mile long and has a sand bar at one end. Wonderful fishing. You come up over this ridgetop here, that’s Genette Mountain. You go down into Little Moose Crick and that’s Dead Elk Point right there. There’s a little low one called Footstool.  Go down this way and that’s Goat Lakes. Behind them is Wahoo Point and Battle Creek Ridge. That is all in what used to be the Nez Perce National Forest. It’s now the Clearwater-Nez. Then you go around this corner where the smoke is really heavy and that's Elbow Bend. Between Elbow Bend and that corner is a huge old-growth cedar grove that was written up in the National Geographic in 1935. That ridge that’s coming down like that is Maple Ridge. There’s a little mountain range called the Graves Range, and right out there is Graves Peak.”
-</p>
 
 {% include feature/video.html objectid="diablo-mountain005" width="50" start="57" %}
 
