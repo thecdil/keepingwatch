@@ -9,7 +9,7 @@ layout: about
 
 By Michael Decker
 
-{% include feature/image.html objectid="associated-media003" width="50" %}
+{% include feature/image.html objectid="associated-media003" width="100" %}
 
 Jack, Chris, and I have driven into the heart of the Frank Church Wilderness, seventy miles from McCall, Idaho along a dirt road, stopping only to fish the Salmon River which early settlers dubbed “the river of no return.” Drifting my caddis along the water, I think of the ghosts of the Tukudeka, a mysterious mountain tribe of Shoshone-Bannock Native Americans, colloquially known as the Sheepeaters. 
 
