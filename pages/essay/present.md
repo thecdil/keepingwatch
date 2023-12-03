@@ -3,7 +3,7 @@ title: Present Day
 permalink: essay/present.html
 layout: about
 ---
-## Present Day
+## Present Day: Sundance Mountain
 
 By Michael Decker
 
