@@ -7,6 +7,7 @@ layout: about
 
 By Michael Decker
 
+I.
 In the Department of Lands office in Nordman, Idaho, Pam, who runs a volunteer fire lookout program for the Priest Lake fire district in northern Idaho, tosses me a forest green shirt with “fire” printed in large white letters on the front. I met Pam two weeks ago on [Sundance Lookout](https://keeping.onrender.com/items/sundance-mountain.html) in the Selkirk Mountains. My colleagues, Jack Kredell and Chris Lamb, and I had recently interviewed her for Keeping Watch, an archive of interviews with current and former fire lookouts. 
 
 {% include feature/video.html objectid="sundance-mountain006" width="50" start="00:00:06" %}
@@ -57,8 +58,7 @@ Heat-Moon looks out of Ghost Dancing and sees himself reflected in the pellucidi
 
 I put down _Blue Highways_ and turn off my headlamp, get out of my sleeping bag, and walk to the window. Trout briefly lifts his head but falls back asleep. Between the inside of the cabin and the night sky, the windows and propane lamp transpose my face onto the universe. I walk to the deck and suddenly all that remains is black plasma where my face was.
 
-_________ 
-
+II.
 I open my eyes up on Sundance to a white sun, drink coffee from my percolator, and feed Trout his kibble. There is not much to do today, which is a perk of the job. Trout manages to run around the deck a few times without falling to his death, and I scan for signs of fire. Inside, I open a can of corned beef hash and sip my coffee, journal, and try to make sense of my surroundings. In addition to Blue Highways, I have brought with me a copy of William Cronon's edited collection _Uncommon Ground_. 
 
 Cronon makes the argument that all wilderness is in fact a human creation. I think ahead to my upcoming trip into the Frank Church Wilderness with Jack and Chris, and how that landscape, though pristine in appearance, has been shaped in profound ways by humans for thousands of years. 
