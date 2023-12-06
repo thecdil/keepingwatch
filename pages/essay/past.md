@@ -64,5 +64,4 @@ _Located on the Nez Perce-Clearwater National Forest Red River Ranger District. 
 
 {% include feature/image.html objectid="chicken-peak005" width="50" %}
 
-Our decision is made; the fire is uncontained and spreading in all directions, and even though there is a river and a ridgeline between it and our destination, we would be foolish not to turn around. Sheepeater remains a mystery. Packing my bag, I take out my binoculars, and stare at the lookout: it is a _Stranger_, on a ridge that is obscured by smoke, just out of reach. 
-
+Our decision is made; the fire is uncontained and spreading in all directions, and even though there is a river and a ridgeline between it and our destination, we would be foolish not to turn around. Sheepeater remains a mystery. Packing my bag, I take out my binoculars, and stare at the lookout on a ridge that is obscured by smoke, just out of reach. 
