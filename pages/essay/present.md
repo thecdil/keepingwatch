@@ -41,9 +41,7 @@ The Osborne Fire Finder was primarily manufactured between the years 1920 and 19
 
 Why did federal and state governments and timber protection agencies (the latter usually funded by private logging companies) decide to bring back the human-staffed fire lookout? I can think of many reasons why we _should_ have them. Maybe, we could staff these towers with students from underserved school districts who historically have little access to _wild_ places. I use “wild” according to the wording of the Wilderness Act of 1964 as “a place where man is but a visitor […]” Agencies could pay a rate suitable for high school or college students and give them the opportunity to live and work in beautiful scenic places, and thus increase public attachment to wilderness. As for management, shouldn’t we be physically present in the places we are managing rather than making decisions from a God’s-eye-view? _What is lost_ we asked the lookout, they replied, _a sense of continuity_.
 
-{% include feature/video.html objectid="roughneck-peak003" width="50" start="00:03:12" %}
-
-To my East is a checkerboard of logging sites on state forest land, to my north is the batholith of the Selkirk Crest, and to my west are the towns of Coolin and Nordman.   
+{% include feature/video.html objectid="roughneck-peak003" width="50" start="00:03:12" %} 
 
 Through the window, a breeze sneaks in. It is about 15 degrees cooler on the tower than in the valley. The bear grass makes the air smell sweet, and the last patches of snow are melting at a perceptible rate. There is a pine snag on a nearby ridge to my southeast standing in an otherwise healthy forest, and below it the highwater mark of evening inches closer. I fixate on the steadiness of this pull between night and day. The sun’s geometry positions the tree at the fulcrum of light and dark. I glance at my phone: 7:38 p.m.
 
