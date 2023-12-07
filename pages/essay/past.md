@@ -13,7 +13,7 @@ Jack, Chris, and I have driven into the heart of the Frank Church Wilderness, se
 
 {% include feature/video.html objectid="sheepeater-mountain002" width="50" start="00:00:05" %}
 
-We are making the twenty-mile hike from Mosquito Ridge to the Tukudeka namesake, [Sheepeater Mountain](https://keeping.onrender.com/items/sheepeater-mountain.html), which is home to one of the most remote fire lookouts in the world. This place's common name The Frank Church, or usually just The Church, was given after one of the key architects of the Wilderness Act of 1964, Idaho Senator Frank Church. He remains one of the most prolific progressive voices ever in Idaho politics, and one of the most accomplished establishment environmentalists in American history. As the floor speaker for the passage of the Wilderness Act, his key role in its drafting and signing into law helped create this wilderness area. 
+We are making the twenty-mile hike from Mosquito Ridge to the Tukudeka namesake, Sheepeater Mountain, which is home to one of the most remote fire lookouts in the world. This place's common name The Frank Church, or usually just The Church, was given after one of the key architects of the Wilderness Act of 1964, Idaho Senator Frank Church. He remains one of the most prolific progressive voices ever in Idaho politics, and one of the most accomplished establishment environmentalists in American history. As the floor speaker for the passage of the Wilderness Act, his key role in its drafting and signing into law helped create this wilderness area. 
 
 The Church is the largest contiguous wilderness areas in the lower-forty-eight states, comprising roughly two-and-a-half-million acres of land. Being out here reveals a deep history accross geologic time. Yet, ubran landscapes are the antecedant of wilderness, as we know it today, and not the other way around. 
 
@@ -23,7 +23,7 @@ Bob Marshall, another key architect of the Wilderness Act of 1964, and the found
 
 {% include feature/image.html objectid="associated-media001" width="50" %}
 
-From Mosquito Ridge, the Salmon River rushes five thousand feet below and high mountain wildflowers sway in the warm, pressurized wind. On a ridge above us, [Chicken Peak](https://keeping.onrender.com/items/chicken-peak.html) must be the most unique cabin in the entire state of Idaho with its prominent roof and bright orange paint; the neon coloring helped pilots navigate over empty swaths of terrain before GPS technology. Chicken Peak is the halfway point between the Mosquito Ridge trailhead and Sheepeater Lookout. We have not been given a straight answer about its history but have gathered that it was built in the 1940s and abandoned in either the 60s or 70s due to funding cuts. 
+From Mosquito Ridge, the Salmon River rushes five thousand feet below and high mountain wildflowers sway in the warm, pressurized wind. On a ridge above us, Chicken Peak must be the most unique cabin in the entire state of Idaho with its prominent roof and bright orange paint; the neon coloring helped pilots navigate over empty swaths of terrain before GPS technology. Chicken Peak is the halfway point between the Mosquito Ridge trailhead and Sheepeater Lookout. We have not been given a straight answer about its history but have gathered that it was built in the 1940s and abandoned in either the 60s or 70s due to funding cuts. 
 
 {% include feature/image.html objectid="chicken-peak003" width="50" %}
 
