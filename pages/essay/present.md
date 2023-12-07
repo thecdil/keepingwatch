@@ -9,7 +9,7 @@ By Michael Decker
 
 _I._
 
-In the Department of Lands office in Nordman, Idaho, Pam, who runs a volunteer fire lookout program for the Priest Lake fire district in northern Idaho, tosses me a forest green shirt with “fire” printed in large white letters on the front. I met Pam two weeks ago on [Sundance Lookout](https://keeping.onrender.com/items/sundance-mountain.html) in the Selkirk Mountains. My colleagues, <a href="https://bonnercountydailybee.com/news/2021/may/18/digital-archive-documents-caribou-extirpation-nort/" target="blank">Jack Kredell and Chris Lamb</a>, and I had recently interviewed her for Keeping Watch, an archive of interviews with current and former fire lookouts. 
+In the Department of Lands office in Nordman, Idaho, Pam, who runs a volunteer fire lookout program for the Priest Lake fire district in northern Idaho, tosses me a forest green shirt with “fire” printed in large white letters on the front. I met Pam two weeks ago on [Sundance Lookout](https://keeping.onrender.com/items/sundance-mountain.html) in the Selkirk Mountains. My colleagues, <a href="https://bonnercountydailybee.com/news/2021/may/18/digital-archive-documents-caribou-extirpation-nort/" target="_blank">Jack Kredell and Chris Lamb</a>, and I had recently interviewed her for Keeping Watch, an archive of interviews with current and former fire lookouts. 
 
 {% include feature/video.html objectid="sundance-mountain006" width="50" start="00:00:06" %}
 
