@@ -19,7 +19,7 @@ Bud left the Selway-Bitterroot to fight in World War II but returned and became 
 
 In a sense, Bud always recognized that some of his policies, retrospectively, were harmful. This includes spraying DDT to kill pine beetles and wood worms and starving soils of nitrogen and amassing fuel loads that feed anthropogenic forest fires to this day. Regardless, Bud often admitted these shortcomings and proposed different modeling for management that imagined more ideal environmental futures. For example, Bud led the reintroduction of controlled burns in fire deficit areas in the Selway-Bitteroot. Many of his thoughts and actions can be found in his sprawling book _The Lochsa Story: Land Ethics in the Bitterroot Mountains_. Tellingly, this book was written a full decade prior to its publication (1996) because many of the ideas within it were not yet popularly accepted, and, as Bill points out, he refused to vanity publish. 
 
-{% include feature/video.html objectid="diablo-mountain0011" width="50" start="00:00:05" %}
+{% include feature/video.html objectid="diablo-mountain011" width="50" start="00:00:05" %}
 
 In the end, lightning escaped from the sky and ignited a wildfire five miles from Bud’s old rock pile and three days later the now-decommissioned McConnell Mountain fire lookout burned down. <a href="https://keeping.onrender.com/items/mcconnel-mountain001.html" target="_blank">Bill once wrote</a> that Bud, who passed away in 2010, would not be sad because “the story is a lesson about the circle of life and death in the Wilderness world.” 
 
