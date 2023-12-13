@@ -43,8 +43,6 @@ I feel different inside the cabin than outside. It occurs to me that the literal
 
 “What do you think?” I ask the boys. “I guess even if there’s a five percent possibility that it’s dangerous, which is probably what we’re looking at, we should turn around,” Jack replies. I can tell that he is annoyed by me and Chris who are much more afraid of the fire spreading past the river than he is. Chis continually affirms that he is also nervous and that it would be unwise to continue hiking in the direction of the fire. Andy hasn’t responded yet, but I know Garmin satellite messages can have a delay and we could be waiting for several hours for information. 
 
-I step from the tower and swat a fly on my neck. The heat, like the smoke, has become ubiquitous and smothering. I sit down and massage my blisters. I have worn the wrong shoes for my feet which are very wide and now have the coloring of a Tancho Koi Fish. 
-
 In the spring, I interviewed a writer named Don Scheese who had lived and worked in the Frank Church as a fire lookout in the 1980s. He was stationed on Ruffneck Lookout close to the town of Stanley, Idaho. After eighteen seasons as a fire lookout, Scheese wrote a book about his experiences called _Mountains of Memory_. In his memoir, he defines landscape as a “modified space” which is the result of changes made to the land by humans. To Scheese, it was the people who lived in landscapes “especially the various inhabitants of the Frank Church over Millennia,'' who created them through their needs and desire. It was them, Scheese says, “who interest me the most.”
 
 {% include feature/video.html objectid="roughneck-peak007" width="50" start="00:01:50" %}
