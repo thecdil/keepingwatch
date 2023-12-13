@@ -38,6 +38,7 @@ Hours pass as we watch this plume grow into a cloud and banter back and forth ab
 Standing at the fire finder, my hands rest on the podium and prepare to maneuver the alidade. I close one eye and look through the crosshairs to sight in _my_ smoke.  After all these years, there is still a pull; my gaze is directed in a very particular way and for a specific purpose. 
 
 {% include feature/image.html objectid="chicken-peak004" width="50" %}
+
 I feel different inside the cabin than outside. It occurs to me that the literal framing of the fire makes all the difference. Inside, with my hands on the podium, I feel a sense of safety and order; the window frames the fire and thus controls it. Outside, I feel disoriented and out of control. The twinned histories of the human and non-human world are at odds with each other here. The cabin is at once being reclaimed and yet still maintains the capacity to conceptualize the landscape in human terms. 
 
 “What do you think?” I ask the boys. “I guess even if there’s a five percent possibility that it’s dangerous, which is probably what we’re looking at, we should turn around,” Jack replies. I can tell that he is annoyed by me and Chris who are much more afraid of the fire spreading past the river than he is. Chis continually affirms that he is also nervous and that it would be unwise to continue hiking in the direction of the fire. Andy hasn’t responded yet, but I know Garmin satellite messages can have a delay and we could be waiting for several hours for information. 
