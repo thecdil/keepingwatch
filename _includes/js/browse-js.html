@@ -1,4 +1,7 @@
-{%- assign items = site.data[site.metadata] -%}
+{% if page.url contains 'all' %}{%- assign items = site.data[site.metadata] | where_exp: 'item', 'item.display_template != "tower"' -%}
+{% else %}
+{%- assign items = site.data[site.metadata] | where_exp: 'item', 'item.display_template == "firetower"' -%}
+{% endif %}
 {%- assign fields = site.data.config-browse -%}
 <script>
 
@@ -51,7 +54,7 @@ function makeCard(obj) {
     var btns = obj[{{ f.field | jsonify }}].split(";");
     for (var i = 0, len = btns.length; i < len; i++) {
         if(btns[i] != "") {
-        card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ '/browse.html' | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
+        card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ page.url | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
         }
     }
     {% else %}
@@ -61,8 +64,12 @@ function makeCard(obj) {
     }
     {% endunless %}{% endfor %}
     card += '</p>';
-    /* media type
+    // media type
     if(obj.format && obj.format != "") {
+        if(obj.format.includes('firetower')){
+            card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ "/browse.html" | relative_url }}#' + encodeURIComponent(obj.format) + '">FIRETOWER <img src="/keepingwatch/objects/firetower.png" style=height:20px;"></a></small></p>';
+        }
+        else{
         card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ "/browse.html" | relative_url }}#' + encodeURIComponent(obj.format) + '">' + 
         obj.format.split("/").pop().toUpperCase() + ' <svg class="bi icon-sprite"><use xlink:href="{{ "/assets/lib/cb-icons.svg" | relative_url }}#';
         if(obj.format.includes('image')){
@@ -76,10 +83,13 @@ function makeCard(obj) {
         } else {
             card += 'icon-default';
         }
-        card += '"/></svg></a></small></p>';
-    }*/
+        card += '"/></svg></a></small></p>';}
+    }
     // view button
-    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">View Firetower</a>';
+    {% if page.url contains 'all' %} 
+    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">View Full Record</a>';{% else %}
+    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">View Firetower</a>';{% endif %}
+    
     // close divs
     card += '</div></div></div>';
     // send back big string
@@ -104,7 +114,11 @@ function filterItems(arr,q) {
         }
     }
     // add number 
+    {% if page.url contains 'all' %}
+    $("#numberOf").html(filteredItems.length + " of {{ items | size }} items");
+    {% else%}
     $("#numberOf").html(filteredItems.length + " of {{ items | size }} firetowers");
+    {% endif %}
 
     // add stuff, make cards first in giant var, then add all at once to speed things up
     var cards = "";
