@@ -1,48 +1,11 @@
-{% if page.layout == "home-infographic" and site.data.theme.featured-image %}
-<style>
-#home-banner {
-    background-image: url('{{ site.data.featured_item.src | relative_url }}');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: {{ site.data.theme.home-banner-image-position | default: 'top' }};
-}
-#home-title-box {
-    padding-top: {{ site.data.theme.home-title-y-padding | default: '5em' }};
-    padding-bottom: {{ site.data.theme.home-title-y-padding | default: '5em' }};
-}
-@media screen and (max-width: 576px) {
-    #home-title-box {
-        padding-top: 5em;
-        padding-bottom: 5em; 
-    }
-}
-</style>
-<div id="home-banner" class="container-fluid mb-0 p-0">
-    <div id="home-title-box">
-        <div class="title-card p-2 text-center">
-            <a class="d-none d-md-block" href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                <img src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name }} home" >
-            </a>
-            <h1 class="display-4">{{ site.title }}</h1>
-            {% if site.tagline %}<p id="home-tagline">{{ site.tagline }}</p>{% endif %}
-        </div>
-    </div>
-    {% unless site.data.theme.featured-image contains '/' %}<div class="text-right p-0 mt-0">
-        <small><a class="text-info featured-link" href="{{ site.data.featured_item.link | relative_url }}" title="{{ site.data.featured_item.alt | escape }}">Featured Image</a></small>
-    </div>{% endunless %}
-</div>
-{%- else -%}
 <div class="container-fluid" {% if page.layout contains 'home-map' %}style="position:fixed;z-index:100;"{% endif %}>
-    <div class="row align-items-center">
-        <div id="title" class="col-md-9 pl-5">
-            <h1><a id="main-title" class="text-dark font-weight-normal text-uppercase display-2 pl-2" href="{{ site.baseurl }}/" >{{ site.title }}</a> {% if page.layout contains 'home-map' %}<br ><a href="about.html" class="small mx-5">About</a> <a href="browse.html" class="small">Browse</a>{% endif %}</h1>	 
-          {% unless page.layout contains 'home-map' or page.layout contains 'firetower' %}  {% if site.tagline %}<p class="pl-2">{{ site.tagline }}</p>{% endif %}{% endunless %}
+    <div class="row align-items-center" id="collection-banner">
+        <div id="title" class="col-md-6 pl-5">
+            <h1><a id="main-title" class="text-dark font-weight-normal text-uppercase display-2 pl-2" href="{{ site.baseurl }}/" >{{ site.title }}</a></h1>	 
         </div>
-        <div class="col-md-3 d-none d-lg-block text-right">
-            <a class="btn btn-outline-light" href="{{ site.organization-link }}" target="_blank" rel="noopener" style="z-index: 50;">
-                <img class="img-fluid w-50" src="{{ site.organization-logo-banner | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name }} home" >
-            </a>
+        <div class="col-md-6 d-none d-lg-block text-right">
+            {% include collection-nav.html %}
+            
         </div>
     </div>
 </div>
-{%- endif -%}

@@ -1,10 +1,12 @@
 display_name,stub,dropdown_parent
-Home,/,
-Browse,/browse.html,
-About,/about.html,
-Subjects,/subjects.html,
+Browse,
+Browse Firetowers,/browse.html,Browse
+Browse the Collection,/browseall.html,Browse
+About,
+About the Project,/about.html,About
+Cabin Architecture,cabin-architecture.html,About
+Subjects,subjects.html
 Essays,,
 Present,/essay/present.html,Essays
 Past,/essay/past.html,Essays
 Future,/essay/future.html,Essays
-Cabin Architecture,cabin-architecture.html,Essays
