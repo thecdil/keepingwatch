@@ -193,7 +193,8 @@ var zoomlevel = map.getZoom();
     $('.nav-link').removeClass("text-info");
     $('.nav-link').addClass("text-white");
     $('#homepage-box').addClass("d-none");
-    $('#collection-banner').addClass("d-none");    
+    $('#collection-banner').addClass("d-none"); 
+    $('.leaflet-fusesearch-control').show();   
     Esri_NatGeoWorldMap.addTo(map);
 });
 
