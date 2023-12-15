@@ -79,7 +79,7 @@ On private property, some landowners have even relocated fire lookouts and now s
 
 {% include feature/image.html objectid="associated-media002" width="50" %} 
 
-I set my coffee down and look at the forested ridgeline below me that extends North like an arrow pointing directly at Priest Lake. The dwarfed alpine trees have a network of trails which weave through them. I open the hatch and put Trout over my shoulder because the stairs are too steep for a hyperactive and corporeally unaware quadruped. At the base of the stairs, I step onto a rock matrix that the tower is built upon. I find a trailhead. It is still early, so the light is slanted and meanders through the branches and needles. I come to a small rock pile with a simple wooden sign growing from it which reads:
+I set my coffee down and look below me at the forested ridgeline that extends North like an arrow pointing directly at Priest Lake. The dwarfed alpine trees have a network of trails which weave through them. I open the hatch on the deck on the lookout and put Trout over my shoulder because the stairs are too steep for a hyperactive and, somewhat, clumsy quadruped. At the base of the stairs, I step onto a rock matrix that the tower is built upon. I find a trailhead. It is still early, so the light is slanted and meanders through the branches and needles. I come to a small rock pile with a simple wooden sign growing up from it that reads:
 
 SUNDANCE FIRE. ON SEPTEMBER 1, 1967 A LIGHTNING STRIKE AT THIS EXACT SPOT ERUPTED INTO A 55,910 ACRE FIRESTORM 6 MILES WIDE, 25 MILES LONG, KILLING FIREFIGHTERS LUTHER RODARTE AND LEE COLLINS
 
