@@ -67,7 +67,7 @@ function makeCard(obj) {
     // media type
     if(obj.format && obj.format != "") {
         if(obj.format.includes('firetower')){
-            card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ "/browse.html" | relative_url }}#' + encodeURIComponent(obj.format) + '">FIRETOWER <img src="/keepingwatch/objects/firetower.png" style=height:20px;"></a></small></p>';
+            card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ page.url | relative_url }}#' + encodeURIComponent(obj.format) + '">FIRETOWER <img src="/keepingwatch/objects/firetower.png" style=height:20px;"></a></small></p>';
         }
         else{
         card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ "/browse.html" | relative_url }}#' + encodeURIComponent(obj.format) + '">' + 
