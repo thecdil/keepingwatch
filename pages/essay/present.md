@@ -79,9 +79,5 @@ On private property, some landowners have even relocated fire lookouts and now s
 
 {% include feature/image.html objectid="associated-media002" width="50" %} 
 
-Lookouts are effective narrative indexes. Their existence is tied to the human and non-human worlds and is subject to technological precarity, and yet they persist and show no signs of entirely disappearing any time soon. Their function will always mirror the prevailing ecological overtone of the time and place where they are located. 
-
-Most of all though, I am struck by the affective complexity of these places. I can't help but notice that my feelings, though not misaligned per se, are not entirely aligned with the prevailing fire lookout narratives. In _Memorials Matter_ affect theorist Jennifer Ladino analyzes the misalignment of dominant and often patriotic narratives of national historic monuments and the web of affects and emotions that emerge through the myriad stakeholders at these sites. She coins the word "affective dissonance" or the "unsettled state in which we experience more than one feeling at the same time often with a sense of conflictedness or irony." Lookouts reveal the larger narrative of the wilderness-civilization binary because they exist in both registers.
-
 I set down my coffee and stand up. On a lookout you are always up early because light jars you awake at sunrise. I gaze out at the Idaho batholith from the cabin and imagine it without gride lines or checkerboards of determinate use. It is just a place, and I am at the edge of it.
 
