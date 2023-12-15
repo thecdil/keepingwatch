@@ -6,7 +6,7 @@
 <script>
 pannellum.viewer('panorama-{{include.panoid}}', {
     "type": "equirectangular",
-    "panorama": "{{ include.pano_object}}",
+    "panorama": "{{ include.pano_object | relative_url}}",
     "autoLoad": false
         /*
      * Uncomment the next line to print the coordinates of mouse clicks
