@@ -47,12 +47,12 @@ custom-foot: "js/simple-map-js.html"
         </div>
 
 {% capture cabinmodaltext %}{% for cabin in site.data.cabins %}{% if cabin.title == page.cabintype %}
-<img src="{{cabin.img}}" class="img-fluid" alt="Image of a {{cabin.title}} cabin!" title="Image of a {{cabin.title}} cabin"><br><br>{{cabin.description}}{% endif %}{% endfor %}{%endcapture%}       
+<img src="{{cabin.img | relative_url }}" class="img-fluid" alt="Image of a {{cabin.title}} cabin!" title="Image of a {{cabin.title}} cabin"><br><br>{{cabin.description}}{% endif %}{% endfor %}{%endcapture%}       
         <div class="col-md-6 my-2">
             <p class="col-lg-8 ms-3 my-3">
                 <strong>Built:</strong> {{page.built }}<br>
                 <strong>Status</strong>: {{page.status }}<br>
-                <strong>Cabin:</strong> {{ page.cabintype }} {% include feature/modal.html button="cabin type info" color="info btn-light px-2 py-0" title=page.cabintype text=cabinmodaltext %}
+                <strong>Cabin:</strong> {{ page.cabintype }} <sup>{% include feature/modal.html button="info" color="outline-info btn-light ms-5 px-2 py-0 fs-6" title=page.cabintype text=cabinmodaltext %}</sup>
                 <p class="col-lg-8 ms-3 my-3">
 
                 <Strong>Other Resources:</strong><br>{{ page.otherresources }}<br>
@@ -78,7 +78,12 @@ custom-foot: "js/simple-map-js.html"
         </div>
     </div>
 
-   
+    <div class="row px-5 row-cols-1 row-cols-md-3">
+   {% for child in children %}
+   <div class="col">
+   {% include feature/card.html objectid=child.objectid text=child.title %}
+    </div> {% endfor %}
+   </div>
 
     <div id="videos">
         {% for v in videos %}

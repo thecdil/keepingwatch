@@ -70,7 +70,7 @@ function makeCard(obj) {
             card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ page.url | relative_url }}#' + encodeURIComponent(obj.format) + '">FIRETOWER <img src="/keepingwatch/objects/firetower.png" style=height:20px;"></a></small></p>';
         }
         else{
-        card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ "/browse.html" | relative_url }}#' + encodeURIComponent(obj.format) + '">' + 
+        card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="#' + encodeURIComponent(obj.format) + '">' + 
         obj.format.split("/").pop().toUpperCase() + ' <svg class="bi icon-sprite"><use xlink:href="{{ "/assets/lib/cb-icons.svg" | relative_url }}#';
         if(obj.format.includes('image')){
             card += 'icon-image';
