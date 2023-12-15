@@ -15,7 +15,15 @@
   font-weight: bold;
 
 }
+.nav-item {
 
+  font-family: 'NationalPark', serif;
+  font-weight: bold;
+  font-size:27px;
+  
+.dropdown-item{font-family: raleway;}
+
+}
 
  html, body {
   margin: 0;
@@ -75,3 +83,4 @@
   background-color: #e00;
 }
 
+.leaflet-popup {z-index: 1000;}

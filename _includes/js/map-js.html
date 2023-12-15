@@ -114,10 +114,10 @@ L.geoJson(statesData, {style: exteriorStyle}).addTo(map);
         var thumbImg;
         if (feature.properties.img) {
             //thumbImg = '<img class="map-thumb" src="' + feature.properties.img + '" alt="item thumbnail">';
-            thumbImg = '<img src="/objects/firetower.png" style=height:36px;">';
+            thumbImg = '<img src="{{ '/objects/firetower.png' | relative_url }}" style=height:36px;">';
         } else {
             //thumbImg = getIcon(feature.properties.template,feature.properties.format)
-            thumbImg = '<img src="/objects/firetower.png" style=height:36px;">';
+            thumbImg = '<img src="{{ '/objects/firetower.png' | relative_url }}" style=height:36px;">';
 
         }
         // set up popup content
@@ -165,7 +165,7 @@ data.forEach(function(row){
 
    var icon = L.divIcon({
      iconSize:null,
-     html:'<div class="map-label d-none"><div class="map-label-content"><a class="stretched-link" href="items/' + iobject + '.html"><img src="/objects/firetower.png">'+icontext+'</a></div><div class="map-label-arrow"></div></div>'
+     html:'<div class="map-label d-none"><div class="map-label-content"><a class="stretched-link" href="items/' + iobject + '.html"><img src="{{ '/objects/firetower.png' | relative_url }}">'+icontext+'</a></div><div class="map-label-arrow"></div></div>'
    });
 
   L.marker(pos,{icon: icon}).addTo(map);
@@ -190,8 +190,11 @@ var zoomlevel = map.getZoom();
     $(this).removeClass("d-none");
     $('#main-title').removeClass("text-dark");
     $('#main-title').addClass("text-white");
+    $('.nav-link').removeClass("text-info");
+    $('.nav-link').addClass("text-white");
+    $('#homepage-box').addClass("d-none");
+    $('#collection-banner').addClass("d-none");    
     Esri_NatGeoWorldMap.addTo(map);
-
 });
 
     }
