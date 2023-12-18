@@ -63,7 +63,7 @@ Yet it is precisely because the fire lookout allows us to remain in wilderness s
 
 It would be incorrect to analyze the modern fire lookout without acknowledging the very real service it still provides. Lookout staff not only locate and call in new fires, they also monitor existing ones in real time and communicate with on-the-ground fire crews. Heat mapping can provide information about fire spread and size, and sophisticated weather modeling can determine precipitation levels, wind speed, and heat index; however, attentive fire lookouts _experience_ these factors, simultaneously, while searching for anomalies in the landscape. Technology has augmented, even reduced, the role of the human fire lookout, but it cannot entirely replace it.
 
-{% include feature/video.html objectid="spot-mountain005" width="50" start="00:06:25" %} 
+{% include feature/video.html objectid="spot-mountain005" width="50" start="00:00:05" %} 
 
 Through the window, a breeze sneaks in. It is about 15 degrees cooler on the tower than in the valley. The bear grass makes the air smell sweet, and the last patches of snow are melting at a perceptible rate. There is a pine snag on a nearby ridge to my southeast standing in an otherwise healthy forest, and below it the highwater mark of evening inches closer. I fixate on the steadiness of this pull between night and day. The sun’s geometry positions the tree at the fulcrum of light and dark. I glance at my phone: 7:38 p.m.
 
