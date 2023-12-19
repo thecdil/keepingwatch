@@ -1,12 +1,17 @@
 
+{% assign pano_object = site.data[site.metadata] | where_exp: 'item', 'include.objectid == item.objectid' | first %}
 
-<div id="panorama-{{include.panoid}}" class="panorama" style="height:{{include.height}}"></div>
+{% capture pano %}{{pano_object.object_location | relative_url}}{% endcapture %}
+{% capture height %}{% if include.height %}%}{{ include.height }}{% else %}400px{% endif %}{% endcapture %}
+{% capture width %}{% if include.width %}{{ include.width }}{% else %}100%{% endif %}{% endcapture %}
+
+<div id="panorama-{{include.objectid}}" class="panorama my-5 mx-auto" style="height:{{ height }}; width: {{ width }};"></div>
 
 <!-- https://pannellum.org/documentation/reference/ -->
 <script>
-pannellum.viewer('panorama-{{include.panoid}}', {
+pannellum.viewer('panorama-{{include.objectid}}', {
     "type": "equirectangular",
-    "panorama": "{{ include.pano_object | relative_url}}",
+    "panorama": "{{ pano }}",
     "autoLoad": false
         /*
      * Uncomment the next line to print the coordinates of mouse clicks

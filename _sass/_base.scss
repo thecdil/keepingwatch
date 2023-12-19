@@ -152,3 +152,12 @@ a {
     height: 1em;
     vertical-align: -0.1em;
 }
+
+
+@media print {
+    /* All your print styles go here */
+   .figure-video,
+    nav {
+      display: none !important;
+    }
+  }

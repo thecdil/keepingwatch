@@ -5,7 +5,7 @@ layout: about
 ---
 ## The Future
 
-By Michael Decker
+_By Michael Decker_
 
 Beginning in the Frank Church Wilderness, Jack, Chris, and I have spent the last two weeks traveling across Idaho taking photos of fire lookouts and interviewing those who work on still active sites. We are beat up and tired, our skin is leathery, and our lips are cracking from the drastic shifts in elevation. 
 

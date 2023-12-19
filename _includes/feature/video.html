@@ -41,8 +41,8 @@
 {%- else -%}
     {% assign video_src = raw_src | relative_url %}
 {%- endif -%}
-<div class="text-center my-5">
-    <figure class="mx-auto{% if include.width %} feature-w-{{ include.width }}{% endif %}">
+<div class="text-center my-5 figure-video">
+    <figure class="mx-auto{% if include.width %} feature-w-{{ include.width }}{% endif %} ">
         <div class="embed-responsive embed-responsive-{{ include.ratio | default: '16by9' }}">
             {%- if video_src contains "vimeo" or video_src contains "youtu" -%}
             <iframe class="embed-responsive-item" src="{{ video_src }}" allowfullscreen></iframe>

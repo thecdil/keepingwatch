@@ -5,7 +5,7 @@ layout: about
 ---
 ## Present Day
 
-By Michael Decker
+_By Michael Decker_
 
 In the Department of Lands office in Nordman, Idaho, Pam, who runs a volunteer fire lookout program for the Priest Lake fire district in northern Idaho, tosses me a forest green shirt with “fire” printed in large white letters on the front. I met Pam two weeks ago at Sundance Lookout in the Selkirk Mountains. My colleagues, <a href="https://bonnercountydailybee.com/news/2021/may/18/digital-archive-documents-caribou-extirpation-nort/" target="_blank">Jack Kredell and Chris Lamb</a>, and I had recently interviewed her for Keeping Watch, an archive of interviews with current and former fire lookouts. 
 
