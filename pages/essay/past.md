@@ -37,7 +37,7 @@ By the 1980’s it was clear that the real cultural significance of lookouts res
 
 {% include feature/image.html objectid="associated-media001" width="50" %}
 
-From Mosquito Ridge, the Salmon River rushes five thousand feet below me and high mountain wildflowers sway in the warm, pressurized wind. On a ridge above us, Chicken Peak must be the most unique fire lookout in the entire state of Idaho with its prominent roof and bright orange paint; the neon coloring helped pilots navigate over empty swaths of terrain before GPS technology. Chicken Peak is the halfway point between the Mosquito Ridge trailhead and Sheepeater Lookout. We have not been given a straight answer about its history but have gathered that it was built in the 1940s and abandoned in either the 60’s or 70’s due to funding cuts. 
+From Mosquito Ridge, the Salmon River rushes five thousand feet below me and high mountain wildflowers sway in the warm, pressurized wind. On a ridge above us, Chicken Peak must be the most unique fire lookout in the entire state of Idaho with its prominent roof and bright orange paint; the neon coloring helped pilots navigate over empty swaths of terrain before GPS technology. Chicken Peak is the halfway point between the Mosquito Ridge trailhead and Sheepeater Lookout. 
 
 {% include feature/image.html objectid="chicken-peak003" width="50" %}
 
