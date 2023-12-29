@@ -45,7 +45,7 @@ Inside, the floor is collapsing around an intact podium upon which the fire find
 
 "Oh, shit, smoke," says Jack. I turn around and stare out of the smashed windows, my gaze directed in a very particular way, and see a plume of smoke rising from behind a ridge. We agree to keep an eye on it and not hike any further. The fire appears to be coming from across the Salmon River, but we would, foolishly, be going closer to it if we continued our current route. Jack says he has a friend named Andy who is an expert with InciWeb, which is a website with information about active wildfires. We send a message using my Garmin InReach. 
 
-"This is Jack. We are on Chicken Peak in view of a wildfire east of Dixie. No danger to us currently. Could you get us some info on it?"
+_This is Jack. We are on Chicken Peak in view of a wildfire east of Dixie. No danger to us currently. Could you get us some info on it?_
 
 {% include feature/video.html objectid="chicken-peak002" width="50" start="10" %}
 
