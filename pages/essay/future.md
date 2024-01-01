@@ -64,6 +64,6 @@ Bud’s land ethic stated that no human construct applied to the land, in his ex
 
 I take in a nose of wildfire smoke and shake Bill’s hand. I bet this place smells sweet in the early summer as the snow melts off, and crisp in Fall, waking up to the impending winter nipping at your nose in the night. Often, in _The Lochsa Story_, Bud will pause his narrative to put his hands behind his head and look up at the sky. 
 
-After we leave, Bill will still be here. I think that being here does matter. Despite cost, or efficiency, or politics, the very act of residing in one place and becoming familiar with its personality is as important as it ever has been. I pause for a moment and fill my nose with the smokey air. The wind blows accross my cheak. I think of it fanning the flames of the nearby Lolo Complex Fires. I look out at the smoke where the sky was. I think that, if I could, I would lay down right here in the bear grass and never leave. 
+After we leave, Bill will still be here. I think that being here does matter. Despite cost, or efficiency, or politics, the very act of residing in one place and becoming familiar with its personality is as important as it ever has been. I pause for a moment and fill my nose with the smokey air. The wind blows accross my cheek. I think of it fanning the flames of the nearby Lolo Complex Fires. I look out at the smoke where the sky was. I think that, if I could, I would lay down right here in the bear grass and never leave. 
 
 {% include feature/video.html objectid="cold-mountain-lookout005" width="50" start="00:00:10" %}
