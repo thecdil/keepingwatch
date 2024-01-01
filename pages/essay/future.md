@@ -56,6 +56,8 @@ Nicole LeFavour, a lifelong environmental activist and the first openly gay poli
 
 Lookouts have a long history of producing not only lifelong lovers of the wilderness, but some of its most effective protectors. Ray Kresek says that he started his forestry career on a lookout and made the decision to end it there as well; in between, he helped establish the Salmo-Priest Wilderness. However, the Forest Service announced in 2023 during a Senate Budget Committee hearing that they intend to further reduce staffed lookouts. Lookouts, according to National Budgets Director, Mark Lichtenstein, will be replaced by sophisticated smoke watching cameras that are augmented using artificial intelligence. To what extent fire lookouts will remain is uncertain, but the direction is clear; and as we outmode our reliance on human experience, I wonder how we will remain.
 
+{% include feature/video.html objectid="cold-mountain-lookout005" width="50" start="00:00:10" %}
+
 My coffee has slowly emptied and now all that is left is the black residue of coffee grounds at the bottom. We start packing up our cameras and prepare to head back down the trail. The smoke, I think, has gotten worse since we arrived. Before we leave, Bill asks to take a picture of our team. We all throw our arms over each other’s shoulders and pose in front of the white backdrop. 
 
 As we get ready to leave, Bill gestures vaguely out toward McConnell Mountain where his dad had worked. In the end, lightning escaped from the sky and ignited a wildfire five miles from Bud’s old rock pile and three days later the now-decommissioned McConnell Mountain fire lookout burned down. <a href="https://keeping.onrender.com/items/mcconnel-mountain001.html" target="_blank">Bill once wrote</a> that Bud, who passed away in 2010, would not be sad because “the story is a lesson about the circle of life and death in the Wilderness world.” 
@@ -65,5 +67,3 @@ Bud’s land ethic stated that no human construct applied to the land, in his ex
 I take in a nose of wildfire smoke and shake Bill’s hand. I bet this place smells sweet in the early summer as the snow melts off, and crisp in Fall, waking up to the impending winter nipping at your nose in the night. Often, in _The Lochsa Story_, Bud will pause his narrative to put his hands behind his head and look up at the sky. 
 
 After we leave, Bill will still be here. I think that being here does matter. Despite cost, or efficiency, or politics, the very act of residing in one place and becoming familiar with its personality is as important as it ever has been. I pause for a moment and fill my nose with the smokey air. The wind blows accross my cheek. I think of it fanning the flames of the nearby Lolo Complex Fires. I look out at the smoke where the sky was. I think that, if I could, I would lay down right here in the bear grass and never leave. 
-
-{% include feature/video.html objectid="cold-mountain-lookout005" width="50" start="00:00:10" %}
