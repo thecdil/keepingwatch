@@ -9,7 +9,7 @@ layout: about
 
 By Michael Decker
 
-# _i._
+# _I._
 
 Beginning in the Frank Church Wilderness, Jack, Chris, and I have spent the last two weeks traveling across Idaho taking photos of fire lookouts and interviewing those who work on still active sites. We are beat up and tired, our skin is leathery, and our lips are cracking from the drastic shifts in elevation.
 
@@ -68,7 +68,7 @@ Bud’s land ethic stated that no human alteration to the land, in his experienc
 
 After we leave, Bill will still be here. I think that being here does matter. Despite cost, efficiency, or current politics, the very act of remaining in one place and becoming familiar with its personality is as important as ever. I pause for a moment and fill my nose with the smokey air. The wind blows across my cheek. I think of it fanning the flames of the nearby Lolo Complex Fires. Ground squirrels chatter in nearby rocks. I look out at the smoke where the sky was, and I think that, if I could, I would lay down right here in the bear grass and never leave.
 
-# _ii._
+# _II._
 
 Jack, Chris, and I have driven into the heart of the Frank Church Wilderness, seventy miles from McCall, Idaho along a dirt road, stopping only to fish the Salmon River which early settlers dubbed “the river of no return.” Drifting my caddis along the water, I think of the ghosts of the Tukudeka, a mysterious mountain tribe of Shoshone-Bannock Native Americans, colloquially known as the Sheepeaters. 
 
@@ -151,7 +151,7 @@ In the spring, I interviewed a writer named Don Scheese who had lived and worked
 
 I notice something hidden in the dirt. It is a small button from a pair of Levis jeans. I pick it up and examine it. The metal is degraded enough that it could be twenty, even thirty, years old. Perhaps it was dropped while someone struggled with their trousers in the 1980s, and at the same time, Don Scheese sat on Ruffneck Peak looking out over the same landscape that I am now watching over. I clasp the button tightly and slide it into my pocket before heading back to the Mosquito Ridge trailhead. 
 
-# _iii._ 
+# _III._ 
 
 In the Department of Lands office in Nordman, Idaho, Pam, who runs a volunteer fire lookout program for the Priest Lake fire district in northern Idaho, tosses me a forest green shirt with “fire” printed in large white letters on the front. I met Pam two weeks ago at Sundance Lookout in the Selkirk Mountains. My colleagues, <a href="https://bonnercountydailybee.com/news/2021/may/18/digital-archive-documents-caribou-extirpation-nort/" target="_blank">Jack Kredell and Chris Lamb</a>, and I had recently interviewed her for Keeping Watch, an archive of interviews with current and former fire lookouts. 
 
