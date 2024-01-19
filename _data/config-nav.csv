@@ -2,11 +2,12 @@ display_name,stub,dropdown_parent
 Browse,
 Browse Firetowers,/browse.html,Browse
 Browse the Collection,/browseall.html,Browse
+Browse Subjects,/subjects.html,Browse
 About,
 About the Project,/about.html,About
-Cabin Architecture,cabin-architecture.html,About
-Subjects,subjects.html
-Essays,,
-Present,/essay/present.html,Essays
-Past,/essay/past.html,Essays
-Future,/essay/future.html,Essays
+Cabin Architecture,/cabin-architecture.html,About
+What Is Lost?,/about/what-is-lost.html,About
+Extracts,
+Twinned Histories,,Extracts
+Excerpts,,Extracts
+Essay,/essay/,
