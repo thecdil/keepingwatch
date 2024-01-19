@@ -79,6 +79,8 @@ Heat-Moon looks out of Ghost Dancing and sees himself reflected in the pellucidi
 
 I put down _Blue Highways_ and turn off my headlamp, get out of my sleeping bag, and walk to the window. Trout briefly lifts his head but falls back asleep. Between the inside of the cabin and the night sky, the windows and propane lamp transpose my face onto the universe. I walk to the deck and suddenly all that remains is black plasma where my face was.
 
+<br>
+
 _II._
 
 Jack, Chris, and I have driven into the heart of the Frank Church Wilderness, seventy miles from McCall, Idaho along a dirt road, stopping only to fish the Salmon River which early settlers dubbed “the river of no return.” Drifting my caddis along the water, I think of the ghosts of the Tukudeka, a mysterious mountain tribe of Shoshone-Bannock Native Americans, colloquially known as the Sheepeaters. 
@@ -161,6 +163,8 @@ In the spring, I interviewed a writer named Don Scheese who had lived and worked
 {% include feature/video.html objectid="roughneck-peak007" width="50" start="00:01:50" %}
 
 I notice something hidden in the dirt. It is a small button from a pair of Levis jeans. I pick it up and examine it. The metal is degraded enough that it could be twenty, even thirty, years old. Perhaps it was dropped while someone struggled with their trousers in the 1980s, and at the same time, Don Scheese sat on Ruffneck Peak looking out over the same landscape that I am now watching over. I clasp the button tightly and slide it into my pocket before heading back to the Mosquito Ridge trailhead. 
+
+<br>
 
 _III._
 
