@@ -127,13 +127,13 @@ _This is Jack. We are on Chicken Peak in view of a wildfire east of Dixie. No da
 
 {% include feature/video.html objectid="chicken-peak002" width="50" start="10" %}
 
-Hours pass as we watch this plume grow into a cloud and banter back and forth about our options. For a moment, the sun bursts through the smoke and beams a kaleidoscopic refraction. “Look,” says Chris, and suddenly, I am compelled back inside the deteriorating tower. I step across the floorboards, careful, so as not to trip. The panes where the windows once were makes a frame around the smoke and holds the plume in place as if it were a painting. 
+Hours pass as we watch this plume grow into a cloud and banter back and forth about our options. For a moment, the sun bursts through the smoke and beams a kaleidoscopic refraction. “Watch,” says Chris, and suddenly, I am compelled back inside the deteriorating tower. I step across the floorboards, careful, so as not to trip. The panes where the windows once were makes a frame around the smoke and holds the plume in place as if it were a painting. 
 
 Standing at the fire finder, my hands rest on the podium and prepare to maneuver the alidade. I close one eye and look through the crosshairs to sight in _my_ smoke.  After all these years, there is still a pull; my gaze is directed in a very particular way and for a specific purpose. 
 
 {% include feature/image.html objectid="chicken-peak004" width="50" %} 
 
-I feel different inside the cabin than outside. The framing of the fire makes a difference. Inside, with my hands on the podium, I feel a sense of safety and order; the window frames the fire and thus controls it. Outside, I feel disoriented and less in control. The twinned histories of the human and non-human world are at odds with each other here. The cabin is at once being reclaimed and yet still maintains the capacity to conceptualize the landscape in human terms. 
+I feel different inside the cabin than outside. The framing of the fire makes a difference. Inside, with my hands on the podium, I feel a sense of safety and order; the window frames the fire and thus controls it. Outside, I feel disoriented and less in control. The twinned histories of conservation and preservation are at odds with each other here. The cabin is at once being reclaimed and yet still maintains the capacity to conceptualize the landscape in human terms. 
 
 “What do you think?” I ask Jack and Chris. “I guess even if there’s a five percent possibility that it’s dangerous, which is probably what we’re looking at, we should turn around,” Jack replies. I can tell that he is annoyed by me and Chris who are much more afraid of the fire spreading past the river than he is. Chis continually affirms that he is also nervous and that it would be unwise to continue hiking in the direction of the fire. 
 
