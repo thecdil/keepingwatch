@@ -20,4 +20,6 @@ A personal note: this project is the result of a summer spent in the woods and m
 
 ## Funding and Design
 
-Keeping Watch was funded by a [University of Library Seed Grant](https://www.lib.uidaho.edu/opportunities/fellowships/libseed.html) and the Center for Digtial Inquiry and Learning (CD?L). The website was designed by CD?L Co-Director Devin Becker in collaboration with the project directors and English Professor and Confluence Lab Director Jenn Ladino, as part of her CD?L Development Fellowship. 
+Keeping Watch was funded by a [University of Library Seed Grant](https://www.lib.uidaho.edu/opportunities/fellowships/libseed.html) and the [Center for Digtial Inquiry and Learning (CDIL)](https://cdil.lib.uidaho.edu/). 
+
+The website was designed by CDIL Co-Director [Devin Becker](https://cdil.lib.uidaho.edu/people/#profile-devin-becker) in collaboration with the project directors and English Professor and Confluence Lab Director Jenn Ladino, as part of her CDIL Development Fellowship. 
