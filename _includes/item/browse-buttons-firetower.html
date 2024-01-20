@@ -35,4 +35,78 @@
                 break;
         }
     };
+
+  function leftModalArrowPressed() {
+    // Get the modal element.
+    var modalshow = document.querySelector(".modal.show");
+    // If the modal exists, get the prev button element.
+    if (modalshow) {
+      const prevButton = modalshow.querySelector(".prev-child-button");
+      // If the prev button exists, click it.
+      if (prevButton) {
+        prevButton.click();
+      }
+    }
+  };
+
+  function rightModalArrowPressed() {
+    // Get the modal element.
+    var modalshow = document.querySelector(".modal.show");
+    // If the modal exists, get the prev button element.
+    if (modalshow) {
+      const nextButton = modalshow.querySelector(".next-child-button");
+      // If the next button exists, click it.
+      if (nextButton) {
+        nextButton.click();
+      }
+    }
+  };
+
+  function isModalShown() {
+    // Get the modal element.
+    const modal = document.querySelector(".modal.show");
+
+    // Check if the modal has the "show" class.
+    return modal && modal.classList.contains("show");
+  };
+
+  function isSpotlightModalShown() {
+    // Get the modal element.
+    const spotlight = document.getElementById("spotlight");
+    // Check if the modal has the "show" class.
+    return spotlight && spotlight.classList.contains("show");
+  };
+
+
+  document.onkeydown = function (evt) {
+    if (isSpotlightModalShown()) {
+
+
+    } else if (isModalShown()) {
+      // The modal is shown.
+      evt = evt || window.event;
+      switch (evt.keyCode) {
+        case 37:
+
+          leftModalArrowPressed();
+            break;
+        case 39:
+          rightModalArrowPressed();
+            break;
+      }
+    }
+    else {
+      // The modal is not shown.
+      evt = evt || window.event;
+      switch (evt.keyCode) {
+        case 37:
+          leftArrowPressed();
+            break;
+        case 39:
+          rightArrowPressed();
+            break;
+      }
+    }
+
+  };
 </script>

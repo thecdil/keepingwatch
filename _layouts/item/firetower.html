@@ -3,7 +3,7 @@ layout: default
 item-meta: true
 panorama: true
 map-on: true
-custom-foot: "js/simple-map-js.html"
+custom-foot: "js/simple-map-js.html;js/modal-hash-js.html"
 ---
 {%- assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
 {% assign videos = children | where_exp: 'item','item.display_template contains "video"' %}
@@ -58,18 +58,6 @@ custom-foot: "js/simple-map-js.html"
                 <Strong>Other Resources:</strong><br>{{ page.otherresources }}<br>
                 {% if page.photocredit%}<Strong>Photo Credit:</strong> {{ page.photocredit }}{% endif %}
             </p>
-            
-
-
-            <p class="ms-3">
-               {% if videos.size > 0 %} {% include feature/button.html text="Videos" link="#videos" color="outline-info btn-lg m-2" %}{% endif %}
-               {% if panoramas.size > 0%}  {% include feature/button.html text="Panoramas" link="#panoramas" color="outline-info btn-lg m-2" %}{% endif %}
-               {% if images.size > 0 %}  {% include feature/button.html text="Images" link="#images" color="outline-info btn-lg m-2" %}
-               {% endif %}
-               {% if pdfs.size > 0 %}  {% include feature/button.html text="PDFs" link="#pdfs" color="outline-info btn-lg m-2" %}
-               {% endif %}
-
-            </p>
         </div>
         <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
             <div class="h4  my-5" style="line-height: 1.5em;">
@@ -77,68 +65,13 @@ custom-foot: "js/simple-map-js.html"
             </div>
         </div>
     </div>
-
-    <div class="row px-5 row-cols-1 row-cols-md-3">
-   {% for child in children %}
-   <div class="col">
-   {% include feature/card.html objectid=child.objectid text=child.title %}
-    </div> {% endfor %}
-   </div>
-
-    <div id="videos">
-        {% for v in videos %}
-        <div class="row">
-            <div class="col-md-4 p-4 {% cycle 'group1': 'order-first offset-md-2', 'order-last'%}">
-                <div class="my-3 p-3 mx-auto text-center">
-                    {% include feature/video.html objectid=v.object_location caption=c.title %}'
-                </div>
-            </div>
-            <div
-                class="col-md-4 p-4 align-self-center justify-content-end {% cycle 'group1': 'order-first offset-md-2 float-right', 'nothing'%} ">
-                <div class="w-75 {% cycle 'group1': 'float-right','nothing'%}"> {{v.description}}</div>
-            </div>
-        </div>
-    {% endfor %}
-
+    <div class="mb-4 ">
+    
+        {% include item/child/compound-item-modal-gallery.html %}
+    
     </div>
-    <div id="panoramas">
 
-
-
-        {% for p in panoramas %}
-        <div class="row">
-            <div class="col-md-6 p-4 {% cycle 'group2': 'order-first offset-md-2', 'order-last'%}">
-                <div class="my-3 p-3 mx-auto text-center">
-                    {% include feature/panorama.html pano_object=p.object_location panoid=p.objectid height="400px"%}
-                </div>
-            </div>
-            <div class="col-md-4 p-4 align-self-center justify-content-end {% cycle 'group2': 'order-first offset-md-2',''%} ">
-                <div class="w-75 {% cycle 'group2': 'float-right',''%}"> {{p.description}}</div>
-            </div>
-        </div>
-       {% endfor %}
-
-    </div>
-    <div class="row" id="images">
-        <div class="col-md-6 offset-md-3 p-4" id="images">
-
-            {% for i in images %}
-            <div class="my-3 p-3 mx-auto text-center">
-                {% include feature/image.html objectid=i.objectid%}
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-    <div class="row" id="pdfs">
-        <div class="col-md-6 offset-md-3 p-4" id="images">
-
-            {% for p in pdfs %}
-            <div class="my-3 p-3 mx-auto text-center">
-                {% include feature/pdf.html objectid=p.objectid%}
-            </div>
-            {% endfor %}
-        </div>
-    </div>
+    
 
 </div>
 
