@@ -1,6 +1,6 @@
 ---
 title: Cabin Architecture
-permalink: cabin-architecture.html
+permalink: /about/cabin-architecture.html
 layout: about
 ---
 {% assign cabins = site.data[site.metadata] | map: "cabintype" | compact | uniq %}
