@@ -66,7 +66,11 @@
     };
     L.control.layers(baseMaps).addTo(map);
     /* load base map */
+    {% if page.url contains "map" %}
+    OpenTopoMap.addTo(map);
+    {% else %}
     {{ site.data.theme.map-base | default: 'Esri_WorldStreetMap' }}.addTo(map);
+    {% endif %}
 
     
    
@@ -172,6 +176,7 @@ data.forEach(function(row){
 
 });
 
+{% unless page.url contains "map" %}
 map.on('zoomend', function() {
 var zoomlevel = map.getZoom();
     if (zoomlevel  < 7){
@@ -184,7 +189,7 @@ var zoomlevel = map.getZoom();
 
 });
     }
-    if (zoomlevel >= 7){
+    else if (zoomlevel >= 7){
         $(".map-label").each(function() {
     $(this).addClass("d-block");
     $(this).removeClass("d-none");
@@ -201,7 +206,7 @@ var zoomlevel = map.getZoom();
     }
 console.log("Current Zoom Level =" + zoomlevel)
 });
-
+{% endunless %}
 
     {% if site.data.theme.map-cluster == true and site.data.theme.map-search == true %}
     /* uncluster when search is clicked */
