@@ -1,0 +1,135 @@
+---
+layout: default
+map-on: true
+custom-foot: js/mapitem-js.html
+---
+<style>
+    #map {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    min-height: 1000px;
+    position: absolute;
+}
+#item-image .img-fluid{
+    max-height: 500px;
+}
+#main-header, .main-footer, .leaflet-right{display: none;}
+.btn-outline-light:hover{
+    color:black !important;
+}
+</style>
+<div class="col-12 mt-1" >
+    <button id="map-toggler" type="button" class="float-right btn btn-outline-light m-2 "  aria-label="Close" onclick="mapToggle()">
+        <span aria-hidden="true" id="map-off"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98l4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"/>
+          </svg><span class="sr-only">Map icon</span>
+        <br>
+        <span class="small">View Map</span></span>
+        <span aria-hidden="true" id="map-on" class='d-none'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image-alt" viewBox="0 0 16 16">
+            <path d="M7 2.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zm4.225 4.053a.5.5 0 0 0-.577.093l-3.71 4.71-2.66-2.772a.5.5 0 0 0-.63.062L.002 13v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4.5l-4.777-3.947z"/>
+          </svg><span class="sr-only">Image icon</span>
+            <br>
+            <span class="small">View Item</span></span>
+      </button>
+    </div>
+<div id="map" style="z-index:-100;"></div>
+<div class="container pt-5" id="contents-container" >
+    <ul class="breadcrumb h5 bg-transparent" >
+        <li class="breadcrumb-item"><a class="text-white" href="{{ '/about.html' | absolute_url }}">{{ site.title }}</a></li>
+        <li class="breadcrumb-item text-secondary"><a class="text-white" href="{{ '/map.html' | absolute_url }}">Map</a></li>
+        <li id="bc-title" class="breadcrumb-item active text-white"></li>
+    </ul>
+
+  
+
+    <div id="loading" class="text-center">
+        <div class="spinner-border text-secondary" role="status"><span class="sr-only">Loading...</span></div>
+    </div>
+
+    <div class="row mt-3" >
+        
+
+        <div class="col-md-10 offset-md-1 mt-4" >
+            
+            <h2 id="item-title" class="d-none"></h2>
+            <div class=" mb-4 text-center">
+                <div class="w-100 text-center p-1" id="item-image" ></div>
+                <div id="item-link" class="text-center my-2 d-none"></div>
+            </div>
+        </div>
+           
+    </div>
+        <div class="row mt-3">
+            <div class="col-md-6 offset-md-3" >
+                <div class="text-center mb-5">
+                <button class="btn btn-lg btn-outline-light" type="button" data-toggle="modal"  data-target="#metadataModal" aria-expanded="false" aria-controls="metadataModal">
+                    More Item Info 
+                  </button>
+                </div>
+                <div class="modal fade" id="metadataModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Item Metadata</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="item-metadata" class="metadata">
+
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div> 
+    </div>
+
+ 
+    <div class="text-center row">
+        <div class="col-4 text-right">
+    
+            <a id="prev-button" type="button" class="btn btn-outline-light text-white">&laquo; Previous</a>
+        </div>
+        <div class="col-4 text-center">
+            <a type="button" class="btn btn-outline-light text-white" href="{{ '/map.html' | relative_url }}">Back to Map</a>
+        </div>
+        <div class="col-4 text-left">
+            <a id="for-button" type="button" class="btn btn-outline-light text-white">Next &raquo;</a>
+        </div>
+    
+        <div class="col-12 mt-4 text-center">
+    
+            <a class="btn btn-outline-light btn-sm text-white align-self-center " href="#" data-toggle="modal" data-target="#nav-modal">How to Navigate</a>
+        </div>
+    
+    </div>
+   
+   
+ 
+    <div id="item-nav">
+        <div class="d-none d-md-block">
+            <a id="back-button" class="previous btn btn-lg btn-outline-light text-white">&laquo;</a>
+            <a id="next-button" class="next btn btn-lg btn-outline-light text-white">&raquo;</a>
+        </div>
+    </div>
+   
+</div>
+
+<script>
+    function mapToggle(){
+        document.getElementById('contents-container').classList.toggle('d-none');
+        document.getElementById('map-off').classList.toggle('d-none');
+        document.getElementById('map-on').classList.toggle('d-none');        
+    };
+    // function navToggle(){
+    //    location.href = "www.yoursite.com";
+//    };
+</script>
+{% assign navpage = site.data.pages | where_exp: 'item', 'item.relative_link == page.url' | first %}
+

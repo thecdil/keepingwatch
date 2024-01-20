@@ -1,0 +1,457 @@
+{%- assign fields = site.data.config-metadata -%}
+{%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
+{%- assign mapitems = site.data.what-is-lost  | where_exp: 'item','item.latitude != nil and item.longitude != nil and item.object_location != nil' -%}
+<script src="{{ '/assets/lib/lightgallery/js/lightgallery-all.min.js' | relative_url }}"></script>
+<script>
+/* add item data */
+ /* mapitem-js.html */
+var items = { 
+        {%- for mapitem in mapitems -%}
+        {{ mapitem.objectid | jsonify }} : { {% for f in fields %}{% if mapitem[f.field] %}{{ f.field | escape | jsonify }}: {{ mapitem[f.field] | escape | jsonify }}, {% endif %}{% endfor %}{% if mapitem.prevobjectid %} "prevobjectid": {{ mapitem.prevobjectid | jsonify }},{% else %} "prevlink": {{ mapitem.prevlink | relative_url | jsonify }},{% endif %}{% if mapitem.nextobjectid %} "nextobjectid": {{ mapitem.nextobjectid | jsonify }}, {% else %} "nextlink": {{ mapitem.nextlink | relative_url | jsonify }},{% endif %}{% if mapitem.youtubeid %} "youtube": {{ mapitem.youtubeid | jsonify }}, {% endif %}"image_small": {{ mapitem.image_small | jsonify }}, "latlong": "{{ mapitem.latitude }},{{ mapitem.longitude }}" , "filename": {{ mapitem.object_location | jsonify }} }{% unless forloop.last %}, {% endunless %}{% endfor %}
+    };
+    /* get query id from URL */
+    var queryString = window.location.search.substring(1).split("id=")[1];
+    var record = items[queryString];
+
+(function(){
+    
+
+    if (record) {
+        /* add item title */
+        var objectTitle = record.title;
+        document.getElementById("bc-title").innerHTML = objectTitle;
+        document.getElementById("item-title").innerHTML = objectTitle;
+        /* add object */ 
+        var format = record.format;
+        var objectFile = record.filename;
+        var objectLink = record.image_small;
+        var itemImage, itemLink;
+        if (format.includes('image')) {
+            itemImage= '<div class="gallery-img" data-src="' + objectFile + '" id="item-content"><img class="img-fluid" src="' + objectLink + '" alt="' + objectTitle + '"><p><small class="text-white">Click to view full screen</small></p></div>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Image</a>';
+        } else if (format.includes('application')) {
+            itemImage= '<object data="' + objectFile + '" type="application/pdf" width="100%" height="650px" id="item-content"><p>The PDF is not rendering in your browser. Please use the button below to download the PDF.</p></object>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-outline-light" title="Object download">Download PDF</a>';
+        } else if (format.includes('audio')) {
+            itemImage= '<audio controls class="w-100" id="item-content"><source src="' + record.filename + '" target="_blank" type="audio/mpeg">Your browser does not support the audio element.</audio>';
+            itemLink= '<a href="' + record.filename + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Audio File</a>';
+        } else if (format.includes('video')) {
+            if (record.youtube){
+            itemImage= '<div class="embed-responsive embed-responsive-16by9" id="item-content"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/' + record.youtube + '?rel=0&modestbranding=1" allowfullscreen></iframe></div>';
+            itemLink= '<a href="https://youtu.be/' + record.youtube + '" target="_blank" class="btn btn-outline-light" title="Object download">View on YouTube</a>';}
+            else {
+            itemImage= '<div class="embed-responsive embed-responsive-16by9" id="item-content"><video class="embed-responsive-item" width="320" height="240" controls><source src="'+ record.filename +'" type="video/mp4">Your browser does not support the video tag.</video></div>'
+            itemLink= '<a href="' + record.filename + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Video</a>';    
+            }  
+        } else {
+            /* add warning, just for fun to debug since format field is probably wrong */
+            itemImage= '<p id="item-content">No preview found (issue with format field?)</p>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Object</a>';
+        }
+
+        {% if stubs contains "timeline" %}
+        /* add link to view on timeline */
+        if (record.date) {
+            var itemYear;
+            if (record.date.includes('-')) {
+                itemYear = record.date.split('-')[0];
+            } else if (record.date.includes('/')) {
+                itemYear = record.date.split('/').pop();
+            } else {
+                itemYear = record.date;
+            }
+            itemLink += '<a href="{{ "/timeline.html" | relative_url }}#' + itemYear + '" class="ml-2 btn btn-outline-light">View on Timeline</a>';
+        }
+        {%- endif -%}
+        {% if stubs contains "map" %}
+        /* add link to view on map */ 
+        if (record.latitude && record.longitude) {
+            itemLink += '<a href="{{ '/map.html' | relative_url }}#' + record.latitude + ',' + record.longitude + '" class="ml-2 btn btn-outline-light">View on Map</a>';
+        }
+        {%- endif -%}
+
+        /* add content to item display area */
+        document.getElementById("item-image").innerHTML = itemImage;
+        document.getElementById("item-link").innerHTML = itemLink;
+        
+        /* trigger lightGallery for images */
+        if (format.includes('image')) {
+            $("#item-image").lightGallery({
+                selector: '.gallery-img'
+            });
+        }
+
+        /* add item metadata */
+        var fields = '<dl>';
+        {% for f in fields %}{% if f.browse_link == "true" %}
+        if (record[{{ f.field | escape | jsonify }}]) {
+            var topics = record[{{ f.field | escape | jsonify }}].split(';');
+            var browseLinks = "";
+            for (var i = 0, len = topics.length; i < len; i++) {
+                if (topics[i] != "") {
+                    browseLinks += '<a class="btn btn-link" href="{{ '/browse.html' | relative_url }}#' + encodeURIComponent(topics[i].trim()) + '">' + topics[i].trim() + '</a> ';
+                }
+            }
+            fields += '<dt class="field">{{ f.display_name }}:</dt> <dd class="field-value">' + browseLinks + '</dd>';
+        }
+        {%- else -%}
+        if (record[{{ f.field | escape | jsonify }}]) { fields += '<dt class="field">{{ f.display_name }}:</dt> <dd class="field-value">' + record[{{ f.field | escape | jsonify }}] + '</dd>'; }
+        {% endif %}{% endfor %}
+        fields += '<dt class="field">Lat-Long:</dt> <dd class="field-value">' + record["latlong"] + '</dd></dl>';
+        document.getElementById("item-metadata").innerHTML = fields;
+
+        {% if site.data.theme.browse-buttons == true %}
+        /* add prev/next nav */
+        var itemKeys = Object.keys(items);
+        var current = itemKeys.indexOf(queryString);
+       
+        if (record.prevobjectid && record.nextobjectid) {
+                var backUrl = "newRecord('" + record.prevobjectid + "');";
+                var forwardUrl = "newRecord('" + record.nextobjectid + "');";
+            }
+            else if (record.prevlink && record.nextlink) {
+                var backUrl = "window.location.assign('" + record.prevlink +"')";
+                var forwardUrl = "window.location.assign('" + record.nextlink +"')";
+            }
+          else if (record.nextlink && record.prevobjectid ) {
+            var forwardUrl = "window.location.assign('" + record.nextlink +"')";
+                var backUrl = "newRecord('" + record.prevobjectid + "');";
+               
+            }
+            else {
+                var forwardUrl = "newRecord('" + record.nextobjectid + "');";
+                var backUrl = "window.location.assign('" + record.prevlink +"')";
+            }
+        
+        /* add side buttons to page */
+        document.getElementById("back-button").setAttribute("onclick", backUrl);
+        document.getElementById("next-button").setAttribute("onclick",forwardUrl);
+        /* add bottom buttons to page */
+        document.getElementById("prev-button").setAttribute("onclick",backUrl);
+        document.getElementById("for-button").setAttribute("onclick",forwardUrl);
+
+        /* add back forward key press */
+        document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        switch (evt.keyCode) {
+            case 37:
+            document.getElementById("back-button").click();
+                break;
+            case 39:
+            document.getElementById("next-button").click();
+                break;
+        }};
+        {%- endif -%}
+        
+    } else {
+        /* no item with that ID */
+        document.getElementById("bc-title").innerHTML = 'Not found?';
+        document.getElementById("item-title").innerHTML = 'Sorry, item not found. Please visit <a href="{{ "/browse.html" | relative_url }}">Browse page</a> to find an item.';
+    }
+
+    /* all done, so hide loading animation */
+    document.getElementById("loading").style.display = "none";
+
+})();
+
+function newRecord(nextRecord){
+    
+    var record = items[nextRecord];
+  
+    if (record) {
+        /* add item title */
+        var objectTitle = record.title;
+        document.getElementById("bc-title").innerHTML = objectTitle;
+        document.getElementById("item-title").innerHTML = objectTitle;
+        /* Move Map */
+    map.flyTo([record.latitude, record.longitude], 14, {
+    animate: true,
+    easeLinearity: .5,
+    duration: 3});
+    /* Change URL parameter, i.e. id= */
+    var nextRecordurl = location.pathname + '?id=' + nextRecord;
+    window.history.replaceState({}, '', location.pathname + '?id=' + nextRecord );
+    var currentRecordurl = window.location.href;
+    document.title = objectTitle;
+    
+        /* add object */ 
+        var format = record.format;
+        var objectLink = record.image_small;
+        var slideHash = "location.hash = '#lg=1&slide=0';location.reload();"
+        var itemImage, itemLink;
+        if (format.includes('image')) {
+            itemImage= '<div class="gallery-img" data-src="' + record.filename + '" id="item-content"><img class="img-fluid" src="' + objectLink + '" alt="' + objectTitle + '" onclick="'+ slideHash +'"><p><small class="text-white">Click to view full screen</small></p></div>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Image</a>';
+        } else if (format.includes('application')) {
+            itemImage= '<object data="' + objectLink + '" type="application/pdf" width="100%" height="650px" id="item-content"><p>The PDF is not rendering in your browser. Please use the button below to download the PDF.</p></object>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-outline-light" title="Object download">Download PDF</a>';
+        } else if (format.includes('audio')) {
+            itemImage= '<audio controls class="w-100" id="item-content"><source src="' + objectLink + '" target="_blank" type="audio/mpeg">Your browser does not support the audio element.</audio>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Audio File</a>';
+        } else if (format.includes('video')) {
+            if (record.youtube){
+            itemImage= '<div class="embed-responsive embed-responsive-16by9" id="item-content"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/' + record.youtube + '?rel=0&modestbranding=1" allowfullscreen></iframe></div>';
+            itemLink= '<a href="https://youtu.be/' + record.youtube + '" target="_blank" class="btn btn-outline-light" title="Object download">View on YouTube</a>';}
+            else {
+            itemImage= '<div class="embed-responsive embed-responsive-16by9" id="item-content"><video class="embed-responsive-item" width="320" height="240" controls autoplay><source src="'+ record.filename +'" type="video/mp4">Your browser does not support the video tag.</video></div>'
+            itemLink= '<a href="' + record.filename + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Video</a>';    
+            }  
+        } else {
+            /* add warning, just for fun to debug since format field is probably wrong */
+            itemImage= '<p id="item-content">No preview found (issue with format field?)</p>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Object</a>';
+        }
+
+        {% if stubs contains "timeline" %}
+        /* add link to view on timeline */
+        if (record.date) {
+            var itemYear;
+            if (record.date.includes('-')) {
+                itemYear = record.date.split('-')[0];
+            } else if (record.date.includes('/')) {
+                itemYear = record.date.split('/').pop();
+            } else {
+                itemYear = record.date;
+            }
+            itemLink += '<a href="{{ "/timeline.html" | relative_url }}#' + itemYear + '" class="ml-2 btn btn-outline-light">View on Timeline</a>';
+        }
+        {%- endif -%}
+        {% if stubs contains "map" %}
+        /* add link to view on map */ 
+        if (record.latitude && record.longitude) {
+            itemLink += '<a href="{{ '/map.html' | relative_url }}#' + record.latitude + ',' + record.longitude + '" class="ml-2 btn btn-outline-light">View on Map</a>';
+        }
+        {%- endif -%}
+
+        /* add content to item display area */
+        document.getElementById("item-image").innerHTML = itemImage;
+        document.getElementById("item-link").innerHTML = itemLink;
+        
+        /* trigger lightGallery for images */
+        if (format.includes('image')) {
+            $("#item-image").lightGallery({
+                selector: '.gallery-img'
+            });
+        }
+
+        /* add item metadata */
+        var fields = '<dl>';
+        {% for f in fields %}{% if f.browse_link == "true" %}
+        if (record[{{ f.field | escape | jsonify }}]) {
+            var topics = record[{{ f.field | escape | jsonify }}].split(';');
+            var browseLinks = "";
+            for (var i = 0, len = topics.length; i < len; i++) {
+                if (topics[i] != "") {
+                    browseLinks += '<a class="btn btn-link" href="{{ '/browse.html' | relative_url }}#' + encodeURIComponent(topics[i].trim()) + '">' + topics[i].trim() + '</a> ';
+                }
+            }
+            fields += '<dt class="field">{{ f.display_name }}:</dt> <dd class="field-value">' + browseLinks + '</dd>';
+        }
+        {%- else -%}
+        if (record[{{ f.field | escape | jsonify }}]) { fields += '<dt class="field">{{ f.display_name }}:</dt> <dd class="field-value">' + record[{{ f.field | escape | jsonify }}] + '</dd>'; }
+        {% endif %}{% endfor %}
+        fields += '</dl>';
+        document.getElementById("item-metadata").innerHTML = fields;
+
+        {% if site.data.theme.browse-buttons == true %}
+        /* add prev/next nav */
+        var itemKeys = Object.keys(items);
+        var current = itemKeys.indexOf(nextRecord);
+        var last = itemKeys.length - 1;
+        var back, forward;
+        if (current === 0) {
+            back = itemKeys[last];
+        } else { 
+            back = itemKeys[current - 1];
+        }
+        if (current === last) {
+            forward = itemKeys[0];
+        } else {
+            forward = itemKeys[current + 1];
+        }
+      
+        if (record.prevobjectid && record.nextobjectid) {
+                var newbackUrl = "newRecord('" + record.prevobjectid + "');";
+                var newforwardUrl = "newRecord('" + record.nextobjectid + "');";
+            }
+            else if (record.prevlink && record.nextlink) {
+                var newbackUrl = "window.location.assign('" + record.prevlink +"')";
+                var newforwardUrl = "window.location.assign('" + record.nextlink +"')";
+            }
+          else if (record.nextlink && record.prevobjectid ) {
+            var newforwardUrl = "window.location.assign('" + record.nextlink +"')";
+                var newbackUrl = "newRecord('" + back + "');";
+               
+            }
+            else {
+                var newforwardUrl = "newRecord('" + forward + "');";
+                var newbackUrl = "window.location.assign('" + record.prevlink +"')";
+            }
+        
+        /* add side buttons to page */
+        document.getElementById("back-button").setAttribute("onclick", newbackUrl);
+        document.getElementById("next-button").setAttribute("onclick",newforwardUrl);
+        /* add bottom buttons to page */
+        document.getElementById("prev-button").setAttribute("onclick",newbackUrl);
+        document.getElementById("for-button").setAttribute("onclick",newforwardUrl);
+
+         /* add back forward key press */
+         document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        switch (evt.keyCode) {
+            case 37:
+            document.getElementById("back-button").click();
+                break;
+            case 39:
+            document.getElementById("next-button").click();
+                break;
+        }};
+        {%- endif -%}
+        
+    } else {
+        /* no item with that ID */
+        document.getElementById("bc-title").innerHTML = 'Not found?';
+        document.getElementById("item-title").innerHTML = 'Sorry, item not found. Please visit <a href="{{ "/browse.html" | relative_url }}">Browse page</a> to find an item.';
+    }
+
+    /* all done, so hide loading animation */
+    document.getElementById("loading").style.display = "none";
+
+};
+
+</script>
+{%- assign items = mapitems -%}
+{%- assign mapfields = site.data.config-map -%}
+<!-- load leaflet dependencies -->
+<script src="{{ '/assets/lib/leaflet/leaflet.js' | relative_url }}"></script>
+{% if site.data.theme.map-search == true %}<script src="{{ '/assets/lib/leaflet/fuse.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/lib/leaflet/leaflet.fusesearch.js' | relative_url }}"></script>{% endif %}
+{% if site.data.theme.map-cluster == true %}<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.js' | relative_url }}"></script>{% endif %}
+{% if site.data.theme.map-search == true and site.data.theme.map-cluster == true %}<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.freezable.js' | relative_url }}"></script>{% endif %}
+
+<script>
+
+    /* init map and set zoom */
+    if (window.location.hash) {
+        /* if url has a hash, it is split by comma into coordinates that set the view */
+        var hashfilter = decodeURIComponent(location.hash.substr(1));
+        var latitudeHash = hashfilter.split(',')[0]
+        var longitudeHash = hashfilter.split(',')[1]
+        var map = L.map('map').setView([latitudeHash,longitudeHash],16);
+    } else if (window.location.href.indexOf("?id") > -1) {
+        console.log(record.longitude + ", " + record.latitude)
+        var map = L.map('map').setView([ record.latitude,record.longitude],15);
+        
+    }
+      else {
+        var map = L.map('map').setView([{{ site.data.theme.latitude | default: 46.727485 }},{{ site.data.theme.longitude | default: -117.014185 }}],{{ site.data.theme.zoom-level | default: 5 }});
+    }
+(function(){
+    /* add collection map data */
+    var geodata = { "type": "FeatureCollection", "features": [ 
+    {% for item in items %}
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{{ item.longitude | strip }},{{ item.latitude | strip }}] }, "properties":
+    { "title": {{ item.title | escape | jsonify }}, 
+    {% for f in mapfields %}{{ f.mapfields | escape | jsonify }}: {{ item[f.mapfields] | escape | jsonify }},{% endfor %}{% if item.youtubeid %} "youtube": {{ item.youtubeid | jsonify }}, {% endif %}{% if item.image_thumb %} "image_thumb": {{ item.image_small | jsonify }}, {% endif %}"format": {{ item.format | jsonify }}, "filename": {{ item.filename | jsonify }}, "id": {{ item.objectid | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
+    ]};
+
+
+    /* add map layer options */
+    var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+    });
+    var Esri_NatGeoWorldMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+        maxZoom: 16
+    });
+    var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+    });
+    /* add base map switcher */
+    var baseMaps = {
+        "Esri World StreetMap": Esri_WorldStreetMap,
+        "Esri National Geo": Esri_NatGeoWorldMap,
+        "Esri Imagery": Esri_WorldImagery
+    };
+    L.control.layers(baseMaps).addTo(map);
+    /* load base map */
+    Esri_WorldImagery.addTo(map);
+
+    {% if site.data.theme.map-search == true %}
+    /* add leaflet-fusesearch */
+    var options = {
+        title: 'Search Map Items',
+        locationholder: 'Search map items...',
+        threshold: {{ site.data.theme.map-search-fuzziness | default: 0.35 }} 
+    };
+    var searchCtrl = L.control.fuseSearch(options);
+    searchCtrl.addTo(map);
+    searchCtrl.indexFeatures(geodata.features, {{ fields | where: 'search','true' | map: 'field' | unshift: 'title' | jsonify }});{% endif %}
+
+    {% if site.data.theme.map-cluster == true %}
+    /* create cluster group */
+    var markers = L.markerClusterGroup({ maxClusterRadius: {{ site.data.theme.cluster-radius | default: 15 }}, singleMarkerMode: true {% if site.data.theme.map-search == true %}, removeOutsideVisibleBounds: false{% endif %} });{% endif %}
+
+    /* function to create object popups */
+    function objectPopups(feature, layer) {
+        {% if site.data.theme.map-search == true %}
+        /* bind feature for search */
+        feature.layer = layer;{% endif %}
+        /* calculate item link */
+        var itemHref = '{{ "/mapitem.html?id=" | relative_url }}' + feature.properties.id;
+        /* find object thumb based on format */
+        var thumbSrc;
+        if (feature.properties.format.includes("audio")) {
+            thumbSrc = '{{ "/assets/img/audio.svg" | relative_url }}';
+        } else if (feature.properties.format.includes("pdf")) {
+            thumbSrc = '{{ "/assets/img/pdf.svg" | relative_url }}';
+        } else if (feature.properties.youtube) {
+            thumbSrc = 'https://img.youtube.com/vi/' +  feature.properties.youtube + '/default.jpg';
+        } else {
+            thumbSrc = feature.properties.image_thumb;
+        }    
+        /* create popup content */
+        var popupTemplate = '<h4><a class="text-dark" href="' + itemHref + '">' +
+            feature.properties.title + '</a></h4><div class="text-center"><a href="' + itemHref + 
+            '" ><img class="mapthumb img-thumb" src="' +  thumbSrc + '" alt="item thumbnail"></a></div><p class="mt-1">';
+        /* add metadata fields */
+        {% for f in fields %}{% if f.display_name %}
+        if (feature.properties[{{ f.field | escape | jsonify }}]) {
+            popupTemplate += '<strong>{{ f.display_name }}:</strong> ' + feature.properties[{{ f.field | escape | jsonify }}] + '<br>'; 
+        }
+        {% endif %}{% endfor %}
+        /* add object link button to popup */
+        popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
+        /* add object popup to map layer */
+        layer.bindPopup(popupTemplate);
+    }
+    /* function to add objects to map */
+    function objectMarkers(feature,latlng) {
+        var marker = L.marker(latlng);
+        {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
+        return marker;
+    }
+
+    /* use geoJson features to add objects to map */
+    L.geoJson(geodata, {
+        onEachFeature: objectPopups,
+        pointToLayer: objectMarkers
+    }){% if site.data.theme.map-cluster != true %}.addTo(map);{% else %};
+    map.addLayer(markers);{% endif %}
+    
+    {% if site.data.theme.map-cluster == true and site.data.theme.map-search == true %}
+    /* uncluster when search is clicked */
+    document.querySelector('a.button').addEventListener("click", function() {
+        markers.disableClustering();
+    });
+    /* recluster when search is closed */
+    document.querySelector('a.close').addEventListener("click", function() {
+        markers.enableClustering();
+        document.querySelector('input.search-input').value = "";
+    });{% endif %}
+
+
+})();
+
+
+</script>
