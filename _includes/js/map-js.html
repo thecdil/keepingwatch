@@ -67,7 +67,7 @@
     L.control.layers(baseMaps).addTo(map);
     /* load base map */
     {% if page.url contains "map" %}
-    OpenTopoMap.addTo(map);
+    Esri_WorldImagery.addTo(map);
     {% else %}
     {{ site.data.theme.map-base | default: 'Esri_WorldStreetMap' }}.addTo(map);
     {% endif %}

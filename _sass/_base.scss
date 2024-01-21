@@ -30,6 +30,7 @@ body {
     @if $text-color != "" { color: $text-color; }
 }
 a {
+    text-decoration:none !important;
     @if $link-color != "" { 
         color: $link-color; 
         &:hover {

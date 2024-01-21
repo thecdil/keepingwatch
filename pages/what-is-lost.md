@@ -3,11 +3,5 @@ title: What Is Lost?
 permalink: /about/what-is-lost.html
 layout: mapitem
 ---
-
+{:.display-4 .mb-0 .text-left .ml-5}
 # What is Lost?
-
-_should this be on a map? like storying?_
-
-{% for item in items %}
-{% include feature/video.html objectid=item.objectid %}
-{% endfor %}

@@ -63,6 +63,22 @@ metadata-export-fields: "objectid,parentid,filename,title,creator,date,descripti
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "subject,creator,format"
 
+
+##########
+# Compound Objects 
+# 
+# Ignore this section if you are not including any compound objects
+# Note, like other items, child objects will only appear in visualizations if they have the correct metadata (lat long for map; date for timeline)
+# select true below if you'd like your compound object's child objects to appear in any of the pages or features listed
+map-child-objects: true # true / false - if true, and if child item has latitude and longitude, child objects will be displayed on map
+timeline-child-objects: true # true / false - if true, and if child object has date, child objects will appear as thumbnails on timeline page
+data-child-objects: false # true / false - if true, child objects will appear linked in table on data page
+carousel-child-objects: false # true / false - if true, child objects will appear on homepage carousel
+browse-child-objects: false # true / false - if true, child objects will appear on browse page and child objects' metadata will populate cloud pages like Subjects page and Locations page, as well as featured terms boxes on the home page
+search-child-objects: true # true / false - if true, child objects will appear on on search page along with parent objects
+
+
+
 ##########
 # ADVANCED OPTIONS
 #
@@ -81,21 +97,26 @@ navbar-background: bg-white
 bootswatch: # leave blank or comment out for plain bootstrap
 
 # THEME FONTS [optional!]
-base-font-size: 1.23em
+base-font-size: 1.3em
 text-color: "#191919"
 link-color: "#17a2b8"
 base-font-family: Raleway # comment out for bootstrap defaults. e.g. Roboto
 font-cdn: <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@500&display=swap" rel="stylesheet"> # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
 
 # THEME ICONS [optional!]
 # default icons can be overridden or new icons can be added using "icons" object
 # the template uses Bootstrap Icons, https://icons.getbootstrap.com/
 # find the names on the BI icons page, e.g. file-image
 #
-icons: 
-  icon-image: image
-  icon-audio: file-play
-  icon-video: film
-  icon-pdf: file-richtext
-  icon-default: file # fall back icon
-
+# icons: 
+#   icon-image: image
+#   icon-audio: soundwave
+#   icon-video: film
+#   icon-pdf: file-pdf
+#   icon-record: file-text
+#   icon-panorama: image-alt
+#   icon-compound-object: collection 
+#   icon-multiple: postcard
+#   icon-default: file-earmark # fall back icon
+#   icon-back-to-top: arrow-up-square

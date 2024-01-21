@@ -1,4 +1,0 @@
-
-
-
-We are greeted by a towering figure, well over six-feet-tall. His name is Patrick McCarron, and he is filling in for the regular lookout, a young man getting his MFA in creative writing at the University of Montana. I notice a copy of Barry Lopez's <i> Arctic Dreams <i/> on a table near the stove. Patrick lets us record him taking the weather report for the day—hot and dry with a light yet consistent wind. His voice is smoky and he talks how I believe people did before social media and cell phones, in an exuberant, magical way. We discuss fire suppression and Patrick iterates that fire is a necessary component of forest ecosystems, sure to mention the severity of fires in the modern age; “I don’t want to see suffering” he says “but here we are, the conundrum.” 

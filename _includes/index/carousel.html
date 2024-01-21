@@ -2,7 +2,7 @@
 
     Image item carousel.
     This include adds a Bootstrap Carousel component populated with randomly selected image items, designed with index page in mind. 
-    https://getbootstrap.com/docs/4.6/components/carousel/
+    https://getbootstrap.com/docs/5.1/components/carousel/
 
     E.G. --> {% include index/carousel.html title="Sample Items" height=450 %}
 
@@ -13,7 +13,7 @@
     - "title" - card title text inside card content area (optional)
     - "header" = card header text in bar above card content (optional)
     - "max" = maximum images selected for slide show (optional, default 9. Do not make too big!)
-    - "btn-color" - a bootstrap color class to theme the buttons. Can be any bootstrap template color (e.g. info, success) or outline (e.g. outline-info, outline-success), including colors created in config-theme-colors. (optional, default "info")
+    - "btn-color" - a bootstrap color class to theme the buttons. Can be any bootstrap template color (e.g. info, success) or outline (e.g. outline-info, outline-success), including colors created in config-theme-colors. (optional, default "primary")
     - "btn-text" - the label used in the link btn to view the carousel item (optional, default "View Item")
     
 {%- endcomment -%}
@@ -21,40 +21,40 @@
 {%- assign carousel-max = include.max | default: 9 -%}
 {%- assign btn-color = include.btn-color | default: "primary" -%}
 {%- assign btn-text = include.btn-text | default: "View Item" -%}
-{% if include.carousel-type == "small" %}
-{%- assign carousel-items = site.data[site.metadata] | where_exp: 'item','item.objectid' | where_exp: "item","item.image_small" -%}
+{% if site.data.theme.carousel-child-objects == true %}
+{%- assign carousel-items = site.data[site.metadata] | where_exp: 'item','item.objectid' | where_exp: "item","item.image_small != nil or item.image_thumb != nil"-%}
 {% else %}
-{%- assign carousel-items = site.data[site.metadata] | where_exp: 'item','item.objectid' | where_exp: "item","item.image_thumb" -%}
+{%- assign carousel-items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' | where_exp: "item","item.image_small != nil or item.image_thumb != nil" -%}
 {% endif %}
 
 {%- comment -%}
     Set up carousel div
 {%- endcomment -%}
 <style>
-    #imageCarousel .carousel-item { height: {{ site.data.theme.carousel-height | remove: "px" | default: '300' }}px; }
+    #imageCarousel .carousel-item { height: {{ include.height | remove: 'px' | strip | default: '300' }}px; }
 </style>
 <div class="card mb-3">
-    {% if include.header %}<h5 class="card-header">{{ include.header }}</h5>{% endif %}
+    {% if include.header %}<h2 class="card-header h5">{{ include.header }}</h2>{% endif %}
     <div class="card-body">
-        {% if include.title %}<h5 class="card-title">{{ include.title }}</h5>{% endif %}
+        {% if include.title %}<h2 class="card-title h5">{{ include.title }}</h2>{% endif %}
         
-        <div id="imageCarousel" class="carousel slide bg-dark rounded mb-3" data-ride="carousel">
-            <ol id="carouselIndicators" class="carousel-indicators">
+        <div id="imageCarousel" class="carousel slide bg-dark rounded mb-3" data-bs-ride="carousel">
+            <div id="carouselIndicators" class="carousel-indicators">
                 
-            </ol>
+            </div>
             <div id="carouselInner" class="carousel-inner">
                 
             </div>
-            <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-
+            
     </div>
 </div>
 {%- comment -%}
@@ -63,8 +63,7 @@
 <script>
     /* add item data */
     // title,objectid,image_thumb/small
-    var carouselItems = [ {% for c in carousel-items %}[ {{ c.title | escape | jsonify }}, "{{ c.objectid }}", 
-    {% if include.carousel-type == "small" %}{{ c.image_small | relative_url | jsonify }}{% else %}{{ c.image_thumb | relative_url | jsonify }}{% endif %} ]{% unless forloop.last %}, {% endunless %}{% endfor %}];
+    var carouselItems = [ {% for c in carousel-items %}[ {{ c.title | escape | jsonify }}, "{{ c.objectid }}", {% if c.image_small %}{{ c.image_small | relative_url | jsonify }}{% else %}{{ c.image_thumb | relative_url | jsonify }}{% endif %}, "{{ c.parentid }}", {{ c.image_alt_text | default: c.title | escape | jsonify }} ]{% unless forloop.last %}, {% endunless %}{% endfor %}];
     /* shuffle items */
     carouselItems.sort(function() { return 0.5 - Math.random() });
 
@@ -78,18 +77,20 @@
         // calculate item image location
         itemImg = carouselItems[i][2];
         // calculate item link
-        itemLink = '{{ '/items/' | relative_url }}' + carouselItems[i][1] + '.html';
-        
-        // active class for first item
-        if (i==0) {
-            active = "active";
-        } else {
-            active = "";
-        }
+        if (carouselItems[i][3]){
+            itemLink = '{{ '/items/' | relative_url }}' + carouselItems[i][3] + '.html#' + carouselItems[i][1];}
+        else {
+            itemLink = '{{ '/items/' | relative_url }}' + carouselItems[i][1] + '.html';
+        }   
         // create indicator 
-        indicator = '<li data-target="#imageCarousel" data-slide-to="' + i.toString() + '" class="' + active + '"></li>';
+        indicator = `<button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="${i.toString()}" ${ i == 0 ? 'class="active" aria-current="true" ' : '' }aria-label="Slide ${i.toString()}"></button>`;
         // create slide
-        slide = '<div class="carousel-item py-2 ' + active + '"><img class="d-block h-100 mx-auto lazyload" alt="image highlight" data-src="' + itemImg + '"> <div class="carousel-caption"><h5 class="carousel-item-title text-white py-2">' + carouselItems[i][0] + '</h5><a href="' + itemLink + '" class="btn btn-sm btn-{{ btn-color }}">{{ btn-text }}</a></div></div>';
+        slide = `<div class="carousel-item py-2${ i == 0 ? ' active' : '' }">
+            <img class="d-block h-100 mx-auto lazyload" alt="${carouselItems[i][4]}" data-src="${itemImg}">
+            <div class="carousel-caption">
+                <h3 class="carousel-item-title text-white py-2 h6">${carouselItems[i][0]}</h3>
+                <a target="_blank" href="${itemLink}" class="btn btn-sm btn-{{ btn-color }}">{{ btn-text }}</a>
+            </div></div>`;
         slides += slide;
         indicators += indicator;
     }

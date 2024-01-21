@@ -5,23 +5,21 @@
     https://pannellum.org/documentation/reference/
 
 {%- endcomment -%}
-
-
-<div id="panorama-{{child.objectid}}" class="panorama my-5 mx-auto" style="height:400px; width: 100%;"></div>
-
-<!-- https://pannellum.org/documentation/reference/ -->
+<div id="panorama-{{child.objectid}}" class="ratio ratio-4x3 my-4"></div>
 <script>
 pannellum.viewer('panorama-{{child.objectid}}', {
     "type": "equirectangular",
     "panorama": "{{ child.object_location | relative_url }}",
-    "autoLoad": false
+    "autoLoad": false,
         /*
      * Uncomment the next line to print the coordinates of mouse clicks
      * to the browser's developer console, which makes it much easier
      * to figure out where to place hot spots. Always remove it when
      * finished, though.
      */
-    
+    "hotSpotDebug": false,
+    "hotSpots": [
+      
+    ]
 });
 </script>
-

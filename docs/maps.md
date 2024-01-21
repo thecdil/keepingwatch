@@ -2,11 +2,14 @@
 
 Powered by Leaflet.js, https://github.com/Leaflet/Leaflet
 
+Following best practices listed in the Leaflet guide to accessibility, https://leafletjs.com/examples/accessibility/
+
 With plugins: 
 
 - search, https://github.com/naomap/leaflet-fusesearch
 - cluster, https://github.com/Leaflet/Leaflet.markercluster
 - cluster plugin (for search and cluster to work together), https://github.com/ghybs/Leaflet.MarkerCluster.Freezable
+- full screen, https://github.com/Leaflet/Leaflet.fullscreen
 
 Set base configuration in `_data/theme.yml` map section, including:
 
@@ -34,6 +37,24 @@ Because of the way markers are handled, for larger collections it is strongly su
 Cluster makes loading and navigating the map significantly more efficient.
 
 Object pages that have lat/long will generate a "View on Map" button link. 
-These link to the `map.html` page with a hash value, for example: 
-`/map.html#46.727485,-117.014185`.
-If the url includes a hash, it will be parsed and set as the map view box with full zoom.
+These link to the `map.html` page with a query string created from their lat long and objectid.
+If the url includes a query string, it will be parsed and set as the map view box with full zoom and open the popup.
+
+For example: 
+`/map.html?location=46.726113,-117.015671&marker=example_004`
+
+This can be created using the Liquid:
+`{{ '/map.html?location=' | append: page.latitude  | append: ',' | append: page.longitude | append: '&marker=' | append: page.objectid | relative_url }}`
+
+## Customizing the Base Map
+
+You can customize the base maps by editing the template code in "_includes/js/map-js.html".
+
+There is three parts to add a new one:
+
+1. Set up a variable containing the map layer information. For some example free base maps that follow the same pattern as we are using, you can copy the variable from [Leaflet Providers Preview](https://leaflet-extras.github.io/leaflet-providers/preview/).
+2. Add name to the base map switcher. The `baseMaps` variable sets up the names that appear in the switcher that appears in the upper right of the map. It follows the pattern of `"Display Name": Map_Layer_var_name`.
+3. Set the default base map. This is usually set in "theme.yml" as the `map-base` option. If you add a new layer variable, use that name instead of the default ones. Alternatively, in map-js.html you can edit the variable name used to load the base map (which is next after setting up the `baseMaps` var).
+
+Keep in mind that some of the base maps in the free [Leaflet Providers Preview](https://leaflet-extras.github.io/leaflet-providers/preview/) may have usage limitations--check the [Leaflet Providers readme for notes](https://github.com/leaflet-extras/leaflet-providers).
+If you want to do more customization, check the [Leaflet docs](https://leafletjs.com/reference.html), and [Leaflet basemap providers plugins](https://leafletjs.com/plugins.html#basemap-providers).

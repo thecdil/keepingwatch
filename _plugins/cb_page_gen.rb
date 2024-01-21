@@ -2,7 +2,7 @@
 
 #########
 #
-# CollectionBuilder Page Generator, v1.2-csv
+# CollectionBuilder Page Generator, v1.3-csv
 #
 # Jekyll plugin to generate pages from _data/ files.
 # Designed to create Item pages from metadata CSV for digital collection sites.
@@ -37,7 +37,7 @@ module CollectionBuilderPageGenerator
       dir_default = 'items' # where to output pages
       extension_default = 'html' # extension, usually html
       filter_default = 'objectid' # value to filter records on, filters on objectid by default
-      filter_condition_default = nil # expression to filter records on, off by default
+      filter_condition_default = '!record["parentid"]' # expression to filter records on, default filters rows with a parentid
       #
       ######
 
@@ -57,14 +57,21 @@ module CollectionBuilderPageGenerator
         filter = data_config['filter'] || filter_default
         filter_condition = data_config['filter_condition'] || filter_condition_default
 
-        # check if data file exists, if not provide error message and skip
+        # check if data value uses .csv extension, if so provide error message and skip. This avoids common CB error.
+        if data_file.split('.')[1] == "csv"
+          puts color_text("Error cb_page_gen: metadata value '#{data_file}' includes '.csv' extension. Please remove the extension from _config.yml 'metadata' or page_gen 'data' value. Pages are NOT being generated from '#{data_file}'!", :red)
+          next
+        end
+        # check if data file exists, if not provide error message and skip. This supports nested key yml or json data sources
         if !site.data.key? data_file.split('.')[0]
-          puts color_text("Error cb_page_gen: Data value '#{data_file}' does not match any site data. Please check _config.yml 'metadata' or page_gen 'data' value. Common issues are spelling error or including an extension such as .csv (no extension should be used!). Item pages are NOT being generated from '#{data_file}'!", :red)
+          puts color_text("Error cb_page_gen: Data value '#{data_file}' does not match any site data. Please check _config.yml 'metadata' or page_gen 'data' value. Common issues are spelling errors. Pages are NOT being generated from '#{data_file}'!", :red)
           next
         end
 
         # Get the records to generate pages from
-        # this splits on . to support a nested key in yml or json
+        # note: this splits on . to support a nested key in yml or json for page gen.
+        # however, CB template and other plugins do not support nested yml or json for metadata items. 
+        # items described in unnested yml or json will work for both page gen and CB template pages.
         records = nil
         data_file.split('.').each do |level|
           if records.nil?
@@ -75,20 +82,22 @@ module CollectionBuilderPageGenerator
         end
 
         # Filter records if filter is configured (default is on objectid)
-        if filter 
+        if filter
           filtered_records = records.select { |r| r[filter] }
           filtered_number = records.size - filtered_records.size
           # provide notice if filter is applied
-          puts color_text("Notice cb_page_gen: filter on '#{filter}' is applied. #{filtered_number} records are filtered because they do not have a value in '#{filter}'.", :yellow) if filtered_number != 0 
+          puts color_text("Notice cb_page_gen: filter on '#{filter}' is applied. #{filtered_number} records are filtered because they do not have a value in '#{filter}'.", :green) if filtered_number != 0 
           records = filtered_records
         end
         # Filter records if filter_condition is configured
         if filter_condition
-          filtered_records = records.select { |record| eval(data_config['filter_condition']) } 
+          filtered_records = records.select { |record| eval(filter_condition) } 
           filtered_number = records.size - filtered_records.size
-          # provide notice if filter is applied
-          puts color_text("Notice cb_page_gen: filter_condition '#{filter_condition}' is applied. #{filtered_number} records are filtered.", :yellow) if filtered_number != 0 
           records = filtered_records
+          # provide notice if non-default filter is applied
+          if filter_condition != filter_condition_default 
+            puts color_text("Notice cb_page_gen: filter_condition '#{filter_condition}' is applied. #{filtered_number} records are filtered.", :green) if filtered_number != 0 
+          end
         end
 
         # Check for unique names, if not provide error message

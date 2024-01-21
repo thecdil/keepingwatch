@@ -5,7 +5,7 @@ layout: page-full-width
 ---
 
 {:.display-4 .text-center .my-5}
-## Twinned Histories
+# Twinned Histories
 
 <div class="px-md-5">
 <table class="table table-hover table-borderless ">
@@ -19,9 +19,9 @@ layout: page-full-width
   <tbody>
 {% for item in site.data.twinned-histories %}
     <tr >
-        <td class="h4 py-5">{{item.firetower}}</td>
-        <td class="align-middle h2 text-center">{{item.date}}</td>
-        <td class="h4 py-5 text-right">{{item.wilderness}}</td>
+        <td class="h4 py-5 pe-3">{{item.firetower}}</td>
+        <td class="align-middle px-5 h2 text-center">{{item.date}}</td>
+        <td class="h4 py-5 text-end ps-3">{{item.wilderness}}</td>
     </tr>
 {% endfor %}
 </tbody>
