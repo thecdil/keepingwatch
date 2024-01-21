@@ -219,7 +219,11 @@ console.log("Current Zoom Level =" + zoomlevel)
         document.querySelector('input.search-input').value = "";
     });{% endif %}
 
-    L.control.zoom({position: 'bottomright'}).addTo(map);
+    {% unless page.url contains "map" %}
+ L.control.zoom({position: 'bottomright'}).addTo(map);
+ {% else  %}
+ $('.leaflet-fusesearch-control').show();   
+{% endunless%}
   
 
 
