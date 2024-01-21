@@ -19,16 +19,17 @@ custom-foot: js/mapitem-js.html
     color:black !important;
 }
 </style>
+
 <div class="col-12 mt-1" >
-    <button id="map-toggler" type="button" class="float-right btn btn-outline-light m-2 "  aria-label="Close" onclick="mapToggle()">
+    <button id="map-toggler" type="button" class="float-end btn btn-outline-light m-2 "  aria-label="Close" onclick="mapToggle()">
         <span aria-hidden="true" id="map-off"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98l4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"/>
-          </svg><span class="sr-only">Map icon</span>
+          </svg><span class="visually-hidden">Map icon</span>
         <br>
         <span class="small">View Map</span></span>
         <span aria-hidden="true" id="map-on" class='d-none'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image-alt" viewBox="0 0 16 16">
             <path d="M7 2.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zm4.225 4.053a.5.5 0 0 0-.577.093l-3.71 4.71-2.66-2.772a.5.5 0 0 0-.63.062L.002 13v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4.5l-4.777-3.947z"/>
-          </svg><span class="sr-only">Image icon</span>
+          </svg><span class="visually-hidden">Image icon</span>
             <br>
             <span class="small">View Item</span></span>
       </button>
@@ -37,7 +38,7 @@ custom-foot: js/mapitem-js.html
 <div class="container pt-5" id="contents-container" >
     <ul class="breadcrumb h5 bg-transparent" >
         <li class="breadcrumb-item"><a class="text-white" href="{{ '/about.html' | absolute_url }}">{{ site.title }}</a></li>
-        <li class="breadcrumb-item text-secondary"><a class="text-white" href="{{ '/map.html' | absolute_url }}">Map</a></li>
+        <li class="breadcrumb-item text-secondary"><a class="text-white" href="{{ '/about/what-is-lost.html?id=war-eagle005' | absolute_url }}">What Is Lost?</a></li>
         <li id="bc-title" class="breadcrumb-item active text-white"></li>
     </ul>
 
@@ -54,7 +55,7 @@ custom-foot: js/mapitem-js.html
             
             <h2 id="item-title" class="d-none"></h2>
             <div class=" mb-4 text-center">
-                <div class="w-100 text-center p-1" id="item-image" ></div>
+                <div class="w-75 text-center p-1 mx-auto" id="item-image" ></div>
                 <div id="item-link" class="text-center my-2 d-none"></div>
             </div>
         </div>
@@ -92,14 +93,14 @@ custom-foot: js/mapitem-js.html
 
  
     <div class="text-center row">
-        <div class="col-4 text-right">
+        <div class="col-4 text-end">
     
             <a id="prev-button" type="button" class="btn btn-outline-light text-white">&laquo; Previous</a>
         </div>
         <div class="col-4 text-center">
             <a type="button" class="btn btn-outline-light text-white" href="{{ '/map.html' | relative_url }}">Back to Map</a>
         </div>
-        <div class="col-4 text-left">
+        <div class="col-4 text-start">
             <a id="for-button" type="button" class="btn btn-outline-light text-white">Next &raquo;</a>
         </div>
     
@@ -125,7 +126,9 @@ custom-foot: js/mapitem-js.html
     function mapToggle(){
         document.getElementById('contents-container').classList.toggle('d-none');
         document.getElementById('map-off').classList.toggle('d-none');
-        document.getElementById('map-on').classList.toggle('d-none');        
+        document.getElementById('map-on').classList.toggle('d-none');
+        document.getElementById('map').classList.toggle('recessed-map');        
+
     };
     // function navToggle(){
     //    location.href = "www.yoursite.com";

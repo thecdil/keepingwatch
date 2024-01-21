@@ -37,10 +37,10 @@ var items = {
             itemLink= '<a href="' + record.filename + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Audio File</a>';
         } else if (format.includes('video')) {
             if (record.youtube){
-            itemImage= '<div class="embed-responsive embed-responsive-16by9" id="item-content"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/' + record.youtube + '?rel=0&modestbranding=1" allowfullscreen></iframe></div>';
+            itemImage= '<div class="ratio ratio-16x9" id="item-content"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/' + record.youtube + '?rel=0&modestbranding=1" allowfullscreen></iframe></div>';
             itemLink= '<a href="https://youtu.be/' + record.youtube + '" target="_blank" class="btn btn-outline-light" title="Object download">View on YouTube</a>';}
             else {
-            itemImage= '<div class="embed-responsive embed-responsive-16by9" id="item-content"><video class="embed-responsive-item" width="320" height="240" controls><source src="'+ record.filename +'" type="video/mp4">Your browser does not support the video tag.</video></div>'
+            itemImage= '<div class="ratio ratio-16x9" id="item-content"><video class="embed-responsive-item" controls><source src="'+ record.filename +'" type="video/mp4">Your browser does not support the video tag.</video></div>'
             itemLink= '<a href="' + record.filename + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Video</a>';    
             }  
         } else {
@@ -190,10 +190,10 @@ function newRecord(nextRecord){
             itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Audio File</a>';
         } else if (format.includes('video')) {
             if (record.youtube){
-            itemImage= '<div class="embed-responsive embed-responsive-16by9" id="item-content"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/' + record.youtube + '?rel=0&modestbranding=1" allowfullscreen></iframe></div>';
+            itemImage= '<div class="ratio ratio-16x9" id="item-content"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/' + record.youtube + '?rel=0&modestbranding=1" allowfullscreen></iframe></div>';
             itemLink= '<a href="https://youtu.be/' + record.youtube + '" target="_blank" class="btn btn-outline-light" title="Object download">View on YouTube</a>';}
             else {
-            itemImage= '<div class="embed-responsive embed-responsive-16by9" id="item-content"><video class="embed-responsive-item" width="320" height="240" controls autoplay><source src="'+ record.filename +'" type="video/mp4">Your browser does not support the video tag.</video></div>'
+            itemImage= '<div class="ratio ratio-16x9" id="item-content"><video class="embed-responsive-item" width="320" height="240" controls autoplay><source src="'+ record.filename +'" type="video/mp4">Your browser does not support the video tag.</video></div>'
             itemLink= '<a href="' + record.filename + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Video</a>';    
             }  
         } else {
@@ -398,7 +398,7 @@ function newRecord(nextRecord){
         /* bind feature for search */
         feature.layer = layer;{% endif %}
         /* calculate item link */
-        var itemHref = '{{ "/mapitem.html?id=" | relative_url }}' + feature.properties.id;
+        var itemHref = '{{ "/about/what-is-lost?id=" | relative_url }}' + feature.properties.id;
         /* find object thumb based on format */
         var thumbSrc;
         if (feature.properties.format.includes("audio")) {
@@ -412,8 +412,7 @@ function newRecord(nextRecord){
         }    
         /* create popup content */
         var popupTemplate = '<h4><a class="text-dark" href="' + itemHref + '">' +
-            feature.properties.title + '</a></h4><div class="text-center"><a href="' + itemHref + 
-            '" ><img class="mapthumb img-thumb" src="' +  thumbSrc + '" alt="item thumbnail"></a></div><p class="mt-1">';
+            feature.properties.title + '</a></h4><div class="text-center"></div><p class="mt-1">';
         /* add metadata fields */
         {% for f in fields %}{% if f.display_name %}
         if (feature.properties[{{ f.field | escape | jsonify }}]) {

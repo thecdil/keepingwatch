@@ -1,13 +1,13 @@
-<style>
-    .panorama {
-        width: 100%;
-        height: 500px;
-    }
-</style>
+{% comment %}
 
-<div id="panorama" class="panorama"></div>
+    Adds a panorama image viewer using Pannellum.
+    Default is set for equirectangular projection types.
+    https://pannellum.org/documentation/reference/
 
-<!-- https://pannellum.org/documentation/reference/ -->
+{%- endcomment -%}
+<link rel="stylesheet" href="{{ '/assets/lib/pannellum/pannellum.css' | relative_url }}">
+<div id="panorama" class="panorama ratio ratio-4x3 my-4" style="height:500px"></div>
+<script src="{{ '/assets/lib/pannellum/pannellum.js' | relative_url }}"></script>
 <script>
 pannellum.viewer('panorama', {
     "type": "equirectangular",
@@ -21,7 +21,7 @@ pannellum.viewer('panorama', {
      */
     "hotSpotDebug": false,
     "hotSpots": [
-       
+      
     ]
 });
 </script>

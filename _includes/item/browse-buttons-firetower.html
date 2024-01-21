@@ -55,7 +55,7 @@
     // If the modal exists, get the prev button element.
     if (modalshow) {
       const nextButton = modalshow.querySelector(".next-child-button");
-      // If the next button exists, click it.
+      // If the prev button exists, click it.
       if (nextButton) {
         nextButton.click();
       }
@@ -87,7 +87,6 @@
       evt = evt || window.event;
       switch (evt.keyCode) {
         case 37:
-
           leftModalArrowPressed();
             break;
         case 39:

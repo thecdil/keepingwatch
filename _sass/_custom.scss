@@ -86,3 +86,18 @@
 .leaflet-popup {z-index: 1000;}
 
 .leaflet-fusesearch-control{display: none;}
+
+.recessed-map{
+  z-index: -100;
+}
+
+.z-map
+{
+  z-index: 100;;
+}
+.display-1 {
+  font-size: 5.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
