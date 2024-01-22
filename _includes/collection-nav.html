@@ -1,10 +1,9 @@
 <nav class="navbar">
     <div class="container-fluid px-0">
         
-        <button class="navbar-toggler {% if page.layout == 'home' %}text-white{% else %}text-info bg-light border-info border-2{% endif %}" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Open navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi icon-sprite fs-1" viewBox="0 0 16 16">
-                <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
-            </svg>
+        <button class="navbar-toggler {% if page.layout == 'home' %}text-white{% else %}btn btn-outline-info btn-lg {% endif %}" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Open navigation">
+            <p class="h1 nationalparkfont">
+                {% include feature/icon.html icon="map" label="Map icon" %}</p>
         </button>
         
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -19,13 +18,13 @@
                     {% for nav in navItems %}
                     {% if nav.stub %}
                     <li class="nav-item">
-                        <a class="nav-link text-info text-start{% if page.url == nav.stub %} active{% endif %}" href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
+                        <a class="nav-link btn btn-outline-info btn-lg mb-2  text-center{% if page.url == nav.stub %} active{% endif %}" href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
                     </li>
                     {%- else -%}
                     <li class="nav-item dropdown">
                         {% assign navChildren = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nav.display_name' %}
                         {%- assign childStubs = navChildren | map: 'stub' -%}
-                        <a class="nav-link text-info text-start  dropdown-toggle{% if childStubs contains page.url %} active{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ nav.display_name }}</a>
+                        <a class="nav-link btn btn-outline-info mb-2 btn-lg text-center dropdown-toggle{% if childStubs contains page.url %} active{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ nav.display_name }}</a>
                         <div class="dropdown-menu">
                             {% for c in navChildren %}
                             <a class="dropdown-item {% if page.url == c.stub %}active{% endif %}" href="{{ c.stub | relative_url }}">{{ c.display_name }}</a>
