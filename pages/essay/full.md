@@ -5,10 +5,12 @@ layout: about
 ---
 <!-- Output copied to clipboard! -->
 
-### Fire Lookouts and the Act of Remaining
+## Fire Lookouts and the Act of Remaining
 
-By Michael Decker
+{:.text-end}
+#### By Michael Decker
 
+{:.fs-3 .mt-5}
 _I._ 
 
 In the Department of Lands office in Nordman, Idaho, Pam Aunan, who runs a volunteer fire lookout program for the Priest Lake fire district in northern Idaho, tosses me a forest green shirt with “fire” printed in large white letters on the front. I met Pam two weeks ago at Sundance Lookout in the Selkirk Mountains. My colleagues, <a href="https://bonnercountydailybee.com/news/2021/may/18/digital-archive-documents-caribou-extirpation-nort/" target="_blank">Jack Kredell and Chris Lamb</a>, and I had recently interviewed her for Keeping Watch, an archive of interviews with current and former fire lookouts. 
@@ -79,8 +81,9 @@ Heat-Moon looks out of Ghost Dancing and sees himself reflected in the pellucidi
 
 I put down _Blue Highways_ and turn off my headlamp, get out of my sleeping bag, and walk to the window. Trout briefly lifts his head but falls back asleep. Between the inside of the cabin and the night sky, the windows and propane lamp transpose my face onto the universe. I walk to the deck and suddenly all that remains is black plasma where my face was.
 
-<br>
 
+
+{:.fs-3 .mt-5}
 _II._
 
 Jack, Chris, and I have driven into the heart of the Frank Church Wilderness, seventy miles from McCall, Idaho along a dirt road, stopping only to fish the Salmon River which early settlers dubbed “the river of no return.” Drifting my caddis along the water, I think of the ghosts of the Tukudeka, a mysterious mountain tribe of Shoshone-Bannock Native Americans, colloquially known as the Sheepeaters. 
@@ -164,8 +167,7 @@ In the spring, I interviewed a writer named Don Scheese who had lived and worked
 
 I notice something hidden in the dirt. It is a small button from a pair of Levis jeans. I pick it up and examine it. The metal is degraded enough that it could be twenty, even thirty, years old. Perhaps it was dropped while someone struggled with their trousers in the 1980s, and at the same time, Don Scheese sat on Ruffneck Peak looking out over the same landscape that I am now watching over. I clasp the button tightly and slide it into my pocket before heading back to the Mosquito Ridge trailhead. 
 
-<br>
-
+{:.fs-3 .mt-5}
 _III._
 
 Beginning in the Frank Church Wilderness, Jack, Chris, and I have spent the last two weeks traveling across Idaho taking photos of fire lookouts and interviewing those who work on still active sites. We are beat up and tired, our skin is leathery, and our lips are cracking from the drastic shifts in elevation.

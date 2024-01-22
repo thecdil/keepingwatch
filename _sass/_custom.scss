@@ -15,7 +15,7 @@
   font-family: 'NationalPark', serif;
   font-weight: bold;
   font-size:27px;}
-  
+
 .nav-item {
 
   font-family: 'NationalPark', serif;
@@ -102,3 +102,24 @@
   line-height: 1.2;
 }
 
+
+
+
+@media print {
+  /* All your print styles go here */
+  .about-contents > {
+    
+    h1, h2, h3, h4, h5, h6 {
+        max-width: 100% !important;
+       
+    }
+    
+    p, .about-narrowed-content, .footnotes, ol, ul {
+       
+        max-width: 100% !important;
+
+    }
+
+}
+
+}

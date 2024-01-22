@@ -1,7 +1,7 @@
 <div class="container-fluid" {% if page.layout contains 'home-map' %}style="position:fixed;z-index:100;"{% endif %}>
     <div class="row align-items-center" id="collection-banner">
         <div id="title" class="col-10 col-md-11 ps-5">
-            <h1><a id="main-title" class="text-dark font-weight-normal text-uppercase display-1 ps-2" href="{{ site.baseurl }}/" ><img src="{{ '/objects/firetower.png' | relative_url }}" class="d-none d-md-inline" style="height:56px;margin-top:-16px">{{ site.title }}</a></h1>	 
+            <h1><a id="main-title" class="text-dark font-weight-normal text-uppercase display-1 ps-2" href="{{ site.baseurl }}/" ><img src="{{ '/objects/firetower.png' | relative_url }}" class="d-none d-md-inline" style="height:56px;margin-top:-16px">{{ site.title }}<img src="{{ '/objects/firetower.png' | relative_url }}" class="d-none d-md-inline" style="height:56px;margin-top:-16px"></a></h1>	 
         </div>
         <div class="col-2 col-md-1 px-0">
             {% include collection-nav.html %}
