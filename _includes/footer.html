@@ -6,8 +6,15 @@
 
             <h4><a href="{{ '/' | relative_url }}" class="text-white font-weight-normal">{{ site.title }}</a></h4>
             <p class="text-white"><small>{{ site.description }}</small></p>
-            <nav>
-                <ul class="nav nav-pills ">
+            <nav class="ps-5 ml-5">
+
+                <button class="navbar-toggler btn btn-outline-light btn-lg " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Open navigation">
+                    <p class="h1 nationalparkfont">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.5.5 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103M10 1.91l-4-.8v12.98l4 .8zm1 12.98 4-.8V1.11l-4 .8zm-6-.8V1.11l-4 .8v12.98z"/>
+                          </svg> Navigation</p>
+                </button>
+                <!--<ul class="nav nav-pills ">
                     {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%}
                     {% for nav in navItems %}
                     <li class="nav-item">
@@ -19,7 +26,7 @@
                     {% endif %}
                     </li>
                     {%- endfor -%}
-                </ul>
+                </ul>-->
             </nav>
 
         </div>
@@ -28,7 +35,7 @@
 
             <p class="text-end">
                 <a href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                    <img class="img-fluid" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name }} home" style="max-width: 200px;">
+                    <img class="img-fluid" src="{{ site.organization-logo-footer | relative_url }}" alt="{{ site.organization-name }} home" style="max-width: 200px;">
                 </a>
             </p>
             <p class="text-white" id="footer-credits">
