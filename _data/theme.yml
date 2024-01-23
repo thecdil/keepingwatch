@@ -99,7 +99,7 @@ bootswatch: # leave blank or comment out for plain bootstrap
 # THEME FONTS [optional!]
 base-font-size: 1.3em
 text-color: "#191919"
-link-color: "#17a2b8"
+link-color: "#b44128"
 base-font-family: Raleway # comment out for bootstrap defaults. e.g. Roboto
 font-cdn: <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@500&display=swap" rel="stylesheet"> # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
