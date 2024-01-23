@@ -13,8 +13,7 @@ custom-foot: "js/simple-map-js.html"
     #map {
         height: 320px;
         width: 320px;
-        border-radius: 50%;
-        border: black 3px ridge;
+        border-radius: 20%;
         margin-left: 15%;
 
     }
@@ -24,19 +23,19 @@ custom-foot: "js/simple-map-js.html"
 
     <div class="row">
         <div class="col-12">
-            <h2 class="mt-3 mb-5 mx-5 display-3">{{page.title}}</h2>
+            <h2 class="mt-1 mb-5 mx-5 ps-5 display-3">{{page.title}}{% unless page.title contains 'Lookout' %} Lookout{% endunless %}</h2>
         </div>
         <div class="col-md-6">
             
             <div class="col-lg-8 my-3 mx-auto text-center">
-                <div id="map"> </div>
+                <div id="map" class="border border-info border-2"> </div>
             </div>
         </div>
 
         <div class="col-md-6 my-2">
             <p class="col-lg-8 ms-3 my-3">{{page.title}} is located at {{page.latitude}} ,{{page.longitude}}. <br><br>
             For more information on this fire tower, visit Rex Kamstra's Forest Fire Lookout page on this firetower: <br><br>
-            <a class="btn btn-outline-primary" href="{{rextowerurl}}" target="_blank">{{rextowerurl}}</a> </p>
+            <a class="btn btn-outline-info" href="{{rextowerurl}}" target="_blank">{{rextowerurl}}</a> </p>
           
         </div>
         <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
