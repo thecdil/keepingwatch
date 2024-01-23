@@ -44,11 +44,11 @@
                         <div class="modal-dialog modal-xxl">
                             <div class="modal-content text-start">
 
-                                <div class="modal-header ">
+                                <div class="modal-header pt-0">
                                     <div class="modal-title w-100" id="{{ child.objectid }}ModalLabel">
                                         <div class="row">
-                                            <div class="col-12 text-end">
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                                            <div class="col-12 text-end pe-3">
+                                                <button type="button" class="btn-close small" data-bs-dismiss="modal" aria-label="Close"
                                                 onclick="history.pushState('', '', window.location.pathname)"></button>
                                             </div>
                                             {% capture next_index %}{% if forloop.index == forloop.length %}0{% else %}{{ forloop.index0 | plus: 1 }}{% endif %}{% endcapture %}
