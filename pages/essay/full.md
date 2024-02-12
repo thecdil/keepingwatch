@@ -219,7 +219,7 @@ Lookouts have a long history of producing not only lifelong lovers of the wilder
 
 {% include feature/video.html objectid="cold-mountain-lookout005" width="50" start="00:00:10" %}
 
-My coffee has slowly emptied and now all that is left is the black residue of coffee grounds at the bottom. We start packing up our cameras and prepare to head back down the trail. The smoke, I think, has gotten worse since we arrived. Before we leave, Bill asks to take a picture of our team. We throw our arms over each other’s shoulders and pose in front of the white backdrop. 
+My coffee has slowly emptied and now all that is left is the black residue of grounds at the bottom. We start packing up our cameras and prepare to head back down the trail. The smoke, I think, has gotten worse since we arrived. Before we leave, Bill asks to take a picture of our team. We throw our arms over each other’s shoulders and pose in front of the white backdrop. 
 
 As we get ready to leave, Bill gestures vaguely out toward McConnell Mountain where his dad had worked. In the end, lightning escaped from the sky and ignited a wildfire five miles from Bud’s old rock pile and three days later the now-decommissioned McConnell Mountain fire lookout burned down. <a href="https://keeping.onrender.com/items/mcconnel-mountain001.html" target="_blank">Bill once wrote</a> that Bud, who passed away in 2010, would not be sad because “the story is a lesson about the circle of life and death in the Wilderness world.” 
 
