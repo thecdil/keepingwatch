@@ -48,7 +48,7 @@
             <iframe title="video embed {{ video_caption | escape }}" src="{{ video_src }}" allowfullscreen></iframe>
             {% else %}
             <video width="320" height="240" controls>
-                <source src="{{ video_src }}">
+                <source src="{{ video_src }}{% if include.start %}#t={{include.start}}{% endif %}">
                 Your browser does not support the video tag.
             </video>
             {%- endif -%}
