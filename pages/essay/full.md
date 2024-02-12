@@ -165,7 +165,7 @@ In the spring, I interviewed a writer named Don Scheese who had lived and worked
 
 {% include feature/video.html objectid="roughneck-peak007" width="50" start="00:01:50" %}
 
-I notice something hidden in the dirt. It is a small button from a pair of Levis jeans. I pick it up and examine it. The metal is degraded enough that it could be twenty, even thirty, years old. Perhaps it was dropped while someone struggled with their trousers in the 1980s, and at the same time, Don Scheese sat on Ruffneck Peak looking out over the same landscape that I am now watching over. I clasp the button tightly and slide it into my pocket before heading back to the Mosquito Ridge trailhead. 
+I notice something hidden in the dirt. It is a small button from a pair of Levis jeans. I pick it up and examine it. The metal is degraded enough that it could be twenty, even thirty, years old. Perhaps it was dropped while someone struggled with their pants in the 1980s, and at the same time, Don Scheese sat on Ruffneck Peak looking out over the same landscape that I am now watching over. I clasp the button tightly and slide it into my pocket before heading back to the Mosquito Ridge trailhead. 
 
 {:.fs-3 .mt-5}
 _III._
