@@ -122,7 +122,7 @@ From Mosquito Ridge, the Salmon River rushes five thousand feet below me and hig
 
 {% include feature/image.html objectid="chicken-peak003" width="50" %}
 
-During the years 1937 and '38, Myron "Skook" McCoy and his wife, Aloha, staffed Chicken Peak. Aloha claimed that this lookout took on more lightning than any other lookout she ever staffed, and that "the electricity literally dripped off the grounding wires." I can easily see why; Chicken Peak, unlike some mountains that gradually marry into other peaks, is very exposed and likely susceptible to lightning strikes. I bet this cabin rocks like a boat during storms.
+During the years 1937 and '38, Myron and Aloha McCoy staffed Chicken Peak. Aloha claimed that this lookout took on more lightning than any other lookout she ever staffed, and that "the electricity literally dripped off the grounding wires." I can easily see why; Chicken Peak, unlike some mountains that gradually marry into other peaks, is very exposed and likely susceptible to lightning strikes. I bet this cabin rocks like a boat during storms.
 
 Inside, the floor is collapsing around an intact podium upon which the fire finder once sat. On this podium are initials and corresponding dates collected over the years which creates a kind of palimpsest. Jack carves JK + MM, and I take out my pocketknife and carve MD + KW with a heart around it. 
 
