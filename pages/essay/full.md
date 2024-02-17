@@ -205,7 +205,7 @@ In _The Lochsa Story_, Bud tells the story of himself as a young trapper on his 
 
 Some say that the fire lookout gives those who can stay on them a _long view_, not just in-terms of a twenty-five-mile radius around the tower, but a view that looks deep into the past and future; and like the tower’s view, Bud believed that the remnants of his encounter with the bear–“[his] boot prints mingled with the grizzly tracks on the trail”—say something about where it is we have come from, and where it is we are going, like the light of a distant star glimpsed from a lookout during the night, at once happening and already having happened. 
 
-{% include feature/image.html objectid="spot-mountain008" width="50" %}
+{% include feature/image.html objectid="spot-mountain008" width="100" %}
 
 The futurist approach has been the most effective for wilderness preservation. For instance, prior to signing the Alaska National Interests Land Act in 1978, Jimmy Carter stated that “We have the imagination and the will as a people to both develop our last great natural frontier and also preserve its priceless beauty for our children and grandchildren.” This same rhetoric of conservation on behalf of future generations has permeated the conversation of most environmental issues today, including that of global climate change. As Roderick Nash compares “Modern civilization, it is said, needs wilderness, and if wilderness is to exist it surely needs the protection of a self-restraining society.” 
 
