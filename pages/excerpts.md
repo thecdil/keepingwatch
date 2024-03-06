@@ -17,7 +17,7 @@ layout: page-narrow
 
 
 {:.text-end .my-5 .small}
-{% if e.person %}{{ e.person }}{% endif %}{% if e.affiliation %}, {{ e.affiliation }}{% endif %}<br>**{{e.date}}**{% if e.object_location %}<br><br><a href="{{e.object_location | relative_url }}"><img src="{{e.object_location | relative_url }}" /></a>{% endif %}
+{% if e.person %}{{ e.person }}{% endif %}{% if e.affiliation %}, {{ e.affiliation }}{% endif %}<br>**{{e.date}}**{% if e.object_location %}<br><br><a href="{{e.object_location | relative_url }}"><img class="img-fluid" src="{{e.object_location | relative_url }}" /></a>{% endif %}
 
 
 
