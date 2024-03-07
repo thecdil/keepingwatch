@@ -1,11 +1,12 @@
 display_name,stub,dropdown_parent
-Browse,
-Browse Firetowers,/browse.html,Browse
-Browse the Collection,/browseall.html,Browse
-Browse Subjects,/subjects.html,Browse
-Browse Map,/map.html,Browse
-About the Project,/about.html,
-Project Essay,/essay/,
-Cabin Architecture,/about/cabin-architecture.html,
-What Is Lost?,/about/what-is-lost.html?id=war-eagle005,
-Excerpts,/excerpts.html,
+Browse the Firetowers,/browse.html,
+Read the Project Essay,/essay/,
+Consult the Map,/map.html,
+Explore the Collection,
+All Items,/browseall.html,Explore the Collection
+Subjects,/subjects.html,Explore the Collection
+Data,/data.html,Explore the Collection
+Investigate Cabin Architecture,/about/cabin-architecture.html,
+Consider What Is Lost?,/about/what-is-lost.html?id=war-eagle005,
+Peruse Historical/Literary Excerpts,/excerpts.html,
+Learn About the Project,/about.html,
