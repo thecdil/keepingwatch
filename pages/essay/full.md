@@ -15,7 +15,7 @@ _I._
 
 In the Department of Lands office in Nordman, Idaho, Pam Aunan, tosses me a forest green shirt with the word “fire” printed in large white letters on the front. I met Pam, who runs a volunteer fire lookout program for the Priest Lake fire district in northern Idaho, two weeks ago at Sundance Lookout in the Selkirk Mountains. My colleagues, <a href="https://bonnercountydailybee.com/news/2021/may/18/digital-archive-documents-caribou-extirpation-nort/" target="_blank">Jack Kredell and Chris Lamb</a>, and I had interviewed her for Keeping Watch, an archive of interviews with current and former fire lookouts.
 
-{% include feature/video.html objectid="sundance-mountain006" width="50" start="00:00:06" %}
+{% include feature/video.html objectid="sundance-mountain002" width="50" start="00:00:06" %}
 
 Pam called me last week because an unexpected opening became available on the tower and she wanted to offer me and my dog, Trout, the chance to work for a few days as a lookout. She thought it would be a good opportunity for someone studying lookouts to be one. I agreed immediately, as it would be useful for the project because of this tower’s unique history: Sundance Lookout was the site of a lightning strike that ignited the <a href="https://www.fs.usda.gov/rm/pubs_int/int_rp056.pdf" target="_blank">1967 Sundance Fire</a>, burning fifty-thousand acres and killing two firefighters. The fire was exceptional by mid-twentieth century standards because it made an anomalous run of sixteen miles in just nine hours. It was the focus of numerous studies on unpredictable fire behavior thereafter, although burns of such severity and unpredictability have become common as climate changes effects ignite volatile fuel loads. These days, many wildfires are as severe as the Sundance Fire.
 
@@ -51,7 +51,7 @@ I inspect the inside of my new home which has a dish sink, propane stove, and a 
 
 At the center of the tower is a podium on which sits a large steel table holding the Osborne Fire Finder. Lookouts use this device to precisely locate fires. It has a three-hundred-and-sixty-degree alidade surrounding a map with the fire tower at its center. The Osborne is used to call in the location of a smoke using degrees and minutes that are communicated to a fire dispatcher over the two-way radio system installed below the podium. 
 
-{% include feature/image.html objectid="sundance-mountain004" width="50" %}
+{% include feature/image.html objectid="sundance-mountain006" width="50" %}
 
 The Osborne Fire Finder was manufactured between the years 1920 and 1935 by Leopold and Stevens, a telescope manufacturing company, which also produced replacement parts until 1975. Production halted because new fire detection methods had made the fire finder more or less obsolete. However, Osbornes have made an unlikely comeback recently. After a substantial increase in wildfires in the late-90s and early-00s, the federal government contracted with a new manufacturer, San Dimas and Technology Center, to resupply fire lookouts with Osbornes and to produce replacement parts as needed.
 
@@ -61,13 +61,13 @@ Yet it is precisely because the fire lookout allows us to remain in wilderness s
 
 Lookout staff not only locate and call in new fires, they also monitor existing ones in real time and communicate with on-the-ground fire crews. Heat mapping can provide information about fire spread and size, and sophisticated weather modeling can determine precipitation levels, wind speed, and heat index; however, attentive fire lookouts _experience_ these phenomena while searching for anomalies in the landscape. Technology has augmented, even reduced, the role of the human fire lookout, but it cannot entirely replace it.
 
-{% include feature/video.html objectid="spot-mountain005" width="50" start="00:00:05" %} 
+{% include feature/video.html objectid="spot-mountain002" width="50" start="00:00:05" %} 
 
 Through the window, a breeze sneaks in. The tower is about 15 degrees cooler than the valley. The bear grass makes the air smell sweet, and the last patches of snow are melting at a perceptible rate. A pine snag on the ridge to my southeast stands in an otherwise healthy forest, and below it the highwater mark of evening inches closer. I fixate on this steady pull between night and day. The sun’s geometry positions the tree at the fulcrum of light and dark. I glance at my phone: 7:38 p.m.
 
 The sun dips behind the mountains. The evening neon radiates through bars of smoke rising above the Selkirks and a stratum of ozone and geology slowly dims into the night sky. Venus appears to my west. The universe flickers on. The Milky Way swirls like a parking lot oil stain as I lie in bed reading William Least Heat-Moon’s Blue Highways.
 
-{% include feature/image.html objectid="sundance-mountain002" width="50" %} 
+{% include feature/image.html objectid="sundance-mountain005" width="50" %} 
 
 _Blue Highways’_ premise is that a young Heat-Moon has lost his English lectureship, and his marriage is dissolving. Devastated, he sets out on a circular journey traveling from New England and through the southwestern United States, into the Pacific Northwest before veering east again. The only discernible destination is where he began. He drives a green Astrovan named Ghost Dancing after the Native American ritual which foretold the return of departed spirits and the end of colonial expansion.
 
@@ -82,7 +82,7 @@ _II._
 
 Jack, Chris, and I have driven into the heart of the Frank Church Wilderness, seventy miles from McCall, Idaho along a dirt road, stopping to fish the Salmon River which early settlers dubbed “the river of no return.” Drifting my caddis along the water, I think of the ghosts of the Tukudeka, a mysterious mountain tribe of Shoshone-Bannock Native Americans, colloquially known as the Sheepeaters.
 
-{% include feature/video.html objectid="sheepeater-mountain002" width="50" start="00:00:05" %}
+{% include feature/video.html objectid="sheepeater-mountain001" width="50" start="00:00:05" %}
 
 We will make the twenty-mile hike from Mosquito Ridge to the Tukudeka namesake, Sheepeater Mountain, which is home to one of the most remote fire lookouts in the world. This place’s common name The Frank Church, or usually just The Church, was given after one of the key architects of the Wilderness Act of 1964, Idaho Senator Frank Church. He remains one of the most prolific progressive voices ever in Idaho politics, and one of the most accomplished establishment environmentalists in American history. As the floor speaker for the passage of the Wilderness Act, his key role in its drafting and signing into law helped create this wilderness area. 
 
@@ -114,7 +114,7 @@ Sheepeater Lookout is the last remaining staffed lookout in The Church, and rece
 
 From Mosquito Ridge, the Salmon River rushes five thousand feet below me and high mountain wildflowers sway in the warm updraft. On a ridge above us, Chicken Peak is the most unique fire lookout I have seen in the entire state of Idaho; its prominent roof and neon orange paint helped pilots navigate over empty swaths of terrain before GPS technology. Chicken Peak is the halfway point between the Mosquito Ridge trailhead and Sheepeater Lookout.
 
-{% include feature/image.html objectid="chicken-peak003" width="50" %}
+{% include feature/image.html objectid="chicken-peak004" width="50" %}
 
 During the years 1937 and ‘38, Myron and Aloha McCoy staffed Chicken Peak. Aloha claimed that this lookout took on more lightning than any other lookout she ever staffed, and that “the electricity literally dripped off the grounding wires.” I can easily see why: Chicken Peak, unlike some mountains whose shoulders gradually marry into other peaks, is very exposed. I bet this cabin rocks like a boat during storms.
 
@@ -124,13 +124,13 @@ Inside, the floor is collapsing around an intact podium upon which the fire find
 
 _This is Jack. We are on Chicken Peak in view of a wildfire east of Dixie. No danger to us currently. Could you get us some info on it?_
 
-{% include feature/video.html objectid="chicken-peak002" width="50" start="10" %}
+{% include feature/video.html objectid="chicken-peak001" width="50" start="10" %}
 
 Hours pass as we watch the plume grow into a cloud and banter about our options. For a moment, the sun bursts through the smoke and beams a kaleidoscopic refraction. “Watch”, says Chris, and suddenly, I am compelled back inside the deteriorating tower. I step across the floorboards, careful, so as not to trip. The panes where the windows once were makes a frame around the smoke and holds the plume in place as if it were a painting.
 
 Standing at the podium, I imagine my hands resting on the fire finder and prepare to maneuver the alidade. I close one eye and look through the crosshairs to sight in my smoke. After all these years, there is still a pull; my gaze is directed in a very particular way and for a specific purpose.
 
-{% include feature/image.html objectid="chicken-peak004" width="50" %} 
+{% include feature/image.html objectid="chicken-peak002" width="50" %} 
 
 Framing the fire from the inside feels different than being outside. With my hands on the podium, I feel a sense of safety and order; the window objectifies the fire and thus controls it. Outside, I feel disoriented and less in control. The twinned histories of conservation and preservation are at odds with each other here. The cabin is at once being reclaimed and yet still functions to conceptualize the landscape in human terms.
 
@@ -151,13 +151,13 @@ _From InciWeb: “The Dixie Jumbo Fire is located 40 miles southeast of Grangevi
 
 _Located on the Nez Perce-Clearwater National Forest Red River Ranger District. It was detected on the afternoon of July 5, 2021.”_
 
-{% include feature/image.html objectid="chicken-peak005" width="50" %}
+{% include feature/image.html objectid="chicken-peak003" width="50" %}
 
 Our decision is made. With the fire uncontained and spreading in all directions, and despite a river and ridgeline between the fire and Sheepeater Lookout, we would be unwise to not turn around.
 
 Last spring, I interviewed writer Don Scheese who lived and worked in the Frank Church as a fire lookout in the 1980s. He was stationed on Ruffneck Lookout close to the town of Stanley, Idaho. After eighteen summers as a fire lookout, Scheese wrote a book about his experiences called _Mountains of Memory_. In it, he defines landscape as a “modified space” which is the result of changes made to the land by humans. To Scheese, it was the people who lived in landscapes “especially the various inhabitants of the Frank Church over Millennia,’’ who created them through their needs and desire. It was them, Scheese says, “who interest me the most.”
 
-{% include feature/video.html objectid="roughneck-peak007" width="50" start="00:01:50" %}
+{% include feature/video.html objectid="roughneck-peak003" width="50" start="00:01:50" %}
 
 I notice something hidden in the dirt. It is a small button from a pair of Levis jeans. I pick it up and examine it. The metal is degraded enough that it could be twenty, even thirty, years old. Perhaps it was dropped by someone in the 1980s, and at the same time, Don Scheese sat on Ruffneck Peak. I clasp the button tightly and slide it into my pocket before turning back down Mosquito Ridge.
 
@@ -176,11 +176,11 @@ Bud left the Selway-Bitterroot region to fight in World War II but returned and 
 
 In a sense, Bud always recognized that some of his policies, retrospectively, were harmful. This included spraying DDT and suppressing fire. Regardless, Bud often admitted these shortcomings and proposed different management models, ones that imagined more sustainable environmental futures. For example, Bud led the reintroduction of controlled burns in fire deficit areas in the Selway-Bitterroot. Many of his thoughts and actions can be found in his sprawling book _The Lochsa Story: Land Ethics in the Bitterroot Mountains_. Tellingly, this book was written a full decade prior to its publication (1996) because many of the ideas within it were not yet popularly accepted, and, as Bill points out, Bud refused to vanity publish.
 
-{% include feature/video.html objectid="diablo-mountain011" width="50" start="00:00:05" %}
+{% include feature/video.html objectid="diablo-mountain003" width="50" start="00:00:05" %}
 
 “Bill!” I call out as the shape of Diablo’s lookout materializes through the ubiquitous wildfire smoke. I see a fluorescent work shirt and a pale hand wave howdy. Bill is a septuagenarian who moves slowly but confidently, the result of a life spent hiking and living in a big open country. He smiles an honest, crooked smile that makes me feel at home. He invites us up to the cabin and brews a pot of coffee creating an effortless and organic hospitality, and prompting conversation how only a pot of coffee shared among friends can.
 
-{% include feature/image.html objectid="diablo-mountain008" width="50" caption="Michael Decker and Bill Moore on Diablo Peak
+{% include feature/image.html objectid="diablo-mountain005" width="50" caption="Michael Decker and Bill Moore on Diablo Peak
 Photo by Chris Lamb"%}
 
 The tower is full of books (notably, Kresek’s _Fire Lookouts of the Northwest_) and gear that lookouts have left over the years. The design of most towers is the same: a propane stove, small refrigerator, wooden framed bed, and shelving around the ceiling for holding canned goods and books. A map of the tower’s surrounding topography is attached to a wooden board that folds down from the ceiling above the bed, intended for use in conjunction with the fire finder. Most of the tower’s belongings are somewhat antiquated; however, there are modern objects as well: a Garmin InReach on which I glanced a message asking Bill if he had been evacuated yet (the Lolo Complex fires are burning nearby), his iPhone that he uses to snap a portrait of our team, and a newer REI backpack near the bed.
@@ -189,7 +189,7 @@ The tower is full of books (notably, Kresek’s _Fire Lookouts of the Northwest_
 
 “I’m not sure how to put it. We’re sitting on the ridge between the Selway drainage and the Lochsa drainage. You got Big Fog lakes up here in the fog or the smoke. You can just see the tail end of it. It’s about a mile long and has a sand bar at one end. Wonderful fishing. You come up over this ridgetop here, that’s Genette Mountain. You go down into Little Moose Crick and that’s Dead Elk Point right there. There’s a little low one called Footstool. Go down this way and that’s Goat Lakes. Behind them is Wahoo Point and Battle Creek Ridge. That is all in what used to be the Nez Perce National Forest. It’s now the Clearwater-Nez. Then you go around this corner where the smoke is really heavy and that’s Elbow Bend. Between Elbow Bend and that corner is a huge old-growth cedar grove that was written up in the National Geographic in 1935. That ridge that’s coming down like that is Maple Ridge. There’s a little mountain range called the Graves Range, and right out there is Graves Peak.”
 
-{% include feature/video.html objectid="diablo-mountain005" width="50" start="57" %}
+{% include feature/video.html objectid="diablo-mountain001" width="50" start="57" %}
 
 As Bill describes the landscape, I imagine him oscillating his body from left to right, creating an arc of the horizon along an azimuth that traces a three-hundred-and-sixty-degree trajectory as his tinted glasses reveal one squinting eye that identifies the landmarks through an internalized parallax view. The other striking thing is that we cannot see any of the places Bill talks about; the smoke is too thick. From the tower, the landscape appears as a white purgatory upon which nothing can be discerned; it is a _strange_ canvas which defamiliarizes the familiar. However, Bill quickly points out that this smoke indicates something natural occurring on the landscape, and that the high-visibility days of his and Bud’s early time as fire lookouts was the result of “Smokey the Bear’’ and the Forest Service’s 10 a.m. policy.
 
@@ -199,7 +199,7 @@ In The _Lochsa Story_, Bud tells the story of himself as a young trapper on his 
 
 Some say that fire lookouts give those who stay on them a _long view_, not just in-terms of the twenty-five-mile radius around the tower, but a view that looks deep into the past and future; and like the tower’s view, Bud believed that the remnants of his encounter with the bear–“[his] boot prints mingled with the grizzly tracks on the trail”—said something about where it is we come from, and where it is we are going, like the light of a distant star glimpsed from a lookout during the night, at once happening and already having happened. 
 
-{% include feature/image.html objectid="spot-mountain008" width="100" %}
+{% include feature/image.html objectid="spot-mountain004" width="100" %}
 
 The futurist approach has been the most effective for wilderness preservation. For instance, prior to signing the Alaska National Interests Land Act in 1978, Jimmy Carter stated that “We have the imagination and the will as a people to both develop our last great natural frontier and also preserve its priceless beauty for our children and grandchildren.” This same rhetoric of conservation on behalf of future generations has permeated the conversation of most environmental issues today, including that of global climate change. As Roderick Nash compares “Modern civilization, it is said, needs wilderness, and if wilderness is to exist it surely needs the protection of a self-restraining society.”
 
@@ -211,7 +211,7 @@ Environmental and queer activist, Nicole Lefavour, staffed fire lookouts for sev
 
 Lookout structures have a long history of producing lifelong lovers of the wilderness and some of its most passionate protectors. Ray Kresek, for instance, says that he started his forestry career on a lookout and made the decision to end it there as well; in between, he established the Salmo-Priest Wilderness. However, the Forest Service announced in 2023 during a Senate Budget Committee hearing that they intend to further reduce staffed lookouts. Lookouts, <a href="https://appropriations.house.gov/legislation/hearings/budget-hearing-fiscal-year-2024-request-united-states-forest-service">according to National Budgets Director, Mark Lichtenstein</a>, will be replaced by sophisticated smoke watching cameras that are <a href="https://www.nytimes.com/2023/08/24/us/wildfires-ai-detection-california.html" target="_blank">augmented using artificial intelligence</a>. To what extent fire lookouts will remain is uncertain, but the direction is clear; and as we reduce our reliance on human experience, I wonder how it is _we_ will remain.
 
-{% include feature/video.html objectid="cold-mountain-lookout005" width="50" start="00:00:10" %}
+{% include feature/video.html objectid="cold-mountain-lookout001" width="50" start="00:00:10" %}
 
 I sip my coffee down to a black residue as we start packing our cameras and prepare to head back down the trail. The smoke, I think, has gotten worse since we arrived. Bill gestures vaguely out toward McConnell Mountain where his dad had worked. In the end, lightning ignited a wildfire five miles from Bud’s old rock pile and three days later the now-decommissioned McConnell Mountain fire lookout burned down. <a href="https://keeping.onrender.com/items/mcconnel-mountain001.html" target="_blank">Bill wrote</a> that Bud, who passed away in 2010, would not be sad because “the story is a lesson about the circle of life and death in the Wilderness world.”
 
