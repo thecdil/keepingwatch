@@ -80,7 +80,7 @@ I put down Blue Highways and turn off my headlamp, get out of my sleeping bag, a
 {:.fs-3 .mt-5}
 _II._
 
-Jack, Chris, and I have driven into the heart of the Frank Church Wilderness, seventy miles from McCall, Idaho along a dirt road, stopping to fish the Salmon River which early settlers dubbed “the river of no return.” Drifting my caddis along the water, I think of the ghosts of the Tukudeka, a mysterious mountain tribe of Shoshone-Bannock Native Americans, colloquially known as the Sheepeaters.
+Jack, Chris, and I have driven into the heart of the Frank Church Wilderness, seventy miles from McCall, Idaho along a dirt road, stopping to fish the Salmon River which early settlers called “the river of no return.” Drifting my caddis along the water, I think of the ghosts of the Tukudeka, a mysterious mountain tribe of Shoshone-Bannock Native Americans, colloquially known as the Sheepeaters.
 
 {% include feature/video.html objectid="sheepeater-mountain001" width="50" start="00:00:05" %}
 
