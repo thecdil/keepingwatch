@@ -5,23 +5,23 @@
 */
 @font-face {
     font-family: NationalParkRegular;
-    src: url("/keepingwatch/assets/lib/fonts/NationalPark/NationalPark-Regular.otf") format("opentype");
+    src: url("fonts/NationalPark/NationalPark-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: NationalPark;
     font-weight: bold;
-    src: url("/keepingwatch/assets/lib/fonts/NationalPark/NationalPark-Heavy.otf") format("opentype");
+    src: url("fonts/NationalPark/NationalPark-Heavy.otf") format("opentype");
 }
 @font-face {
     font-family: NationalParkLight;
-    src: url("/keepingwatch/assets/lib/fonts/NationalPark/NationalPark-Thin.otf") format("opentype");
+    src: url("fonts/NationalPark/NationalPark-Thin.otf") format("opentype");
 }
 
 @font-face {
     font-family: NationalPark;
     font-weight: bold;
-    src: url("/keepingwatch/assets/lib/fonts/NationalPark/NationalPark-Outline.otf") format("opentype");
+    src: url("fonts/NationalPark/NationalPark-Outline.otf") format("opentype");
 }
 
 body {
