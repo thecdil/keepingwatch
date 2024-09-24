@@ -1,12 +1,13 @@
 ---
 title: The Future
 permalink: essay/future.html
-layout: about
+layout: scrollabout
 ---
 ## The Future
 
 _By Michael Decker_
 
+<div class="step" data-step="a">
 Beginning in the Frank Church Wilderness, Jack, Chris, and I have spent the last two weeks traveling across Idaho taking photos of fire lookouts and interviewing those who work on still active sites. We are beat up and tired, our skin is leathery, and our lips are cracking from the drastic shifts in elevation.
 
 We, along with my girlfriend, Kourt, who has driven down to the Lochsa country of central Idaho to meet us, are hiking to Diablo Peak where Bill Moore spends two weeks a year as a lookout. Like Pam, Bill runs a volunteer program for lookouts that provides an additional level of fire reduction and helps keep the tradition of lookouts alive.
@@ -25,7 +26,8 @@ In a sense, Bud always recognized that some of his policies, retrospectively, we
 
 {% include feature/image.html objectid="diablo-mountain008" width="50" caption="Michael Decker and Bill Moore on Diablo Peak
 Photo by Chris Lamb"%}
-
+</div>
+<div class="step" data-step="b">
 The tower is full of books (notably, Kresek's _Fire Lookouts of the Northwest_) and gear that lookouts have left over the years. The design of most towers is the same: a propane stove, small refrigerator, wooden framed bed, and shelving around the ceiling for holding canned goods and books. A map of the tower’s surrounding topography is attached to a wooden board that folds down from the ceiling above the bed, and that can be used in conjunction with the fire finder. Most of the tower’s belongings are somewhat antiquated; however, there are modern objects as well: a Garmin InReach on which I glanced a message asking Bill if he had been evacuated yet (as there are several fires burning near the tower), his iPhone that he uses to snap a portrait of our team, and a newer REI backpack near the bed. 
 
 “Could you really quickly give us a three-sixty view here?” Chris begins the interview. Bill chuckles and points his finger to the east.
@@ -33,7 +35,8 @@ The tower is full of books (notably, Kresek's _Fire Lookouts of the Northwest_) 
 “I’m not sure how to put it. We’re sitting on the ridge between the Selway drainage and the Lochsa drainage. You got Big Fog lakes up here in the fog or the smoke. You can just see the tail end of it. It’s about a mile long and has a sand bar at one end. Wonderful fishing. You come up over this ridgetop here, that’s Genette Mountain. You go down into Little Moose Crick and that’s Dead Elk Point right there. There’s a little low one called Footstool.  Go down this way and that’s Goat Lakes. Behind them is Wahoo Point and Battle Creek Ridge. That is all in what used to be the Nez Perce National Forest. It’s now the Clearwater-Nez. Then you go around this corner where the smoke is really heavy and that's Elbow Bend. Between Elbow Bend and that corner is a huge old-growth cedar grove that was written up in the National Geographic in 1935. That ridge that’s coming down like that is Maple Ridge. There’s a little mountain range called the Graves Range, and right out there is Graves Peak.”
 
 {% include feature/video.html objectid="diablo-mountain005" width="50" start="57" %}
-
+</div>
+<div class="step" data-step="c">
 As Bill describes the landscape, I imagine him oscillating his body from left to right, creating an arc of the horizon along an azimuth that traces a three-hundred-and-sixty-degree trajectory, and his tinted glasses all but revealing the squinting of one eye to identify the landmarks through an internalized parallax view. The other striking thing is that we cannot see any of these places that Bill talks about; the smoke is too thick for that. From the tower, the landscape appears as a white purgatory upon which nothing can be discerned; it is a _strange_ canvas which defamiliarizes the familiar. However, Bill is sure to point out that this smoke indicates something natural is occurring on the landscape, and that the high-visibility days of his and Bud’s early time as fire lookouts was the result of “Smokey the Bear'' or a euphemism for the Forest Service's 10 a.m. policy. 
 
 We sit around for hours talking about Bill’s stories, and he goes into extensive detail about his father’s work in the district. He has interesting ways of pronouncing words; Diablo, for instance, is pronounced “die-ablo.” I also notice though that there is a childlike essence to Bill. Though time has aged him, I have no problem imagining him young, and when he talks about Bud, he always refers to him as “Pops.” Bill celebrates his father, but there is a pain in his voice. It is obvious how much he misses Bud who also represents a past way of life and attachment to the land. The act of maintaining lookout structures and lookout volunteer programs is an attempt, among other things, to keep this attachment alive. Storytellers like Bill, and the rest of us, really, see the world through an aggregation of experience. Places do not, to the human, exist in isolation of memory, and perhaps except for the Nez Perce who were born from this land, Bill and Bud are as infused with the landscape as anyone. 
@@ -49,7 +52,8 @@ The futurist approach has been the most effective for wilderness preservation. P
 The Wilderness Act of 1964 is arguably the most profound and radical environmentalist action ever taken at the federal level. Its rigidity and ambiguity are its strength. Quoted more than any other section though is its stance on human remainder and that we are excluded from permanent placement within the wilderness. Yet, this is untrue. There is archaeological evidence that humans have moved across The Church for thousands of years. Everywhere you go, there is proof of humans in the wilderness. 
 
 This is what Cronon asserted was the danger of official wilderness boundaries: that they would separate our everyday lives from the conservation mindset of wilderness. Humans, he worried, would begin to justify more localized forms of environmental neglect if they could imagine untouched nature _elsewhere_.
-
+</div>
+<div class="step" data-step="d">
 Environmental and queer activist, Nicole Lefavour, staffed fire lookouts for several years, and describes in her essay “Listening to Voices in the Wilderness” that, “The decades of lookout use show on the tree stumps and snags below. Every year we have to walk farther for the wood, the skeleton of another ancient limber pine turned to a streak of wood smoke stretches across the sky.” LeFavour shows that remaining in such a way makes one more in tune with resource use. She continues to wonder that “somewhere far away men and women in the depths of marble buildings debate our need for wilderness.” LeFavour is concerned with location and how these politicians make high-stakes decisions outside of proximity to nature.
 
 Lookouts have a long history of producing not only lifelong lovers of the wilderness, but some of its most passionate protectors. Ray Kresek, for instance, says that he started his forestry career on a lookout and made the decision to end it there as well; in between, he  established the Salmo-Priest Wilderness. However, the Forest Service announced in 2023 during a Senate Budget Committee hearing that they intend to further reduce staffed lookouts. Lookouts, <a href="https://appropriations.house.gov/legislation/hearings/budget-hearing-fiscal-year-2024-request-united-states-forest-service">according to National Budgets Director, Mark Lichtenstein</a>, will be replaced by sophisticated smoke watching cameras that are <a href="[https://keeping.onrender.com/items/mcconnel-mountain001.html](https://www.nytimes.com/2023/08/24/us/wildfires-ai-detection-california.html)" target="_blank">augmented using artificial intelligence</a>. To what extent fire lookouts will remain is uncertain, but the direction is clear; and as we reduce our reliance on human experience, I wonder how we will remain.
@@ -63,4 +67,70 @@ As we get ready to leave, Bill gestures vaguely out toward McConnell Mountain wh
 Bud’s land ethic stated that no human alteration to the land, in his experience, is ever without consequences. Any changes to an ecosystem will always have unforeseen and unintended consequences. Making good management decisions requires living and working in a single place for a lifetime rather than for short durations. “Nature’s ways” Bud claims “have to be respected if we are to prosper very long.” And these ways, he emphasizes, are intricate and need both human emotions _and_ applied science to become defensible.
 
 After we leave, Bill will still be here. I think that being here does matter. Despite cost, efficiency, or current politics, the very act of remaining in one place and becoming familiar with its personality is as important as ever. I pause for a moment and fill my nose with the smokey air. The wind blows across my cheek. I think of it fanning the flames of the nearby Lolo Complex Fires. Ground squirrels chatter in nearby rocks. I look out at the smoke where the sky was, and I think that, if I could, I would lay down right here in the bear grass and never leave.
+</div>
 
+
+<script>
+var scrolly = document.querySelector("#scrolly");
+		var article = scrolly.querySelector("article");
+		var step = article.querySelectorAll(".step");
+
+		// initialize the scrollama
+		var scroller = scrollama();
+
+	// scrollama event handlers
+// scrollama event handlers
+function handleStepEnter(response) {
+    var stepIndex = response.index;
+
+    // Add fade-in effect to the current step
+    response.element.classList.add("fade-in");
+
+    // Apply specific styles for even steps
+    if (stepIndex % 2 === 0) {
+         // Reset the background color for even steps
+        document.body.style.backgroundColor = ""; 
+        // Change reset for even steps
+        response.element.style.textAlign = "";
+        response.element.style.marginLeft = "";
+    } else {
+document.body.style.backgroundColor = "#228B22"; // Change  background color for odd steps
+        response.element.style.textAlign = "justify";
+        response.element.style.marginLeft = "10%";
+
+        
+    }
+
+    // Remove fade-out class if it exists
+    response.element.classList.remove("fade-out");
+}
+
+function handleStepExit(response) {
+    // Add fade-out effect to the previous step
+    response.element.classList.add("fade-out");
+    
+    // Remove fade-in class when the step is exited
+    response.element.classList.remove("fade-in");
+}
+
+// Initialize scrollama and set up event listeners
+function init() {
+    /*step.forEach(function(step) {
+        var v = 100 + Math.floor((Math.random() * window.innerHeight) / 4);
+        step.style.padding = v + "px 0px";
+    });*/
+
+    scroller
+        .setup({
+            step: "#scrolly article .step",
+            debug: false,
+            offset: 0.5
+        })
+        .onStepEnter(handleStepEnter)
+        .onStepExit(handleStepExit);
+}
+
+// Kick things off
+init();
+
+</script>

@@ -3,8 +3,6 @@ title: Essay All
 permalink: essay/
 layout: about
 ---
-<!-- Output copied to clipboard! -->
-
 ## Fire Lookouts and the Act of Remaining
 
 {:.text-end}

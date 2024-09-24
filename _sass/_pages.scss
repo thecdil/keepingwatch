@@ -67,13 +67,15 @@
         margin: 1.5rem auto 1rem;
     }
     
-    p, .about-narrowed-content, .footnotes, ol, ul {
+    p, .about-narrowed-content, .footnotes, ol, ul, .step, article{
         margin-left: auto;
         margin-right: auto;
         max-width: 720px;
     }
 
 }
+
+
 
 /* narrow text block for page-narrow layout */
 .page-narrow {
@@ -102,3 +104,33 @@
 }
 
 
+
+
+
+/* Fading effects */
+
+
+/* Initially, steps are invisible */
+.step {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+
+.step.fade-in {
+    opacity: 1;
+    transition: opacity 1.85s ease-in;
+}
+
+.step.fade-out {
+    opacity: 0;
+    transition: opacity 1.85s ease-out;
+}
+/* To make sure the first step starts visible */
+#scrolly article .step:first-child {
+    opacity: 1;
+}
+
+.step{
+    margin-top:200px;
+}

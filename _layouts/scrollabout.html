@@ -1,0 +1,11 @@
+---
+# default "About" page layout
+layout: default
+---
+<div id="scrolly" class="container my-4 about-contents">
+    <article>
+{{ content }}
+</article>
+</div>
+
+{% if page.credits == true %}{% include cb/credits.html %}{% endif %}
