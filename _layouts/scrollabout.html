@@ -9,3 +9,69 @@ layout: default
 </div>
 
 {% if page.credits == true %}{% include cb/credits.html %}{% endif %}
+
+
+<script>
+    var scrolly = document.querySelector("#scrolly");
+            var article = scrolly.querySelector("article");
+            var step = article.querySelectorAll(".step");
+    
+            // initialize the scrollama
+            var scroller = scrollama();
+    
+        // scrollama event handlers
+    // scrollama event handlers
+    function handleStepEnter(response) {
+        var stepIndex = response.index;
+    
+        // Add fade-in effect to the current step
+        response.element.classList.add("fade-in");
+    
+        // Apply specific styles for even steps
+        if (stepIndex % 2 === 0) {
+             // Reset the background color for even steps
+            document.body.style.backgroundColor = ""; 
+            // Change reset for even steps
+            response.element.style.textAlign = "";
+            response.element.style.marginLeft = "";
+        } else {
+    document.body.style.backgroundColor = "#a8daa8"; // Change  background color for odd steps
+            response.element.style.textAlign = "justify";
+            response.element.style.paddingLeft = "23%";
+    
+            
+        }
+    
+        // Remove fade-out class if it exists
+        response.element.classList.remove("fade-out");
+    }
+    
+    function handleStepExit(response) {
+        // Add fade-out effect to the previous step
+        response.element.classList.add("fade-out");
+        
+        // Remove fade-in class when the step is exited
+        response.element.classList.remove("fade-in");
+    }
+    
+    // Initialize scrollama and set up event listeners
+    function init() {
+        /*step.forEach(function(step) {
+            var v = 100 + Math.floor((Math.random() * window.innerHeight) / 4);
+            step.style.padding = v + "px 0px";
+        });*/
+    
+        scroller
+            .setup({
+                step: "#scrolly article .step",
+                debug: false,
+                offset: 0.5
+            })
+            .onStepEnter(handleStepEnter)
+            .onStepExit(handleStepExit);
+    }
+    
+    // Kick things off
+    init();
+    
+    </script>

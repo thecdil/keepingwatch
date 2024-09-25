@@ -1,0 +1,13 @@
+{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="50"%}
+
+Bill is the son of the late Forest Service Lochsa district ranger and activist Bud Moore, who implemented a _multiple-use policy_ in the Selway-Bitterroot Wilderness. Multiple-use policy aims to manage competing needs and values to achieve ecosystem health alongside human society’s economic demands. Bud was one of the first lookouts in this part of the country and spent several seasons on McConnell Mountain, just over the ridge from Diablo.
+
+Bill tells us that Bud began his tenure with the Forest Service as a lookout and smoke chaser. He was stationed at McConnell Mountain in 1935 where he stayed for several years and found a flaw in the Forest Service’s fire watching approach: during lightning storms, he was confined to a cabin below the tree line which had been outfitted to withstand strikes. Bud constructed a small tower from rocks where he watched for lightning above the tree line during summer storms. From this vantage point, he made notations about strike locations and improved his overall accuracy and effectiveness as a fire lookout. When the district ranger came to check on Bud, he was impressed with his design and ordered a fire lookout be built in place of the rock pile.
+
+Bud left the Selway-Bitterroot region to fight in World War II but returned and became district ranger in the early-1950s, before it was designated as Wilderness. At the time, they enforced the Forest Service’s infamous 10 a.m. policy: all fires were to be exterminated by 10 a.m. the following morning. However, enabled by the signing of The Wilderness Act of 1964, the Selway-Bitterroot became protected Wilderness, which meant that a new set of fire policies were put in place from total fire suppression to wildfire as prescribed burn.
+
+In a sense, Bud always recognized that some of his policies, retrospectively, were harmful. This included spraying DDT and suppressing fire. Bud often admitted shortcomings and proposed different management models, ones that imagined more sustainable environmental futures. For example, he led the reintroduction of controlled burns in fire deficit areas in the Selway-Bitterroot. Many of his thoughts and actions can be found in his sprawling book _The Lochsa Story: Land Ethics in the Bitterroot Mountains_. Tellingly, this book was written a full decade prior to its publication (1996) because many of the ideas within it were not yet popularly accepted, and, as Bill points out, Bud refused to vanity publish.
+
+{% include feature/video.html objectid="diablo-mountain003" width="50" start="00:00:05" %}
+
+
