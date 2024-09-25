@@ -1,5 +1,5 @@
 ---
-title: Essay All
+title: Fire Lookouts and the Act of Remaining
 permalink: essay/
 layout: scrollabout
 ---

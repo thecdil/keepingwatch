@@ -1,4 +1,4 @@
-{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="50"%}
+{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="25"%}
 
 In _Lochsa Story_, Bud tells the story of himself as a young trapper on his first solo trip into the Bitterroots. Near a small lake in the Valley of the Brushy Fork, Bud comes face-to-face with a large grizzly bear, a species that was already on its way out of the area. Frozen with fear each stare into the face of the other and the human and bear come to an understanding as Bud says, that “The forests belonged to the bear, but the meadow was mine; so I camped at its edge beneath thick-limbed spruces that would shield my blanket from the frost.” This encounter becomes central to the land ethics that Bud presents in his book, and how he frames multiple-use theory as a viable management path forward; the idea that he and the Grizzly agree to live out their distinct yet still intertwined existences becomes a challenging idealization that is critical for the survival of both human and bear. 
 

@@ -1,4 +1,4 @@
-{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="50"%}
+{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="25"%}
 
 
 Wildfire’s increase is exacerbated by the continued settlement of areas inside the _wildland urban interface_ or WUE: an area where developing human settlement meets what the U.S. Fire Administration calls “unoccupied land.” These homes are, unsurprisingly, at a higher risk of being destroyed by wildfire, which prompts complex fire reduction efforts by both private and government agencies. More specifically, in _Fire: A Brief History_, fire historian Stephen Pyne defines the WUE, and those who live on it, as “…still urban sprawl, even when populated by people who want woody jungles for privacy and naturalness.” The WUE, as experts like Pyne are quick to point out, is a space where the needs of human and non-human worlds often clash.
@@ -19,5 +19,5 @@ Not all non-operational lookouts are abandoned, however. Some lookouts built in 
 
 And on private property, some landowners have relocated fire lookouts and now list them as <a href="https://www.airbnb.com/rooms/25687274?source_impression_id=p3_1701638521_DPwVvIkSm3ws4mWi" target="_blank">AirBnB rentals</a>. This shift in purpose reveals a changing relationship to wilderness over the last century; lookouts were first built not as conduits of a wilderness aesthetic but rather as extensions of logging and mining in the early twentieth century. 
 
-{% include feature/image.html objectid="associated-media002" width="50" %} 
+{% include feature/image.html objectid="associated-media002" width="100" %} 
 

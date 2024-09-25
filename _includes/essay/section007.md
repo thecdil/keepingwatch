@@ -1,4 +1,4 @@
-{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="50"%}
+{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="25"%}
 
 The word “wilderness” is deceptively unstable. It is a noun that functions like an adjective. Older mentions of wilderness often referred to something’s wilderness quality or used the indefinite article like in “a bog” or “a city.” It is only very recently that we have “The Frank Church Wilderness.” Thus, it is important to think of wilderness not only as a setting but also as a construct. As postmodern historian William Cronon asserts in his essay [“The Trouble with Wilderness”](https://www.williamcronon.net/writing/Trouble_with_Wilderness_Main.html) (1996), “Far from being the one place on earth that stands apart from humanity … [wilderness] is quite profoundly a human creation – indeed the creation of very particular human cultures at very particular moments in human history.”
 

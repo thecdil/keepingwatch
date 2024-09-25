@@ -1,11 +1,11 @@
-{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="50"%}
+{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="25"%}
 
 
 Through the window, a breeze sneaks in. The tower is about 15 degrees cooler than the valley. The bear grass makes the air smell sweet, and the last patches of snow are melting at a perceptible rate. A pine snag on the ridge to my southeast stands in an otherwise healthy forest, and below it the highwater mark of evening inches closer. I fixate on this steady pull between night and day. The sun’s geometry positions the tree at the fulcrum of light and dark. I glance at my phone: 7:38 p.m.
 
 The sun dips behind the mountains. The evening neon radiates through bars of smoke rising above the Selkirks, and a stratum of ozone and geology slowly dims into the night sky. Venus appears to my west. The universe flickers on. The Milky Way swirls like a parking lot oil stain as I lie in bed reading William Least Heat-Moon’s _Blue Highways_.
 
-{% include feature/image.html objectid="sundance-mountain005" width="50" %} 
+{% include feature/image.html objectid="sundance-mountain005" width="100" %} 
 
 In _Blue Highways’_, young Heat-Moon has lost his English lectureship, and his marriage is dissolving. Devastated, he sets out on a circular journey traveling from New England and through the southwestern United States, into the Pacific Northwest before veering east again. The only discernible destination is where he began. He drives a green Astrovan named Ghost Dancing after the Native American ritual which foretold the return of departed spirits and the end of colonial expansion.
 

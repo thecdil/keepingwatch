@@ -1,4 +1,4 @@
-{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="50"%}
+{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="25"%}
 
 
 Pam’s boss, John, slides a map across the table. It shows the topography surrounding Priest Lake and how the Selkirk Mountains make a skinny valley that crosses the Canadian border. Lightning bolts mark where several strikes occurred a week ago during a June thunderstorm. These strikes are concerning because Idaho is in the early stages of its worst drought in several decades. I will be on the tower during what is projected to be the <a href="https://www.climatehubs.usda.gov/hubs/northwest/topic/2021-northwest-heat-dome-causes-impacts-and-future-outlook" target="_blank">hottest recorded temperatures ever in the Northwest</a>: one-hundred-and-thirteen degrees Fahrenheit, tomorrow.
@@ -15,5 +15,5 @@ I inspect the inside of my new home which has a dish sink, propane stove, and a 
 
 At the center of the tower is a podium on which sits a large steel table holding the Osborne Fire Finder. Lookouts use this device to precisely locate fires. It has a three-hundred-and-sixty-degree alidade surrounding a map with the fire tower at its center. The Osborne is used to call in the location of a smoke using degrees and minutes that are communicated to a fire dispatcher over the two-way radio system installed below the podium. 
 
-{% include feature/image.html objectid="sundance-mountain006" width="50" %}
+{% include feature/image.html objectid="sundance-mountain006" width="100" %}
 

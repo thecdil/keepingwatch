@@ -1,4 +1,4 @@
-{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="50"%}
+{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="25"%}
 
 
 The Osborne Fire Finder was manufactured between the years 1920 and 1935 by Leopold and Stevens, a telescope manufacturing company, which also produced replacement parts until 1975. Production halted because new fire detection methods had made the fire finder more or less obsolete. However, Osbornes have made an unlikely comeback recently. After a substantial increase in wildfires in the late-90s and early-00s, the federal government contracted with a new manufacturer, San Dimas and Technology Center, to resupply fire lookouts with Osbornes and to produce replacement parts as needed.
@@ -9,6 +9,6 @@ Yet it is precisely because the fire lookout allows us to remain in wilderness s
 
 Lookout staff not only locate and call in new fires, they also monitor existing ones in real time and communicate with on-the-ground fire crews. Heat mapping can provide information about fire spread and size, and sophisticated weather modeling can determine precipitation levels, wind speed, and heat index; however, attentive fire lookouts _experience_ these phenomena while searching for anomalies in the landscape. Technology has augmented, even reduced, the role of the human fire lookout, but it cannot entirely replace it.
 
-{% include feature/video.html objectid="spot-mountain002" width="50" start="00:00:05" %} 
+{% include feature/video.html objectid="spot-mountain002" width="100" start="00:00:05" %} 
 
 

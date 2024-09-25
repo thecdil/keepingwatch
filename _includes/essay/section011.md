@@ -1,8 +1,8 @@
-{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="50"%}
+{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="25"%}
 
 “Bill!” I call out as the shape of Diablo’s lookout materializes through the ubiquitous wildfire smoke. I see a fluorescent work shirt and a pale hand wave howdy. Bill is a septuagenarian who moves slowly but confidently, the result of a life spent hiking and living in a big open country. He smiles an honest, crooked smile that makes me feel at home. He invites us up to the cabin and brews a pot of coffee creating an effortless and organic hospitality, and prompting conversation in a way that only a pot of coffee shared among friends can.
 
-{% include feature/image.html objectid="diablo-mountain005" width="50" caption="Michael Decker and Bill Moore on Diablo Peak
+{% include feature/image.html objectid="diablo-mountain005" width="100" caption="Michael Decker and Bill Moore on Diablo Peak
 Photo by Chris Lamb"%}
 
 The tower is full of books (notably, Kresek’s _Fire Lookouts of the Northwest_) and gear that lookouts have left over the years. The design of most towers is the same: a propane stove, small refrigerator, wooden framed bed, and shelving around the ceiling for holding canned goods and books. A map of the tower’s surrounding topography is attached to a wooden board that folds down from the ceiling above the bed, intended for use in conjunction with the fire finder. Most of the tower’s belongings are somewhat antiquated; however, there are modern objects as well: a Garmin InReach on which I glanced a message asking Bill if he had been evacuated yet (the Lolo Complex fires are burning nearby), his iPhone that he uses to snap a portrait of our team, and a newer REI backpack near the bed.
@@ -11,7 +11,7 @@ The tower is full of books (notably, Kresek’s _Fire Lookouts of the Northwest_
 
 “I’m not sure how to put it. We’re sitting on the ridge between the Selway drainage and the Lochsa drainage. You got Big Fog lakes up here in the fog or the smoke. You can just see the tail end of it. It’s about a mile long and has a sand bar at one end. Wonderful fishing. You come up over this ridgetop here, that’s Genette Mountain. You go down into Little Moose Crick and that’s Dead Elk Point right there. There’s a little low one called Footstool. Go down this way and that’s Goat Lakes. Behind them is Wahoo Point and Battle Creek Ridge. That is all in what used to be the Nez Perce National Forest. It’s now the Clearwater-Nez. Then you go around this corner where the smoke is really heavy and that’s Elbow Bend. Between Elbow Bend and that corner is a huge old-growth cedar grove that was written up in the National Geographic in 1935. That ridge that’s coming down like that is Maple Ridge. There’s a little mountain range called the Graves Range, and right out there is Graves Peak.”
 
-{% include feature/video.html objectid="diablo-mountain001" width="50" start="57" %}
+{% include feature/video.html objectid="diablo-mountain001" width="100" start="57" %}
 
 As Bill describes the landscape, I imagine him oscillating his body from left to right, creating an arc of the horizon along an azimuth that traces a three-hundred-and-sixty-degree trajectory as his tinted glasses reveal one squinting eye that identifies the landmarks through an internalized parallax view. The other striking thing is that we cannot see any of the places Bill talks about; the smoke is too thick. From the tower, the landscape appears as a white purgatory upon which nothing can be discerned; it is a _strange_ canvas which defamiliarizes the familiar. However, Bill quickly points out that this smoke indicates something natural occurring on the landscape, and that the high-visibility days of his and Bud’s early time as fire lookouts was the result of “Smokey the Bear’’ and the Forest Service’s 10 a.m. policy.
 

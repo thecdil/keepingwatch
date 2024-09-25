@@ -1,4 +1,4 @@
-{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="50"%}
+{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="25"%}
 
 Bill is the son of the late Forest Service Lochsa district ranger and activist Bud Moore, who implemented a _multiple-use policy_ in the Selway-Bitterroot Wilderness. Multiple-use policy aims to manage competing needs and values to achieve ecosystem health alongside human society’s economic demands. Bud was one of the first lookouts in this part of the country and spent several seasons on McConnell Mountain, just over the ridge from Diablo.
 
@@ -8,6 +8,6 @@ Bud left the Selway-Bitterroot region to fight in World War II but returned and 
 
 In a sense, Bud always recognized that some of his policies, retrospectively, were harmful. This included spraying DDT and suppressing fire. Bud often admitted shortcomings and proposed different management models, ones that imagined more sustainable environmental futures. For example, he led the reintroduction of controlled burns in fire deficit areas in the Selway-Bitterroot. Many of his thoughts and actions can be found in his sprawling book _The Lochsa Story: Land Ethics in the Bitterroot Mountains_. Tellingly, this book was written a full decade prior to its publication (1996) because many of the ideas within it were not yet popularly accepted, and, as Bill points out, Bud refused to vanity publish.
 
-{% include feature/video.html objectid="diablo-mountain003" width="50" start="00:00:05" %}
+{% include feature/video.html objectid="diablo-mountain003" width="100" start="00:00:05" %}
 
 
