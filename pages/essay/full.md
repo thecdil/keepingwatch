@@ -9,10 +9,6 @@ layout: scrollabout
 ### By Michael Decker
 
 
-Keeping Watch
-Mapping Idaho's Fire Lookouts Through Lived History
-
-
 {% for s in site.data.essay-sections %}
 <div class="row step" id="{{s.step}}">
 {%- assign sec = s.section | append: ".md" | prepend: "essay/" -%}
