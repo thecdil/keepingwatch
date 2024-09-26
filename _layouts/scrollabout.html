@@ -26,7 +26,10 @@ layout: default
     
         // Add fade-in effect to the current step
         response.element.classList.add("fade-in");
-    
+        if (stepIndex == 0) {
+            response.element.classList.remove("fade-in");
+            response.element.style.opacity = "1";
+        }
         // Apply specific styles for even steps
         if (stepIndex % 2 === 0) {
              // Reset the background color for even steps

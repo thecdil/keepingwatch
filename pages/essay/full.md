@@ -3,6 +3,7 @@ title: Fire Lookouts and the Act of Remaining
 permalink: essay/
 layout: scrollabout
 ---
+{:style="font-size:6rem;"}
 # Fire Lookouts and the Act of Remaining
 
 {:.text-end}
