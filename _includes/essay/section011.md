@@ -1,5 +1,3 @@
-{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="25"%}
-
 “Bill!” I call out as the shape of Diablo’s lookout materializes through the ubiquitous wildfire smoke. I see a fluorescent work shirt and a pale hand wave howdy. Bill is a septuagenarian who moves slowly but confidently, the result of a life spent hiking and living in a big open country. He smiles an honest, crooked smile that makes me feel at home. He invites us up to the cabin and brews a pot of coffee creating an effortless and organic hospitality, and prompting conversation in a way that only a pot of coffee shared among friends can.
 
 {% include feature/image.html objectid="diablo-mountain005" width="100" caption="Michael Decker and Bill Moore on Diablo Peak

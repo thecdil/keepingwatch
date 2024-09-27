@@ -1,6 +1,3 @@
-{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="25"%}
-
-{% include feature/image.html objectid="associated-media001" width="100" %}
 
 From Mosquito Ridge, the Salmon River rushes five thousand feet below me and high mountain wildflowers sway in the warm updraft. On a ridge above us [Chicken Peak](../items/chicken-peak.html) is the most unique fire lookout I have seen in the entire state of Idaho; its prominent roof and neon orange paint helped pilots navigate over empty swaths of terrain before GPS technology. Chicken Peak is the halfway point between the Mosquito Ridge trailhead and Sheepeater Lookout.
 

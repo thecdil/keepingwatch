@@ -1,5 +1,3 @@
-{% include feature/image.html objectid="/objects/firetower-as-letter.png" width="25"%}
-
 
 Pam’s boss, John, slides a map across the table. It shows the topography surrounding Priest Lake and how the Selkirk Mountains make a skinny valley that crosses the Canadian border. Lightning bolts mark where several strikes occurred a week ago during a June thunderstorm. These strikes are concerning because Idaho is in the early stages of its worst drought in several decades. I will be on the tower during what is projected to be the <a href="https://www.climatehubs.usda.gov/hubs/northwest/topic/2021-northwest-heat-dome-causes-impacts-and-future-outlook" target="_blank">hottest recorded temperatures ever in the Northwest</a>: one-hundred-and-thirteen degrees Fahrenheit, tomorrow.
 
