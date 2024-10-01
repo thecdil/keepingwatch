@@ -130,10 +130,11 @@
     transition: opacity 1.85s ease-out;
 }
 /* To make sure the first step starts visible */
-#scrolly article .step:first-child {
-    opacity: 1;
-}
 
 .step{
     margin-top:200px;
+}
+
+#step-1 {
+    opacity: 1;
 }
