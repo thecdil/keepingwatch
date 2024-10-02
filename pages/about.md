@@ -34,5 +34,7 @@ Christopher Lamb, Project Co-Director, is a Doctoral Candidate in Geography at C
 {% include feature/image.html objectid="/assets/img/becker.jpg" width="100 float-start" %}
 Devin Becker, Designer and Developer, is the Co-Director of the CDIL and Associate Dean for Research and Instruction at the University of Idaho Library. 
 
+The website was designed by in collaboration with English Professor and Confluence Lab Director Jenn Ladino, as part of her CD?L Development Fellowship, and with the input of University of Idaho GIS Librarian Bruce Godfrey. 
+
 
 A personal note from the project director: *This project is the result of a summer spent in the woods and mountains, and alongside some of the best fishing streams in the world. As important as this history is to tell, our time working on this project was undeniably fun. We spent the summer of 2021 hiking to towers, catching cutthroat and rainbow trout, and even running away from a wildfire. It was one of the best summers of my life, and I felt as if I, like the tower itself, became part of history--a small piece.*
