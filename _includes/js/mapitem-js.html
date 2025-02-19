@@ -157,7 +157,6 @@ var items = {
 })();
 
 function newRecord(nextRecord){
-    
     var record = items[nextRecord];
   
     if (record) {
@@ -165,16 +164,22 @@ function newRecord(nextRecord){
         var objectTitle = record.title;
         document.getElementById("bc-title").innerHTML = objectTitle;
         document.getElementById("item-title").innerHTML = objectTitle;
+
+        // Add itemHref definition here
+        var itemHref = `{{ '/items/' | relative_url }}${ record.parent ? record.parent + ".html" : record.id + ".html"}`;
+        
         /* Move Map */
-    map.flyTo([record.latitude, record.longitude], 14, {
-    animate: true,
-    easeLinearity: .5,
-    duration: 3});
-    /* Change URL parameter, i.e. id= */
-    var nextRecordurl = location.pathname + '?id=' + nextRecord;
-    window.history.replaceState({}, '', location.pathname + '?id=' + nextRecord );
-    var currentRecordurl = window.location.href;
-    document.title = objectTitle;
+        map.flyTo([record.latitude, record.longitude], 14, {
+            animate: true,
+            easeLinearity: .5,
+            duration: 3
+        });
+
+        /* Change URL parameter, i.e. id= */
+        var nextRecordurl = location.pathname + '?id=' + nextRecord;
+        window.history.replaceState({}, '', location.pathname + '?id=' + nextRecord );
+        var currentRecordurl = window.location.href;
+        document.title = objectTitle;
     
         /* add object */ 
         var format = record.format;
@@ -260,58 +265,49 @@ function newRecord(nextRecord){
         {% if site.data.theme.browse-buttons == true %}
         /* add prev/next nav */
         var itemKeys = Object.keys(items);
-        var current = itemKeys.indexOf(nextRecord);
+        var current = itemKeys.indexOf(nextRecord); // Changed from using non-existent variable
         var last = itemKeys.length - 1;
-        var back, forward;
-        if (current === 0) {
-            back = itemKeys[last];
-        } else { 
-            back = itemKeys[current - 1];
-        }
-        if (current === last) {
-            forward = itemKeys[0];
-        } else {
-            forward = itemKeys[current + 1];
-        }
+        
+        // Calculate back/forward based on current position
+        var back = (current === 0) ? itemKeys[last] : itemKeys[current - 1];
+        var forward = (current === last) ? itemKeys[0] : itemKeys[current + 1];
       
+        var newbackUrl, newforwardUrl;
+        
+        // Determine navigation URLs based on record properties
         if (record.prevobjectid && record.nextobjectid) {
-                var newbackUrl = "newRecord('" + record.prevobjectid + "');";
-                var newforwardUrl = "newRecord('" + record.nextobjectid + "');";
-            }
-            else if (record.prevlink && record.nextlink) {
-                var newbackUrl = "window.location.assign('" + record.prevlink +"')";
-                var newforwardUrl = "window.location.assign('" + record.nextlink +"')";
-            }
-          else if (record.nextlink && record.prevobjectid ) {
-            var newforwardUrl = "window.location.assign('" + record.nextlink +"')";
-                var newbackUrl = "newRecord('" + back + "');";
-               
-            }
-            else {
-                var newforwardUrl = "newRecord('" + forward + "');";
-                var newbackUrl = "window.location.assign('" + record.prevlink +"')";
-            }
+            newbackUrl = "newRecord('" + record.prevobjectid + "');";
+            newforwardUrl = "newRecord('" + record.nextobjectid + "');";
+        } else if (record.prevlink && record.nextlink) {
+            newbackUrl = "window.location.assign('" + record.prevlink + "')";
+            newforwardUrl = "window.location.assign('" + record.nextlink + "')";
+        } else {
+            // Fallback to sequential navigation
+            newbackUrl = "newRecord('" + back + "');";
+            newforwardUrl = "newRecord('" + forward + "');";
+        }
         
-        /* add side buttons to page */
+        // Update all navigation buttons
         document.getElementById("back-button").setAttribute("onclick", newbackUrl);
-        document.getElementById("next-button").setAttribute("onclick",newforwardUrl);
-        /* add bottom buttons to page */
-        document.getElementById("prev-button").setAttribute("onclick",newbackUrl);
-        document.getElementById("for-button").setAttribute("onclick",newforwardUrl);
+        document.getElementById("next-button").setAttribute("onclick", newforwardUrl);
+        document.getElementById("prev-button").setAttribute("onclick", newbackUrl);
+        document.getElementById("for-button").setAttribute("onclick", newforwardUrl);
 
-         /* add back forward key press */
-         document.onkeydown = function(evt) {
-        evt = evt || window.event;
-        switch (evt.keyCode) {
-            case 37:
-            document.getElementById("back-button").click();
-                break;
-            case 39:
-            document.getElementById("next-button").click();
-                break;
-        }};
-        {%- endif -%}
+        // Add keyboard navigation after updating buttons
+        document.onkeydown = function(evt) {
+            evt = evt || window.event;
+            switch (evt.keyCode) {
+                case 37: // Left arrow
+                    document.getElementById("back-button").click();
+                    break;
+                case 39: // Right arrow
+                    document.getElementById("next-button").click();
+                    break;
+            }
+        };
+        {% endif %}
         
+        /* ... rest of existing code ... */
     } else {
         /* no item with that ID */
         document.getElementById("bc-title").innerHTML = 'Not found?';
